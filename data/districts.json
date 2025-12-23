@@ -1,0 +1,36 @@
+{
+  "district_a": [
+    {
+      "start": "2025-11-24",
+      "end": "2025-11-29",
+      "name": "Thanksgiving Break"
+    },
+    {
+      "start": "2025-12-22",
+      "end": "2026-01-03",
+      "name": "Winter Break"
+    },
+    {
+      "start": "2026-03-16",
+      "end": "2026-03-20",
+      "name": "Spring Break"
+    }
+  ],
+  "district_b": [
+    {
+      "start": "2025-11-25",
+      "end": "2025-11-29",
+      "name": "Thanksgiving Break"
+    },
+    {
+      "start": "2025-12-23",
+      "end": "2026-01-05",
+      "name": "Winter Break"
+    },
+    {
+      "start": "2026-03-23",
+      "end": "2026-03-27",
+      "name": "Spring Break"
+    }
+  ]
+}
