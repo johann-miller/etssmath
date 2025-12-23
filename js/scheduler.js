@@ -139,7 +139,7 @@ function renderAssignments(weekIndex) {
     const lessons = curriculum.slice(startLessonIndex, startLessonIndex + 3);
     
     if (lessons.length === 0) {
-        container.innerHTML = '<div class="no-assignments">No lessons assigned for this week.</div>';
+        container.innerHTML = `<div class="no-assignments">No lessons assigned for this week ${startLessonIndex}.</div>`;
         return;
     }
     
