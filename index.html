@@ -1,36 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Math Program Weekly Schedule</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Math Curriculum Catalogue</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+      --academic: #0891b2;
+      --summer: #d97706;
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --border: #e2e8f0;
+      --text: #1e293b;
+      --muted: #64748b;
+      --radius: 10px;
+    }
+
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 1.5rem 2rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+
+    header h1 { font-size: 1.75rem; font-weight: 700; }
+    header p { opacity: 0.85; margin-top: 0.25rem; font-size: 0.95rem; }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .loading {
+      text-align: center;
+      padding: 3rem;
+      color: var(--muted);
+      font-size: 1.1rem;
+    }
+
+    .error {
+      background: #fee2e2;
+      color: #b91c1c;
+      border: 1px solid #fca5a5;
+      border-radius: var(--radius);
+      padding: 1rem 1.5rem;
+    }
+
+    /* Grade */
+    .grade-section { margin-bottom: 1rem; }
+
+    .grade-btn {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: var(--radius);
+      padding: 1rem 1.5rem;
+      font-size: 1.15rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+      box-shadow: 0 2px 6px rgba(37,99,235,0.25);
+    }
+
+    .grade-btn:hover { background: var(--primary-dark); }
+    .grade-btn .chevron { transition: transform 0.25s; font-size: 1rem; }
+    .grade-btn.open .chevron { transform: rotate(180deg); }
+
+    .grade-content { display: none; padding: 0.75rem 0 0.25rem; }
+    .grade-content.open { display: block; }
+
+    /* Year */
+    .year-section { margin-bottom: 0.75rem; }
+
+    .year-btn {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border: none;
+      border-radius: var(--radius);
+      padding: 0.8rem 1.25rem;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+
+    .year-btn.academic { background: var(--academic); color: white; }
+    .year-btn.summer   { background: var(--summer);   color: white; }
+    .year-btn:hover { opacity: 0.88; }
+    .year-btn .chevron { transition: transform 0.25s; font-size: 0.9rem; }
+    .year-btn.open .chevron { transform: rotate(180deg); }
+
+    .year-content { display: none; padding: 0.5rem 0 0; }
+    .year-content.open { display: block; }
+
+    /* Week table */
+    .week-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      margin-bottom: 0.6rem;
+      overflow: hidden;
+    }
+
+    .week-label {
+      padding: 0.55rem 1.25rem;
+      font-weight: 600;
+      font-size: 0.88rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      background: #f1f5f9;
+      color: var(--muted);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .assignments-list {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .assignment-item {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.55rem 1.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .assignment-item:last-child { border-bottom: none; }
+
+    .assignment-num {
+      background: var(--primary);
+      color: white;
+      border-radius: 50%;
+      width: 1.4rem;
+      height: 1.4rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.72rem;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    .assignment-num.summer { background: var(--summer); }
+
+    .assignment-link {
+      font-size: 0.92rem;
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .assignment-link:hover { text-decoration: underline; }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <div class="card">
-            <h1>Math Program Weekly Schedule</h1>
-            
-            <div class="form-group">
-                <label for="location-select">Select Location</label>
-                <select id="location-select" class="location-select">
-                    <!-- Populated by JS -->
-                </select>
-            </div>
+  <header>
+    <h1>Math Curriculum Catalogue</h1>
+    <p>Full-year and summer program schedules by grade</p>
+  </header>
+  <main id="app">
+    <div class="loading">Loading curriculum data…</div>
+  </main>
 
-            <div id="current-week-info" class="week-info">
-                <!-- Populated by JS -->
-            </div>
+  <script>
+    const GRADES = [
+      { label: 'Grade 1', gradeDir: 'curriculum/Grade 1', file: 'curriculum/data/grade1_curriculum.json' }
+    ];
 
-            <div class="assignments-section">
-                <h3>This Week's Assignments</h3>
-                <div id="assignments-container">
-                    <!-- Populated by JS -->
-                </div>
-            </div>
-        </div>
-    </div>
+    async function loadCurriculum(file) {
+      const res = await fetch(file);
+      if (!res.ok) throw new Error(`Failed to load ${file}`);
+      return res.json();
+    }
 
-    <script src="js/scheduler.js"></script>
+    function toggle(el, btnEl) {
+      const open = el.classList.toggle('open');
+      if (btnEl) btnEl.classList.toggle('open', open);
+    }
+
+    function padWeek(n) {
+      return String(n).padStart(2, '0');
+    }
+
+    // "Lesson 1.1 Adding through 3" -> "1 - Lesson 1.1 Adding through 3.pdf"
+    function assignmentPath(gradeDir, yearFolder, weekNum, assignment) {
+      const weekFolder = `Week ${padWeek(weekNum)}`;
+      const filename = `${assignment.order} - ${assignment.name}.pdf`;
+      return `${gradeDir}/${yearFolder}/${weekFolder}/${filename}`;
+    }
+
+    function buildAssignments(weeks, gradeDir, yearFolder, isSummer) {
+      const wrapper = document.createElement('div');
+      weeks.forEach(w => {
+        const card = document.createElement('div');
+        card.className = 'week-card';
+
+        const label = document.createElement('div');
+        label.className = 'week-label';
+        label.textContent = `Week ${w.week}`;
+        card.appendChild(label);
+
+        const list = document.createElement('div');
+        list.className = 'assignments-list';
+
+        w.assignments.forEach(a => {
+          const item = document.createElement('div');
+          item.className = 'assignment-item';
+
+          const num = document.createElement('div');
+          num.className = `assignment-num${isSummer ? ' summer' : ''}`;
+          num.textContent = a.order;
+
+          const link = document.createElement('a');
+          link.className = 'assignment-link';
+          link.href = assignmentPath(gradeDir, yearFolder, w.week, a);
+          link.textContent = a.name;
+          link.target = '_blank';
+
+          item.appendChild(num);
+          item.appendChild(link);
+          list.appendChild(item);
+        });
+
+        card.appendChild(list);
+        wrapper.appendChild(card);
+      });
+      return wrapper;
+    }
+
+    function buildYearSection(label, type, weeks, gradeDir, yearFolder) {
+      const section = document.createElement('div');
+      section.className = 'year-section';
+
+      const btn = document.createElement('button');
+      btn.className = `year-btn ${type}`;
+      btn.innerHTML = `<span>${label} <span style="font-weight:400;opacity:.85">(${weeks.length} weeks)</span></span><span class="chevron">&#9660;</span>`;
+
+      const content = document.createElement('div');
+      content.className = 'year-content';
+      content.appendChild(buildAssignments(weeks, gradeDir, yearFolder, type === 'summer'));
+
+      btn.addEventListener('click', () => toggle(content, btn));
+
+      section.appendChild(btn);
+      section.appendChild(content);
+      return section;
+    }
+
+    function buildGradeSection(label, gradeDir, data) {
+      const section = document.createElement('div');
+      section.className = 'grade-section';
+
+      const btn = document.createElement('button');
+      btn.className = 'grade-btn';
+      btn.innerHTML = `<span>${label}</span><span class="chevron">&#9660;</span>`;
+
+      const content = document.createElement('div');
+      content.className = 'grade-content';
+
+      if (data.academic_year) {
+        content.appendChild(buildYearSection(
+          'Academic Year', 'academic',
+          data.academic_year.weeks, gradeDir, 'Academic Year'
+        ));
+      }
+
+      if (data.summer_program) {
+        content.appendChild(buildYearSection(
+          'Summer Program', 'summer',
+          data.summer_program.weeks, gradeDir, 'Summer Program'
+        ));
+      }
+
+      btn.addEventListener('click', () => toggle(content, btn));
+
+      section.appendChild(btn);
+      section.appendChild(content);
+      return section;
+    }
+
+    async function init() {
+      const app = document.getElementById('app');
+      app.innerHTML = '';
+
+      const results = await Promise.allSettled(
+        GRADES.map(g => loadCurriculum(g.file).then(data => ({ ...g, data })))
+      );
+
+      if (results.every(r => r.status === 'rejected')) {
+        app.innerHTML = `<div class="error">Could not load any curriculum files. Ensure the JSON files exist at the correct paths relative to index.html.</div>`;
+        return;
+      }
+
+      results.forEach(result => {
+        if (result.status === 'fulfilled') {
+          const { label, gradeDir, data } = result.value;
+          app.appendChild(buildGradeSection(label, gradeDir, data));
+        }
+      });
+    }
+
+    init();
+  </script>
 </body>
 </html>
