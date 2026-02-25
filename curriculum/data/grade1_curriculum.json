@@ -1,0 +1,893 @@
+{
+  "grade": 1,
+  "academic_year": {
+    "total_weeks": 36,
+    "weeks": [
+      {
+        "week": 1,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 1.1 Adding through 3",
+            "pdf_page": 11
+          },
+          {
+            "order": 2,
+            "name": "Lesson 1.2 Subtracting from 1, 2, and 3",
+            "pdf_page": 12
+          },
+          {
+            "order": 3,
+            "name": "Lesson 1.3 Adding to 4 and 5",
+            "pdf_page": 13
+          }
+        ]
+      },
+      {
+        "week": 2,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 1.4 Adding to 6",
+            "pdf_page": 14
+          },
+          {
+            "order": 2,
+            "name": "Lesson 1.5 Subtracting from 4 and 5",
+            "pdf_page": 15
+          },
+          {
+            "order": 3,
+            "name": "Lesson 1.6 Subtracting from 6",
+            "pdf_page": 16
+          }
+        ]
+      },
+      {
+        "week": 3,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 1.7 Fact Families 0 through 6",
+            "pdf_page": 17
+          },
+          {
+            "order": 2,
+            "name": "Lesson 1.7 Fact Families 0 through 6 (continued)",
+            "pdf_page": 18
+          },
+          {
+            "order": 3,
+            "name": "Lesson 1.8 Problem Solving (Facts through 6)",
+            "pdf_page": 19
+          }
+        ]
+      },
+      {
+        "week": 4,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 1.9 Adding to 7",
+            "pdf_page": 22
+          },
+          {
+            "order": 2,
+            "name": "Lesson 1.10 Subtracting from 7",
+            "pdf_page": 23
+          },
+          {
+            "order": 3,
+            "name": "Lesson 1.11 Adding to 8",
+            "pdf_page": 24
+          }
+        ]
+      },
+      {
+        "week": 5,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 1.12 Subtracting from 8",
+            "pdf_page": 25
+          },
+          {
+            "order": 2,
+            "name": "Lesson 1.13 Adding to 9",
+            "pdf_page": 26
+          },
+          {
+            "order": 3,
+            "name": "Lesson 1.14 Subtracting from 9",
+            "pdf_page": 27
+          }
+        ]
+      },
+      {
+        "week": 6,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 1.15 Adding to 10",
+            "pdf_page": 28
+          },
+          {
+            "order": 2,
+            "name": "Lesson 1.16 Subtracting from 10",
+            "pdf_page": 29
+          },
+          {
+            "order": 3,
+            "name": "Lesson 1.17 Fact Families 7 through 10",
+            "pdf_page": 30
+          }
+        ]
+      },
+      {
+        "week": 7,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 1.18 Addition Practice through 10",
+            "pdf_page": 32
+          },
+          {
+            "order": 2,
+            "name": "Lesson 1.19 Subtraction Practice through 10",
+            "pdf_page": 34
+          },
+          {
+            "order": 3,
+            "name": "Lesson 1.20 Adding with Money",
+            "pdf_page": 36
+          }
+        ]
+      },
+      {
+        "week": 8,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 1.21 Problem Solving (Money)",
+            "pdf_page": 37
+          },
+          {
+            "order": 2,
+            "name": "Lesson 1.22 More- and Less-Than",
+            "pdf_page": 39
+          },
+          {
+            "order": 3,
+            "name": "Lesson 1.23 Using Addition for Subtraction",
+            "pdf_page": 40
+          }
+        ]
+      },
+      {
+        "week": 9,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 1.24 Doubles and Near-Doubles",
+            "pdf_page": 41
+          },
+          {
+            "order": 2,
+            "name": "Chapter 1 Review (Pretest/Posttest Practice)",
+            "pdf_page": 11
+          },
+          {
+            "order": 3,
+            "name": "Chapter 1 Mixed Practice",
+            "pdf_page": 19
+          }
+        ]
+      },
+      {
+        "week": 10,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 2.1 Counting and Writing 10 through 14",
+            "pdf_page": 48
+          },
+          {
+            "order": 2,
+            "name": "Lesson 2.2 Counting and Writing 15 through 19",
+            "pdf_page": 49
+          },
+          {
+            "order": 3,
+            "name": "Lesson 2.3 Counting and Writing 20 through 24",
+            "pdf_page": 50
+          }
+        ]
+      },
+      {
+        "week": 11,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 2.4 Counting and Writing 25 through 29",
+            "pdf_page": 51
+          },
+          {
+            "order": 2,
+            "name": "Lesson 2.5 Counting and Writing 30 through 49",
+            "pdf_page": 52
+          },
+          {
+            "order": 3,
+            "name": "Lesson 2.6 Counting and Writing 50 through 69",
+            "pdf_page": 53
+          }
+        ]
+      },
+      {
+        "week": 12,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 2.7 Counting and Writing 70 through 99",
+            "pdf_page": 54
+          },
+          {
+            "order": 2,
+            "name": "Lesson 2.8 Counting to 120",
+            "pdf_page": 55
+          },
+          {
+            "order": 3,
+            "name": "Lesson 2.9 Counting Forward and Backward to 120",
+            "pdf_page": 56
+          }
+        ]
+      },
+      {
+        "week": 13,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 2.10 Comparing Numbers",
+            "pdf_page": 57
+          },
+          {
+            "order": 2,
+            "name": "Lesson 2.10 Comparing Numbers (continued)",
+            "pdf_page": 58
+          },
+          {
+            "order": 3,
+            "name": "Chapters 1\u20132 Mid-Test Review",
+            "pdf_page": 62
+          }
+        ]
+      },
+      {
+        "week": 14,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 3.1 Adding to 11",
+            "pdf_page": 69
+          },
+          {
+            "order": 2,
+            "name": "Lesson 3.2 Subtracting from 11",
+            "pdf_page": 70
+          },
+          {
+            "order": 3,
+            "name": "Lesson 3.3 Adding to 12",
+            "pdf_page": 71
+          }
+        ]
+      },
+      {
+        "week": 15,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 3.4 Subtracting from 12",
+            "pdf_page": 72
+          },
+          {
+            "order": 2,
+            "name": "Lesson 3.5 Adding to 13",
+            "pdf_page": 73
+          },
+          {
+            "order": 3,
+            "name": "Lesson 3.6 Subtracting from 13",
+            "pdf_page": 74
+          }
+        ]
+      },
+      {
+        "week": 16,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 3.7 Adding to 14",
+            "pdf_page": 75
+          },
+          {
+            "order": 2,
+            "name": "Lesson 3.8 Subtracting from 14",
+            "pdf_page": 76
+          },
+          {
+            "order": 3,
+            "name": "Lesson 3.9 Fact Families 11 through 15",
+            "pdf_page": 77
+          }
+        ]
+      },
+      {
+        "week": 17,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 3.10 Addition and Subtraction Facts through 15",
+            "pdf_page": 78
+          },
+          {
+            "order": 2,
+            "name": "Lesson 3.10 Addition and Subtraction Facts through 15 (continued)",
+            "pdf_page": 79
+          },
+          {
+            "order": 3,
+            "name": "Lesson 3.11 Fact Families 16 through 20",
+            "pdf_page": 80
+          }
+        ]
+      },
+      {
+        "week": 18,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 3.12 Addition and Subtraction Facts through 16",
+            "pdf_page": 81
+          },
+          {
+            "order": 2,
+            "name": "Lesson 3.12 Addition and Subtraction Facts through 16 (continued)",
+            "pdf_page": 82
+          },
+          {
+            "order": 3,
+            "name": "Lesson 3.13 Using Addition for Subtraction",
+            "pdf_page": 83
+          }
+        ]
+      },
+      {
+        "week": 19,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 3.14 Addition and Subtraction Facts through 18",
+            "pdf_page": 84
+          },
+          {
+            "order": 2,
+            "name": "Lesson 3.14 Addition and Subtraction Facts through 18 (continued)",
+            "pdf_page": 85
+          },
+          {
+            "order": 3,
+            "name": "Lesson 3.15 Using Addition for Subtraction (through 18)",
+            "pdf_page": 86
+          }
+        ]
+      },
+      {
+        "week": 20,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 3.16 More- and Less-Than Facts 11 through 20",
+            "pdf_page": 87
+          },
+          {
+            "order": 2,
+            "name": "Chapter 3 Review",
+            "pdf_page": 67
+          },
+          {
+            "order": 3,
+            "name": "Chapter 3 Mixed Practice",
+            "pdf_page": 69
+          }
+        ]
+      },
+      {
+        "week": 21,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 4.1 Adding 2-Digit and 1-Digit Numbers",
+            "pdf_page": 91
+          },
+          {
+            "order": 2,
+            "name": "Lesson 4.1 Adding 2-Digit and 1-Digit Numbers (continued)",
+            "pdf_page": 92
+          },
+          {
+            "order": 3,
+            "name": "Lesson 4.2 Adding Multiples of 10 to 2-Digit Numbers",
+            "pdf_page": 93
+          }
+        ]
+      },
+      {
+        "week": 22,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 4.3 Problem Solving (2-Digit Addition)",
+            "pdf_page": 94
+          },
+          {
+            "order": 2,
+            "name": "Lesson 4.4 Subtracting Multiples of 10",
+            "pdf_page": 95
+          },
+          {
+            "order": 3,
+            "name": "Lesson 4.4 Subtracting Multiples of 10 (continued)",
+            "pdf_page": 96
+          }
+        ]
+      },
+      {
+        "week": 23,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 4.5 Addition and Subtraction Practice through 100",
+            "pdf_page": 97
+          },
+          {
+            "order": 2,
+            "name": "Lesson 4.5 Problem Solving",
+            "pdf_page": 98
+          },
+          {
+            "order": 3,
+            "name": "Lesson 4.6 Adding Three Numbers",
+            "pdf_page": 99
+          }
+        ]
+      },
+      {
+        "week": 24,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 4.6 Adding Three Numbers (continued)",
+            "pdf_page": 100
+          },
+          {
+            "order": 2,
+            "name": "Chapter 4 Review",
+            "pdf_page": 91
+          },
+          {
+            "order": 3,
+            "name": "Chapter 4 Mixed Practice",
+            "pdf_page": 94
+          }
+        ]
+      },
+      {
+        "week": 25,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 5.1 Telling Time to the Hour",
+            "pdf_page": 104
+          },
+          {
+            "order": 2,
+            "name": "Lesson 5.1 Telling Time to the Hour (continued)",
+            "pdf_page": 105
+          },
+          {
+            "order": 3,
+            "name": "Lesson 5.2 Telling Time to the Half Hour",
+            "pdf_page": 106
+          }
+        ]
+      },
+      {
+        "week": 26,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 5.2 Telling Time to the Half Hour (continued)",
+            "pdf_page": 107
+          },
+          {
+            "order": 2,
+            "name": "Lesson 5.3 Ordering Objects",
+            "pdf_page": 108
+          },
+          {
+            "order": 3,
+            "name": "Lesson 5.3 Ordering Objects (continued)",
+            "pdf_page": 109
+          }
+        ]
+      },
+      {
+        "week": 27,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 5.4 Comparing Lengths of Objects",
+            "pdf_page": 110
+          },
+          {
+            "order": 2,
+            "name": "Lesson 5.4 Comparing Lengths of Objects (continued)",
+            "pdf_page": 111
+          },
+          {
+            "order": 3,
+            "name": "Lesson 5.5 Measuring Length and Height",
+            "pdf_page": 112
+          }
+        ]
+      },
+      {
+        "week": 28,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 5.5 Measuring Length and Height (continued)",
+            "pdf_page": 113
+          },
+          {
+            "order": 2,
+            "name": "Lesson 5.6 More or Fewer",
+            "pdf_page": 114
+          },
+          {
+            "order": 3,
+            "name": "Lesson 5.7 Greater Than, Less Than, and Equal To",
+            "pdf_page": 115
+          }
+        ]
+      },
+      {
+        "week": 29,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 5.8 Collecting Data",
+            "pdf_page": 116
+          },
+          {
+            "order": 2,
+            "name": "Lesson 5.8 Collecting Data (continued)",
+            "pdf_page": 117
+          },
+          {
+            "order": 3,
+            "name": "Chapter 5 Review",
+            "pdf_page": 104
+          }
+        ]
+      },
+      {
+        "week": 30,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 6.1 Identifying Shapes",
+            "pdf_page": 123
+          },
+          {
+            "order": 2,
+            "name": "Lesson 6.2 Drawing Shapes",
+            "pdf_page": 124
+          },
+          {
+            "order": 3,
+            "name": "Lesson 6.3 Finding Shapes",
+            "pdf_page": 125
+          }
+        ]
+      },
+      {
+        "week": 31,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 6.3 Finding Shapes (continued)",
+            "pdf_page": 126
+          },
+          {
+            "order": 2,
+            "name": "Lesson 6.4 Composing 2-D Shapes",
+            "pdf_page": 127
+          },
+          {
+            "order": 3,
+            "name": "Lesson 6.5 Composing 3-D Shapes",
+            "pdf_page": 128
+          }
+        ]
+      },
+      {
+        "week": 32,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Lesson 6.6 Partitioning Shapes",
+            "pdf_page": 129
+          },
+          {
+            "order": 2,
+            "name": "Lesson 6.7 One-Half and One-Fourth",
+            "pdf_page": 130
+          },
+          {
+            "order": 3,
+            "name": "Chapter 6 Review",
+            "pdf_page": 123
+          }
+        ]
+      },
+      {
+        "week": 33,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Final Test Review: Chapters 1\u20132 (Addition/Subtraction through 10, Place Value)",
+            "pdf_page": 11
+          },
+          {
+            "order": 2,
+            "name": "Final Test Review: Chapter 3 (Addition/Subtraction through 20)",
+            "pdf_page": 69
+          },
+          {
+            "order": 3,
+            "name": "Mixed Fact Families Practice",
+            "pdf_page": 17
+          }
+        ]
+      },
+      {
+        "week": 34,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Final Test Review: Chapter 4 (Addition/Subtraction through 100)",
+            "pdf_page": 91
+          },
+          {
+            "order": 2,
+            "name": "Problem Solving Mixed Practice",
+            "pdf_page": 94
+          },
+          {
+            "order": 3,
+            "name": "Adding Three Numbers Review",
+            "pdf_page": 99
+          }
+        ]
+      },
+      {
+        "week": 35,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Final Test Review: Chapter 5 (Measurement & Time)",
+            "pdf_page": 104
+          },
+          {
+            "order": 2,
+            "name": "Final Test Review: Chapter 6 (Geometry)",
+            "pdf_page": 123
+          },
+          {
+            "order": 3,
+            "name": "Collecting Data and Graphing Review",
+            "pdf_page": 116
+          }
+        ]
+      },
+      {
+        "week": 36,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Chapters 1\u20136 Final Test Review",
+            "pdf_page": 134
+          },
+          {
+            "order": 2,
+            "name": "Mixed Cumulative Practice",
+            "pdf_page": 62
+          },
+          {
+            "order": 3,
+            "name": "End-of-Year Celebration and Reflection",
+            "pdf_page": 136
+          }
+        ]
+      }
+    ]
+  },
+  "summer_program": {
+    "total_weeks": 8,
+    "weeks": [
+      {
+        "week": 1,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Review: Addition Facts through 10 (Lessons 1.1\u20131.8)",
+            "pdf_page": 11
+          },
+          {
+            "order": 2,
+            "name": "Review: Subtraction Facts through 10 (Lessons 1.9\u20131.16)",
+            "pdf_page": 22
+          },
+          {
+            "order": 3,
+            "name": "Review: Fact Families 0\u201310",
+            "pdf_page": 17
+          }
+        ]
+      },
+      {
+        "week": 2,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Review: Money and Problem Solving (Lessons 1.20\u20131.21)",
+            "pdf_page": 36
+          },
+          {
+            "order": 2,
+            "name": "Review: More/Less Than, Doubles (Lessons 1.22\u20131.24)",
+            "pdf_page": 39
+          },
+          {
+            "order": 3,
+            "name": "Review: Place Value \u2014 Counting to 120 (Lessons 2.1\u20132.8)",
+            "pdf_page": 48
+          }
+        ]
+      },
+      {
+        "week": 3,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Review: Counting Forward and Backward, Comparing Numbers (Lessons 2.9\u20132.10)",
+            "pdf_page": 56
+          },
+          {
+            "order": 2,
+            "name": "Review: Addition Facts through 20 (Lessons 3.1\u20133.8)",
+            "pdf_page": 69
+          },
+          {
+            "order": 3,
+            "name": "Review: Subtraction Facts through 20 (Lessons 3.2\u20133.8)",
+            "pdf_page": 70
+          }
+        ]
+      },
+      {
+        "week": 4,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Review: Fact Families 11\u201320 (Lessons 3.9\u20133.11)",
+            "pdf_page": 77
+          },
+          {
+            "order": 2,
+            "name": "Review: Facts through 18, Using Addition for Subtraction (Lessons 3.12\u20133.15)",
+            "pdf_page": 81
+          },
+          {
+            "order": 3,
+            "name": "Review: More/Less Than Facts 11\u201320 (Lesson 3.16)",
+            "pdf_page": 87
+          }
+        ]
+      },
+      {
+        "week": 5,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Review: Adding 2-Digit and 1-Digit Numbers (Lesson 4.1)",
+            "pdf_page": 91
+          },
+          {
+            "order": 2,
+            "name": "Review: Adding and Subtracting Multiples of 10 (Lessons 4.2\u20134.4)",
+            "pdf_page": 93
+          },
+          {
+            "order": 3,
+            "name": "Review: Practice and Problem Solving through 100 (Lessons 4.5\u20134.6)",
+            "pdf_page": 97
+          }
+        ]
+      },
+      {
+        "week": 6,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Review: Telling Time to the Hour and Half Hour (Lessons 5.1\u20135.2)",
+            "pdf_page": 104
+          },
+          {
+            "order": 2,
+            "name": "Review: Ordering and Comparing Lengths (Lessons 5.3\u20135.4)",
+            "pdf_page": 108
+          },
+          {
+            "order": 3,
+            "name": "Review: Measuring Length and Height (Lesson 5.5)",
+            "pdf_page": 112
+          }
+        ]
+      },
+      {
+        "week": 7,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Review: More or Fewer, Greater/Less Than (Lessons 5.6\u20135.7)",
+            "pdf_page": 114
+          },
+          {
+            "order": 2,
+            "name": "Review: Collecting Data (Lesson 5.8)",
+            "pdf_page": 116
+          },
+          {
+            "order": 3,
+            "name": "Review: Identifying and Drawing Shapes (Lessons 6.1\u20136.2)",
+            "pdf_page": 123
+          }
+        ]
+      },
+      {
+        "week": 8,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Review: Finding and Composing Shapes (Lessons 6.3\u20136.5)",
+            "pdf_page": 125
+          },
+          {
+            "order": 2,
+            "name": "Review: Partitioning Shapes, Halves and Fourths (Lessons 6.6\u20136.7)",
+            "pdf_page": 129
+          },
+          {
+            "order": 3,
+            "name": "Cumulative Mixed Review: All Grade 1 Topics",
+            "pdf_page": 134
+          }
+        ]
+      }
+    ]
+  }
+}
