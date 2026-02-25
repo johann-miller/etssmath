@@ -1,0 +1,49 @@
+{
+  "districts": {
+    "CCS": {
+      "name": "Columbus City Schools",
+      "academic_year": {
+        "start": "2025-09-01",
+        "end": "2026-05-28"
+      },
+      "summer_program": {
+        "start": "2026-06-16",
+        "end": "2026-08-07"
+      },
+      "breaks": [
+        {
+          "name": "Labor Day",
+          "type": "holiday",
+          "dates": ["2025-09-01"]
+        },
+        {
+          "name": "Thanksgiving Break",
+          "type": "break",
+          "dates": ["2025-11-24", "2025-11-25", "2025-11-26", "2025-11-27", "2025-11-28"]
+        },
+        {
+          "name": "Winter Break",
+          "type": "break",
+          "start": "2025-12-22",
+          "end": "2026-01-02"
+        },
+        {
+          "name": "MLK Day",
+          "type": "holiday",
+          "dates": ["2026-01-19"]
+        },
+        {
+          "name": "Spring Break",
+          "type": "break",
+          "start": "2026-04-03",
+          "end": "2026-04-10"
+        },
+        {
+          "name": "Memorial Day",
+          "type": "holiday",
+          "dates": ["2026-05-25"]
+        }
+      ]
+    }
+  }
+}

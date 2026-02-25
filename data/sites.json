@@ -1,0 +1,11 @@
+{
+  "locations": [
+    {
+      "id": "site_east",
+      "name": "East",
+      "district": "CCS",
+      "grades": [1, 2, 3],
+      "operation_days": ["monday", "tuesday", "thursday"]
+    }
+  ]
+}
