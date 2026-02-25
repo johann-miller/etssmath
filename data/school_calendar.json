@@ -1,0 +1,24 @@
+{
+  "districts": {
+    "lausd": {
+      "name": "Los Angeles Unified",
+      "academic_year": {
+        "start": "2025-08-25",
+        "end": "2026-06-05"
+      },
+      "summer_program": {
+        "start": "2026-06-16",
+        "end": "2026-08-07"
+      },
+      "breaks": [
+        { "name": "Labor Day",       "type": "holiday", "dates": ["2025-09-01"] },
+        { "name": "Thanksgiving",    "type": "break",   "start": "2025-11-24", "end": "2025-11-28" },
+        { "name": "Winter Break",    "type": "break",   "start": "2025-12-22", "end": "2026-01-02" },
+        { "name": "MLK Day",         "type": "holiday", "dates": ["2026-01-19"] },
+        { "name": "Presidents Day",  "type": "holiday", "dates": ["2026-02-16"] },
+        { "name": "Spring Break",    "type": "break",   "start": "2026-03-30", "end": "2026-04-03" },
+        { "name": "Memorial Day",    "type": "holiday", "dates": ["2026-05-25"] }
+      ]
+    }
+  }
+}
