@@ -733,17 +733,17 @@
         "assignments": [
           {
             "order": 1,
-            "name": "Review Addition Facts through 10 (Lessons 1.1\u20131.8)",
+            "name": "Lesson 1.1 Adding through 3",
             "pdf_page": 11
           },
           {
             "order": 2,
-            "name": "Review: Subtraction Facts through 10 (Lessons 1.9\u20131.16)",
+            "name": "Lesson 1.9 Adding to 7",
             "pdf_page": 22
           },
           {
             "order": 3,
-            "name": "Review: Fact Families 0\u201310",
+            "name": "Lesson 1.7 Fact Families 0 through 6",
             "pdf_page": 17
           }
         ]
@@ -753,17 +753,17 @@
         "assignments": [
           {
             "order": 1,
-            "name": "Review: Money and Problem Solving (Lessons 1.20\u20131.21)",
+            "name": "Lesson 1.20 Adding with Money",
             "pdf_page": 36
           },
           {
             "order": 2,
-            "name": "Review: More/Less Than, Doubles (Lessons 1.22\u20131.24)",
+            "name": "Lesson 1.22 More- and Less-Than",
             "pdf_page": 39
           },
           {
             "order": 3,
-            "name": "Review: Place Value \u2014 Counting to 120 (Lessons 2.1\u20132.8)",
+            "name": "Lesson 2.1 Counting and Writing 10 through 14",
             "pdf_page": 48
           }
         ]
@@ -773,17 +773,17 @@
         "assignments": [
           {
             "order": 1,
-            "name": "Review: Counting Forward and Backward, Comparing Numbers (Lessons 2.9\u20132.10)",
+            "name": "Lesson 2.9 Counting Forward and Backward to 120",
             "pdf_page": 56
           },
           {
             "order": 2,
-            "name": "Review: Addition Facts through 20 (Lessons 3.1\u20133.8)",
+            "name": "Lesson 3.1 Adding to 11",
             "pdf_page": 69
           },
           {
             "order": 3,
-            "name": "Review: Subtraction Facts through 20 (Lessons 3.2\u20133.8)",
+            "name": "Lesson 3.2 Subtracting from 11",
             "pdf_page": 70
           }
         ]
@@ -793,17 +793,17 @@
         "assignments": [
           {
             "order": 1,
-            "name": "Review: Fact Families 11\u201320 (Lessons 3.9\u20133.11)",
+            "name": "Lesson 3.9 Fact Families 11 through 15",
             "pdf_page": 77
           },
           {
             "order": 2,
-            "name": "Review: Facts through 18, Using Addition for Subtraction (Lessons 3.12\u20133.15)",
+            "name": "Lesson 3.12 Addition and Subtraction Facts through 16",
             "pdf_page": 81
           },
           {
             "order": 3,
-            "name": "Review: More/Less Than Facts 11\u201320 (Lesson 3.16)",
+            "name": "Lesson 3.16 More- and Less-Than Facts 11 through 20",
             "pdf_page": 87
           }
         ]
@@ -813,17 +813,17 @@
         "assignments": [
           {
             "order": 1,
-            "name": "Review: Adding 2-Digit and 1-Digit Numbers (Lesson 4.1)",
+            "name": "Lesson 4.1 Adding 2-Digit and 1-Digit Numbers",
             "pdf_page": 91
           },
           {
             "order": 2,
-            "name": "Review: Adding and Subtracting Multiples of 10 (Lessons 4.2\u20134.4)",
+            "name": "Lesson 4.2 Adding Multiples of 10 to 2-Digit Numbers",
             "pdf_page": 93
           },
           {
             "order": 3,
-            "name": "Review: Practice and Problem Solving through 100 (Lessons 4.5\u20134.6)",
+            "name": "Lesson 4.5 Addition and Subtraction Practice through 100",
             "pdf_page": 97
           }
         ]
@@ -833,17 +833,17 @@
         "assignments": [
           {
             "order": 1,
-            "name": "Review: Telling Time to the Hour and Half Hour (Lessons 5.1\u20135.2)",
+            "name": "Lesson 5.1 Telling Time to the Hour",
             "pdf_page": 104
           },
           {
             "order": 2,
-            "name": "Review: Ordering and Comparing Lengths (Lessons 5.3\u20135.4)",
+            "name": "Lesson 5.3 Ordering Objects",
             "pdf_page": 108
           },
           {
             "order": 3,
-            "name": "Review: Measuring Length and Height (Lesson 5.5)",
+            "name": "Lesson 5.5 Measuring Length and Height",
             "pdf_page": 112
           }
         ]
@@ -853,17 +853,17 @@
         "assignments": [
           {
             "order": 1,
-            "name": "Review: More or Fewer, Greater/Less Than (Lessons 5.6\u20135.7)",
+            "name": "Lesson 5.6 More or Fewer",
             "pdf_page": 114
           },
           {
             "order": 2,
-            "name": "Review: Collecting Data (Lesson 5.8)",
+            "name": "Lesson 5.8 Collecting Data",
             "pdf_page": 116
           },
           {
             "order": 3,
-            "name": "Review: Identifying and Drawing Shapes (Lessons 6.1\u20136.2)",
+            "name": "Lesson 6.1 Identifying Shapes",
             "pdf_page": 123
           }
         ]
@@ -873,17 +873,17 @@
         "assignments": [
           {
             "order": 1,
-            "name": "Review: Finding and Composing Shapes (Lessons 6.3\u20136.5)",
+            "name": "Lesson 6.3 Finding Shapes",
             "pdf_page": 125
           },
           {
             "order": 2,
-            "name": "Review: Partitioning Shapes, Halves and Fourths (Lessons 6.6\u20136.7)",
+            "name": "Lesson 6.6 Partitioning Shapes",
             "pdf_page": 129
           },
           {
             "order": 3,
-            "name": "Cumulative Mixed Review: All Grade 1 Topics",
+            "name": "Chapters 1\u20136 Final Test Review",
             "pdf_page": 134
           }
         ]
