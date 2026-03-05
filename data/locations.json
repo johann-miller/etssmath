@@ -1,11 +1,11 @@
 {
   "locations": [
     {
-      "id": "site_westside",
-      "name": "Westside Elementary",
+      "id": "site_east",
+      "name": "East",
       "district": "lausd",
       "grades": [1, 2, 3],
-      "operation_days": ["monday", "wednesday", "friday"]
+      "operation_days": ["monday", "tuesday", "thursday"]
     },
     {
       "id": "site_northpark",

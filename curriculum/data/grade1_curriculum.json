@@ -745,6 +745,11 @@
             "order": 3,
             "name": "Lesson 1.7 Fact Families 0 through 6",
             "pdf_page": 17
+          },
+          {
+            "order": 4,
+            "name": "Lesson 1.16 Subtracting from 10",
+            "pdf_page": 29
           }
         ]
       },
@@ -765,6 +770,11 @@
             "order": 3,
             "name": "Lesson 2.1 Counting and Writing 10 through 14",
             "pdf_page": 48
+          },
+          {
+            "order": 4,
+            "name": "Lesson 2.8 Counting to 120",
+            "pdf_page": 55
           }
         ]
       },
@@ -785,6 +795,11 @@
             "order": 3,
             "name": "Lesson 3.2 Subtracting from 11",
             "pdf_page": 70
+          },
+          {
+            "order": 4,
+            "name": "Lesson 3.3 Adding to 12",
+            "pdf_page": 71
           }
         ]
       },
@@ -805,6 +820,11 @@
             "order": 3,
             "name": "Lesson 3.16 More- and Less-Than Facts 11 through 20",
             "pdf_page": 87
+          },
+          {
+            "order": 4,
+            "name": "Lesson 3.11 Fact Families 16 through 20",
+            "pdf_page": 80
           }
         ]
       },
@@ -825,6 +845,11 @@
             "order": 3,
             "name": "Lesson 4.5 Addition and Subtraction Practice through 100",
             "pdf_page": 97
+          },
+          {
+            "order": 4,
+            "name": "Lesson 4.4 Subtracting Multiples of 10",
+            "pdf_page": 95
           }
         ]
       },
@@ -845,6 +870,11 @@
             "order": 3,
             "name": "Lesson 5.5 Measuring Length and Height",
             "pdf_page": 112
+          },
+          {
+            "order": 4,
+            "name": "Lesson 5.2 Telling Time to the Half Hour",
+            "pdf_page": 106
           }
         ]
       },
@@ -865,6 +895,11 @@
             "order": 3,
             "name": "Lesson 6.1 Identifying Shapes",
             "pdf_page": 123
+          },
+          {
+            "order": 4,
+            "name": "Lesson 5.7 Greater Than, Less Than, and Equal To",
+            "pdf_page": 115
           }
         ]
       },
@@ -885,6 +920,11 @@
             "order": 3,
             "name": "Chapters 1\u20136 Final Test Review",
             "pdf_page": 134
+          },
+          {
+            "order": 4,
+            "name": "Lesson 6.4 Composing 2-D Shapes",
+            "pdf_page": 127
           }
         ]
       }

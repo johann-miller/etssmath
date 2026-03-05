@@ -20,35 +20,24 @@
 
       <div class="form-row">
         <div class="form-group">
-          <label for="location-select">Location</label>
+          <label for="location-select">Site</label>
           <select id="location-select">
-            <!-- Populated by scheduler.js -->
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="grade-select">Grade</label>
-          <select id="grade-select">
-            <!-- Populated by scheduler.js based on selected location -->
+            <!-- Populated by recommender.js -->
           </select>
         </div>
       </div>
-
-      <div id="program-type-badge"></div>
 
       <div id="current-week-info" class="week-info">
         <!-- Populated by scheduler.js -->
       </div>
 
       <div class="scheduler-assignments">
-        <h4>This Week's Assignments</h4>
+        <h4>Today's assignment</h4>
         <div id="assignments-container">
           <!-- Populated by scheduler.js -->
         </div>
       </div>
 
-      <div id="activity-container" class="activity-card" style="display:none;">
-        <!-- Populated by scheduler.js -->
-      </div>
     </div>
 
     <!-- ── Full Curriculum Catalogue ── -->
@@ -63,7 +52,7 @@
 
   <script>
     const GRADES = [
-      { label: 'Grade 1', gradeDir: 'curriculum/Grade 1', file: 'curriculum/data/grade1_curriculum.json' }
+      { label: 'Grade 1', grade: 1, gradeDir: 'curriculum/Grade 1', file: 'curriculum/data/grade1_curriculum.json' }
     ];
 
     async function loadCurriculum(file) {
@@ -79,21 +68,19 @@
 
     function padWeek(n) { return String(n).padStart(2, '0'); }
 
-    function sanitizeFilename(name) {
-      return name.replace(/[<>:"/\\|?*]/g, '').replace(/\s+/g, ' ').trim();
-    }
-
     function assignmentPath(gradeDir, yearFolder, weekNum, assignment) {
       const weekFolder = `Week ${padWeek(weekNum)}`;
       const filename = `${assignment.order} - ${sanitizeFilename(assignment.name)}.pdf`;
       return `${gradeDir}/${yearFolder}/${weekFolder}/${filename}`;
     }
 
-    function buildAssignments(weeks, gradeDir, yearFolder, isSummer) {
+    function buildAssignments(weeks, gradeDir, yearFolder, isSummer, grade) {
       const wrapper = document.createElement('div');
+      const type = isSummer ? 'summer' : 'academic';
       weeks.forEach(w => {
         const card = document.createElement('div');
         card.className = 'week-card';
+        card.id = `catalogue-grade-${grade}-${type}-week-${w.week}`;
 
         const label = document.createElement('div');
         label.className = 'week-label';
@@ -128,17 +115,19 @@
       return wrapper;
     }
 
-    function buildYearSection(label, type, weeks, gradeDir, yearFolder) {
+    function buildYearSection(label, type, weeks, gradeDir, yearFolder, grade) {
       const section = document.createElement('div');
       section.className = 'year-section';
 
       const btn = document.createElement('button');
       btn.className = `year-btn ${type}`;
+      btn.id = `catalogue-grade-${grade}-${type}-btn`;
       btn.innerHTML = `<span>${label} <span style="font-weight:400;opacity:.85">(${weeks.length} weeks)</span></span><span class="chevron">&#9660;</span>`;
 
       const content = document.createElement('div');
       content.className = 'year-content';
-      content.appendChild(buildAssignments(weeks, gradeDir, yearFolder, type === 'summer'));
+      content.id = `catalogue-grade-${grade}-${type}`;
+      content.appendChild(buildAssignments(weeks, gradeDir, yearFolder, type === 'summer', grade));
 
       btn.addEventListener('click', () => toggle(content, btn));
       section.appendChild(btn);
@@ -146,28 +135,51 @@
       return section;
     }
 
-    function buildGradeSection(label, gradeDir, data) {
+    function buildGradeSection(label, grade, gradeDir, data) {
       const section = document.createElement('div');
       section.className = 'grade-section';
 
       const btn = document.createElement('button');
       btn.className = 'grade-btn';
+      btn.id = `catalogue-grade-${grade}-btn`;
       btn.innerHTML = `<span>${label}</span><span class="chevron">&#9660;</span>`;
 
       const content = document.createElement('div');
       content.className = 'grade-content';
+      content.id = `catalogue-grade-${grade}`;
 
       if (data.academic_year) {
-        content.appendChild(buildYearSection('Academic Year', 'academic', data.academic_year.weeks, gradeDir, 'Academic Year'));
+        content.appendChild(buildYearSection('Academic Year', 'academic', data.academic_year.weeks, gradeDir, 'Academic Year', grade));
       }
       if (data.summer_program) {
-        content.appendChild(buildYearSection('Summer Program', 'summer', data.summer_program.weeks, gradeDir, 'Summer Program'));
+        content.appendChild(buildYearSection('Summer Program', 'summer', data.summer_program.weeks, gradeDir, 'Summer Program', grade));
       }
 
       btn.addEventListener('click', () => toggle(content, btn));
       section.appendChild(btn);
       section.appendChild(content);
       return section;
+    }
+
+    function jumpToCatalogueWeek(grade, isSummer, weekNum) {
+      const type = isSummer ? 'summer' : 'academic';
+
+      const gradeBtn = document.getElementById(`catalogue-grade-${grade}-btn`);
+      const gradeContent = document.getElementById(`catalogue-grade-${grade}`);
+      if (gradeContent && !gradeContent.classList.contains('open')) {
+        gradeContent.classList.add('open');
+        if (gradeBtn) gradeBtn.classList.add('open');
+      }
+
+      const yearBtn = document.getElementById(`catalogue-grade-${grade}-${type}-btn`);
+      const yearContent = document.getElementById(`catalogue-grade-${grade}-${type}`);
+      if (yearContent && !yearContent.classList.contains('open')) {
+        yearContent.classList.add('open');
+        if (yearBtn) yearBtn.classList.add('open');
+      }
+
+      const weekEl = document.getElementById(`catalogue-grade-${grade}-${type}-week-${weekNum}`);
+      if (weekEl) weekEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
 
     async function init() {
@@ -185,8 +197,8 @@
 
       results.forEach(result => {
         if (result.status === 'fulfilled') {
-          const { label, gradeDir, data } = result.value;
-          app.appendChild(buildGradeSection(label, gradeDir, data));
+          const { label, grade, gradeDir, data } = result.value;
+          app.appendChild(buildGradeSection(label, grade, gradeDir, data));
         }
       });
     }

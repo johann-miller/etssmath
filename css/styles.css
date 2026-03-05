@@ -321,6 +321,24 @@ main {
 
 .assignment-link:hover { text-decoration: underline; }
 
+.jump-btn {
+  margin-left: auto;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--primary);
+  background: none;
+  border: 1px solid var(--primary);
+  border-radius: var(--radius);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.jump-btn:hover {
+  background: var(--primary);
+  color: white;
+}
+
 @media (max-width: 560px) {
   .form-row { flex-direction: column; }
 }
