@@ -201,6 +201,7 @@ async function initScheduler() {
 
     for (const grade of location.grades) {
       const file = GRADE_CURRICULUM_FILES[grade];
+      console.log(grades);
 
       const gradeSection = document.createElement("div");
       gradeSection.style.marginBottom = "0.75rem";

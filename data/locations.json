@@ -11,7 +11,7 @@
       "id": "site_northpark",
       "name": "North Park Middle",
       "district": "lausd",
-      "grades": [4, 5, 6],
+      "grades": [4, 5, 6, 7],
       "operation_days": ["tuesday", "wednesday", "thursday"]
     }
   ]
