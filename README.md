@@ -70,15 +70,16 @@ Defines academic year and break dates per district.
       "academic_year": { "start": "2025-08-25", "end": "2026-06-05" },
       "summer_program": { "start": "2026-06-16", "end": "2026-08-07" },
       "breaks": [
-        { "name": "Spring Break", "type": "break", "start": "2026-03-30", "end": "2026-04-03" },
-        { "name": "Labor Day",    "type": "holiday", "dates": ["2025-09-01"] }
+        { "name": "Thanksgiving", "start": "2025-11-24", "end": "2025-11-28" },
+        { "name": "Winter Break", "start": "2025-12-22", "end": "2026-01-02" },
+        { "name": "Spring Break", "start": "2026-03-30", "end": "2026-04-03" }
       ]
     }
   }
 }
 ```
 
-Breaks can be single days (`dates` array) or ranges (`start`/`end`). Any week where **all** operation days fall within breaks is excluded from the week count — the 36-week curriculum maps to 36 non-break instructional weeks.
+Only full-week breaks (where every operation day is a break day) need to be listed — these are the only breaks that affect week counting. Single-day holidays like Labor Day or MLK Day have no effect on the week number or assignment order, so they are omitted. Any week where **all** operation days fall within a break is excluded from the week count, keeping the 36-week curriculum aligned to 36 instructional weeks.
 
 ### `curriculum/data/grade1_curriculum.json`
 
