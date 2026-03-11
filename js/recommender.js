@@ -201,7 +201,7 @@ async function initScheduler() {
 
     for (const grade of location.grades) {
       const file = GRADE_CURRICULUM_FILES[grade];
-      console.log(grades);
+      console.log(grade);
 
       const gradeSection = document.createElement("div");
       gradeSection.style.marginBottom = "0.75rem";
@@ -247,7 +247,7 @@ async function initScheduler() {
             link.target = "_blank";
 
             const jumpBtn = document.createElement('button');
-            jumpBtn.textContent = `All assignments for week ${rec.week}`;
+            jumpBtn.textContent = `All assignments week ${rec.week} - Grade ${grade}`;
             jumpBtn.className = 'jump-btn';
             jumpBtn.addEventListener('click', () => jumpToCatalogueWeek(grade, rec.isSummer, rec.week));
 
