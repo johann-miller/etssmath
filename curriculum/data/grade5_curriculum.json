@@ -1,0 +1,731 @@
+{
+  "grade": 5,
+  "academic_year": {
+    "total_weeks": 36,
+    "weeks": [
+      {
+        "week": 1,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 2,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 3,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 4,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 5,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 6,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 7,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 8,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 9,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 10,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 11,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 12,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 13,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 14,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 15,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 16,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 17,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 18,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 19,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 20,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 21,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 22,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 23,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 24,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 25,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 26,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 27,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 28,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 29,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 30,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 31,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 32,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 33,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 34,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 35,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      },
+      {
+        "week": 36,
+        "assignments": [
+          {
+            "order": 1,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 2,
+            "name": "TBD",
+            "pdf_page": 0
+          },
+          {
+            "order": 3,
+            "name": "TBD",
+            "pdf_page": 0
+          }
+        ]
+      }
+    ]
+  },
+  "summer_program": {
+    "weeks": []
+  }
+}

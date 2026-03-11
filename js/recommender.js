@@ -130,7 +130,14 @@ function getRecommendation(today, location, district, gradeData) {
 // ── Grade → curriculum file mapping ──────────────────────────────────────────
 
 const GRADE_CURRICULUM_FILES = {
-  1: "curriculum/data/grade1_curriculum.json"
+  1: "curriculum/data/grade1_curriculum.json",
+  2: "curriculum/data/grade2_curriculum.json",
+  3: "curriculum/data/grade3_curriculum.json",
+  4: "curriculum/data/grade4_curriculum.json",
+  5: "curriculum/data/grade5_curriculum.json",
+  6: "curriculum/data/grade6_curriculum.json",
+  7: "curriculum/data/grade7_curriculum.json",
+  8: "curriculum/data/grade8_curriculum.json"
 };
 
 // ── Scheduler UI ──────────────────────────────────────────────────────────────
