@@ -5,6 +5,7 @@
     "weeks": [
       {
         "week": 1,
+        "topic": "Ch. 1: Addition and Subtraction Facts through 10",
         "assignments": [
           {
             "order": 1,
@@ -21,11 +22,11 @@
             "name": "Adding to 4 and 5",
             "pdf_page": 13
           }
-        ],
-        "topic": "Ch. 1 – Addition & Subtraction Facts (through 6)"
+        ]
       },
       {
         "week": 2,
+        "topic": "Ch. 1: Addition and Subtraction Facts through 10",
         "assignments": [
           {
             "order": 1,
@@ -42,11 +43,11 @@
             "name": "Subtracting from 6",
             "pdf_page": 16
           }
-        ],
-        "topic": "Ch. 1 – Addition & Subtraction Facts (through 6)"
+        ]
       },
       {
         "week": 3,
+        "topic": "Ch. 1: Addition and Subtraction Facts through 10",
         "assignments": [
           {
             "order": 1,
@@ -60,77 +61,98 @@
           },
           {
             "order": 3,
-            "name": "Problem Solving (Facts through 6)",
+            "name": "Problem Solving",
             "pdf_page": 19
           }
-        ],
-        "topic": "Ch. 1 – Fact Families & Problem Solving (through 6)"
+        ]
       },
       {
         "week": 4,
+        "topic": "Ch. 1: Addition and Subtraction Facts through 10",
         "assignments": [
           {
             "order": 1,
-            "name": "Adding to 7",
-            "pdf_page": 22
+            "name": "Problem Solving (continued)",
+            "pdf_page": 20
           },
           {
             "order": 2,
+            "name": "Problem Solving (continued)",
+            "pdf_page": 21
+          },
+          {
+            "order": 3,
+            "name": "Adding to 7",
+            "pdf_page": 22
+          }
+        ]
+      },
+      {
+        "week": 5,
+        "topic": "Ch. 1: Addition and Subtraction Facts through 10",
+        "assignments": [
+          {
+            "order": 1,
             "name": "Subtracting from 7",
             "pdf_page": 23
           },
           {
-            "order": 3,
+            "order": 2,
             "name": "Adding to 8",
             "pdf_page": 24
+          },
+          {
+            "order": 3,
+            "name": "Subtracting from 8",
+            "pdf_page": 25
           }
-        ],
-        "topic": "Ch. 1 – Addition & Subtraction Facts (7–8)"
+        ]
       },
       {
-        "week": 5,
+        "week": 6,
+        "topic": "Ch. 1: Addition and Subtraction Facts through 10",
         "assignments": [
           {
             "order": 1,
-            "name": "Subtracting from 8",
-            "pdf_page": 25
-          },
-          {
-            "order": 2,
             "name": "Adding to 9",
             "pdf_page": 26
           },
           {
-            "order": 3,
+            "order": 2,
             "name": "Subtracting from 9",
             "pdf_page": 27
+          },
+          {
+            "order": 3,
+            "name": "Adding to 10",
+            "pdf_page": 28
           }
-        ],
-        "topic": "Ch. 1 – Addition & Subtraction Facts (8–9)"
+        ]
       },
       {
-        "week": 6,
+        "week": 7,
+        "topic": "Ch. 1: Addition and Subtraction Facts through 10",
         "assignments": [
           {
             "order": 1,
-            "name": "Adding to 10",
-            "pdf_page": 28
-          },
-          {
-            "order": 2,
             "name": "Subtracting from 10",
             "pdf_page": 29
           },
           {
-            "order": 3,
+            "order": 2,
             "name": "Fact Families 7 through 10",
             "pdf_page": 30
+          },
+          {
+            "order": 3,
+            "name": "Fact Families 7 through 10 (continued)",
+            "pdf_page": 31
           }
-        ],
-        "topic": "Ch. 1 – Addition & Subtraction Facts (through 10)"
+        ]
       },
       {
-        "week": 7,
+        "week": 8,
+        "topic": "Ch. 1: Addition and Subtraction Facts through 10",
         "assignments": [
           {
             "order": 1,
@@ -139,24 +161,45 @@
           },
           {
             "order": 2,
-            "name": "Subtraction Practice through 10",
-            "pdf_page": 34
+            "name": "Problem Solving (continued)",
+            "pdf_page": 33
           },
           {
             "order": 3,
-            "name": "Adding with Money",
-            "pdf_page": 36
+            "name": "Subtraction Practice through 10",
+            "pdf_page": 34
           }
-        ],
-        "topic": "Ch. 1 – Addition & Subtraction Practice (through 10)"
+        ]
       },
       {
-        "week": 8,
+        "week": 9,
+        "topic": "Ch. 1: Addition and Subtraction Facts through 10",
         "assignments": [
           {
             "order": 1,
-            "name": "Problem Solving (Money)",
+            "name": "Problem Solving (continued)",
+            "pdf_page": 35
+          },
+          {
+            "order": 2,
+            "name": "Adding with Money",
+            "pdf_page": 36
+          },
+          {
+            "order": 3,
+            "name": "Problem Solving (continued)",
             "pdf_page": 37
+          }
+        ]
+      },
+      {
+        "week": 10,
+        "topic": "Ch. 1: Addition and Subtraction Facts through 10",
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Problem Solving (continued)",
+            "pdf_page": 38
           },
           {
             "order": 2,
@@ -168,11 +211,11 @@
             "name": "Using Addition for Subtraction",
             "pdf_page": 40
           }
-        ],
-        "topic": "Ch. 1 – Money & Number Comparisons"
+        ]
       },
       {
-        "week": 9,
+        "week": 11,
+        "topic": "Ch. 1: Addition and Subtraction Facts through 10",
         "assignments": [
           {
             "order": 1,
@@ -181,19 +224,19 @@
           },
           {
             "order": 2,
-            "name": "Chapter 1 Review (Pretest/Posttest Practice)",
-            "pdf_page": 11
+            "name": "CHAPTER 1 POSTTEST",
+            "pdf_page": 42
           },
           {
             "order": 3,
-            "name": "Chapter 1 Mixed Practice",
-            "pdf_page": 19
+            "name": "CHAPTER 2 PRETEST",
+            "pdf_page": 46
           }
-        ],
-        "topic": "Ch. 1 – Review"
+        ]
       },
       {
-        "week": 10,
+        "week": 12,
+        "topic": "Ch. 2: Place Value",
         "assignments": [
           {
             "order": 1,
@@ -210,11 +253,11 @@
             "name": "Counting and Writing 20 through 24",
             "pdf_page": 50
           }
-        ],
-        "topic": "Ch. 2 – Place Value & Counting (to 29)"
+        ]
       },
       {
-        "week": 11,
+        "week": 13,
+        "topic": "Ch. 2: Place Value",
         "assignments": [
           {
             "order": 1,
@@ -231,11 +274,11 @@
             "name": "Counting and Writing 50 through 69",
             "pdf_page": 53
           }
-        ],
-        "topic": "Ch. 2 – Place Value & Counting (to 69)"
+        ]
       },
       {
-        "week": 12,
+        "week": 14,
+        "topic": "Ch. 2: Place Value",
         "assignments": [
           {
             "order": 1,
@@ -252,11 +295,11 @@
             "name": "Counting Forward and Backward to 120",
             "pdf_page": 56
           }
-        ],
-        "topic": "Ch. 2 – Place Value & Counting (to 120)"
+        ]
       },
       {
-        "week": 13,
+        "week": 15,
+        "topic": "Ch. 2: Place Value",
         "assignments": [
           {
             "order": 1,
@@ -270,14 +313,35 @@
           },
           {
             "order": 3,
-            "name": "Chapters 1–2 Mid-Test Review",
-            "pdf_page": 62
+            "name": "CHAPTER 2 POSTTEST",
+            "pdf_page": 59
           }
-        ],
-        "topic": "Ch. 2 – Comparing Numbers / Mid-Test Review"
+        ]
       },
       {
-        "week": 14,
+        "week": 16,
+        "topic": "Ch. 1\u20132: Chapters 1\u20132 Review",
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Mid-Test Chapters 1\u20132",
+            "pdf_page": 61
+          },
+          {
+            "order": 2,
+            "name": "Mid-Test Chapters 1\u20132 (continued)",
+            "pdf_page": 63
+          },
+          {
+            "order": 3,
+            "name": "Mid-Test Chapters 1\u20132 (continued)",
+            "pdf_page": 65
+          }
+        ]
+      },
+      {
+        "week": 17,
+        "topic": "Ch. 3: Addition and Subtraction Facts through 20",
         "assignments": [
           {
             "order": 1,
@@ -294,11 +358,11 @@
             "name": "Adding to 12",
             "pdf_page": 71
           }
-        ],
-        "topic": "Ch. 3 – Addition & Subtraction Facts (11–12)"
+        ]
       },
       {
-        "week": 15,
+        "week": 18,
+        "topic": "Ch. 3: Addition and Subtraction Facts through 20",
         "assignments": [
           {
             "order": 1,
@@ -315,11 +379,11 @@
             "name": "Subtracting from 13",
             "pdf_page": 74
           }
-        ],
-        "topic": "Ch. 3 – Addition & Subtraction Facts (12–13)"
+        ]
       },
       {
-        "week": 16,
+        "week": 19,
+        "topic": "Ch. 3: Addition and Subtraction Facts through 20",
         "assignments": [
           {
             "order": 1,
@@ -336,11 +400,11 @@
             "name": "Fact Families 11 through 15",
             "pdf_page": 77
           }
-        ],
-        "topic": "Ch. 3 – Addition & Subtraction Facts (14–15)"
+        ]
       },
       {
-        "week": 17,
+        "week": 20,
+        "topic": "Ch. 3: Addition and Subtraction Facts through 20",
         "assignments": [
           {
             "order": 1,
@@ -349,7 +413,7 @@
           },
           {
             "order": 2,
-            "name": "Addition and Subtraction Facts through 15 (continued)",
+            "name": "Problem Solving (continued)",
             "pdf_page": 79
           },
           {
@@ -357,11 +421,11 @@
             "name": "Fact Families 16 through 20",
             "pdf_page": 80
           }
-        ],
-        "topic": "Ch. 3 – Fact Families (through 16)"
+        ]
       },
       {
-        "week": 18,
+        "week": 21,
+        "topic": "Ch. 3: Addition and Subtraction Facts through 20",
         "assignments": [
           {
             "order": 1,
@@ -370,19 +434,19 @@
           },
           {
             "order": 2,
-            "name": "Addition and Subtraction Facts through 16 (continued)",
+            "name": "Problem Solving (continued)",
             "pdf_page": 82
           },
           {
             "order": 3,
-            "name": "Using Addition for Subtraction",
+            "name": "Using Addition for Subtraction (continued)",
             "pdf_page": 83
           }
-        ],
-        "topic": "Ch. 3 – Addition & Subtraction Facts (through 18)"
+        ]
       },
       {
-        "week": 19,
+        "week": 22,
+        "topic": "Ch. 3: Addition and Subtraction Facts through 20",
         "assignments": [
           {
             "order": 1,
@@ -391,19 +455,19 @@
           },
           {
             "order": 2,
-            "name": "Addition and Subtraction Facts through 18 (continued)",
+            "name": "Problem Solving (continued)",
             "pdf_page": 85
           },
           {
             "order": 3,
-            "name": "Using Addition for Subtraction (through 18)",
+            "name": "Using Addition for Subtraction (continued)",
             "pdf_page": 86
           }
-        ],
-        "topic": "Ch. 3 – Fact Families & Practice (through 18)"
+        ]
       },
       {
-        "week": 20,
+        "week": 23,
+        "topic": "Ch. 3: Addition and Subtraction Facts through 20",
         "assignments": [
           {
             "order": 1,
@@ -412,19 +476,19 @@
           },
           {
             "order": 2,
-            "name": "Chapter 3 Review",
-            "pdf_page": 67
+            "name": "CHAPTER 3 POSTTEST",
+            "pdf_page": 88
           },
           {
             "order": 3,
-            "name": "Chapter 3 Mixed Practice",
-            "pdf_page": 69
+            "name": "CHAPTER 4 PRETEST",
+            "pdf_page": 90
           }
-        ],
-        "topic": "Ch. 3 – Review"
+        ]
       },
       {
-        "week": 21,
+        "week": 24,
+        "topic": "Ch. 4: Addition and Subtraction Facts through 100",
         "assignments": [
           {
             "order": 1,
@@ -441,15 +505,15 @@
             "name": "Adding Multiples of 10 to 2-Digit Numbers",
             "pdf_page": 93
           }
-        ],
-        "topic": "Ch. 4 – 2-Digit Addition"
+        ]
       },
       {
-        "week": 22,
+        "week": 25,
+        "topic": "Ch. 4: Addition and Subtraction Facts through 100",
         "assignments": [
           {
             "order": 1,
-            "name": "Problem Solving (2-Digit Addition)",
+            "name": "Problem Solving (continued)",
             "pdf_page": 94
           },
           {
@@ -462,11 +526,11 @@
             "name": "Subtracting Multiples of 10 (continued)",
             "pdf_page": 96
           }
-        ],
-        "topic": "Ch. 4 – 2-Digit Addition & Subtraction"
+        ]
       },
       {
-        "week": 23,
+        "week": 26,
+        "topic": "Ch. 4: Addition and Subtraction Facts through 100",
         "assignments": [
           {
             "order": 1,
@@ -475,7 +539,7 @@
           },
           {
             "order": 2,
-            "name": "Problem Solving",
+            "name": "Problem Solving (continued)",
             "pdf_page": 98
           },
           {
@@ -483,32 +547,32 @@
             "name": "Adding Three Numbers",
             "pdf_page": 99
           }
-        ],
-        "topic": "Ch. 4 – 2-Digit Addition & Subtraction"
+        ]
       },
       {
-        "week": 24,
+        "week": 27,
+        "topic": "Ch. 4: Addition and Subtraction Facts through 100",
         "assignments": [
           {
             "order": 1,
-            "name": "Adding Three Numbers (continued)",
+            "name": "Problem Solving (continued)",
             "pdf_page": 100
           },
           {
             "order": 2,
-            "name": "Chapter 4 Review",
-            "pdf_page": 91
+            "name": "CHAPTER 4 POSTTEST",
+            "pdf_page": 101
           },
           {
             "order": 3,
-            "name": "Chapter 4 Mixed Practice",
-            "pdf_page": 94
+            "name": "CHAPTER 5 PRETEST",
+            "pdf_page": 102
           }
-        ],
-        "topic": "Ch. 4 – Review"
+        ]
       },
       {
-        "week": 25,
+        "week": 28,
+        "topic": "Ch. 5: Measurement",
         "assignments": [
           {
             "order": 1,
@@ -525,11 +589,11 @@
             "name": "Telling Time to the Half Hour",
             "pdf_page": 106
           }
-        ],
-        "topic": "Ch. 5 – Telling Time"
+        ]
       },
       {
-        "week": 26,
+        "week": 29,
+        "topic": "Ch. 5: Measurement",
         "assignments": [
           {
             "order": 1,
@@ -546,11 +610,11 @@
             "name": "Ordering Objects (continued)",
             "pdf_page": 109
           }
-        ],
-        "topic": "Ch. 5 – Time & Ordering Objects"
+        ]
       },
       {
-        "week": 27,
+        "week": 30,
+        "topic": "Ch. 5: Measurement",
         "assignments": [
           {
             "order": 1,
@@ -567,11 +631,11 @@
             "name": "Measuring Length and Height",
             "pdf_page": 112
           }
-        ],
-        "topic": "Ch. 5 – Measuring Length & Height"
+        ]
       },
       {
-        "week": 28,
+        "week": 31,
+        "topic": "Ch. 5: Measurement",
         "assignments": [
           {
             "order": 1,
@@ -588,11 +652,11 @@
             "name": "Greater Than, Less Than, and Equal To",
             "pdf_page": 115
           }
-        ],
-        "topic": "Ch. 5 – Measurement & Comparisons"
+        ]
       },
       {
-        "week": 29,
+        "week": 32,
+        "topic": "Ch. 5: Measurement",
         "assignments": [
           {
             "order": 1,
@@ -606,14 +670,14 @@
           },
           {
             "order": 3,
-            "name": "Chapter 5 Review",
-            "pdf_page": 104
+            "name": "Collecting Data (continued)",
+            "pdf_page": 118
           }
-        ],
-        "topic": "Ch. 5 – Collecting Data / Review"
+        ]
       },
       {
-        "week": 30,
+        "week": 33,
+        "topic": "Ch. 6: Geometry",
         "assignments": [
           {
             "order": 1,
@@ -630,11 +694,11 @@
             "name": "Finding Shapes",
             "pdf_page": 125
           }
-        ],
-        "topic": "Ch. 6 – Identifying & Drawing Shapes"
+        ]
       },
       {
-        "week": 31,
+        "week": 34,
+        "topic": "Ch. 6: Geometry",
         "assignments": [
           {
             "order": 1,
@@ -651,11 +715,11 @@
             "name": "Composing 3-D Shapes",
             "pdf_page": 128
           }
-        ],
-        "topic": "Ch. 6 – Composing Shapes"
+        ]
       },
       {
-        "week": 32,
+        "week": 35,
+        "topic": "Ch. 6: Geometry",
         "assignments": [
           {
             "order": 1,
@@ -669,95 +733,31 @@
           },
           {
             "order": 3,
-            "name": "Chapter 6 Review",
-            "pdf_page": 123
+            "name": "CHAPTER 6 POSTTEST",
+            "pdf_page": 131
           }
-        ],
-        "topic": "Ch. 6 – Partitioning Shapes & Fractions"
-      },
-      {
-        "week": 33,
-        "assignments": [
-          {
-            "order": 1,
-            "name": "Final Test Review: Chapters 1–2 (Addition/Subtraction through 10, Place Value)",
-            "pdf_page": 11
-          },
-          {
-            "order": 2,
-            "name": "Final Test Review: Chapter 3 (Addition/Subtraction through 20)",
-            "pdf_page": 69
-          },
-          {
-            "order": 3,
-            "name": "Mixed Fact Families Practice",
-            "pdf_page": 17
-          }
-        ],
-        "topic": "Final Review – Chapters 1–2"
-      },
-      {
-        "week": 34,
-        "assignments": [
-          {
-            "order": 1,
-            "name": "Final Test Review: Chapter 4 (Addition/Subtraction through 100)",
-            "pdf_page": 91
-          },
-          {
-            "order": 2,
-            "name": "Problem Solving Mixed Practice",
-            "pdf_page": 94
-          },
-          {
-            "order": 3,
-            "name": "Adding Three Numbers Review",
-            "pdf_page": 99
-          }
-        ],
-        "topic": "Final Review – Chapters 3–4"
-      },
-      {
-        "week": 35,
-        "assignments": [
-          {
-            "order": 1,
-            "name": "Final Test Review: Chapter 5 (Measurement & Time)",
-            "pdf_page": 104
-          },
-          {
-            "order": 2,
-            "name": "Final Test Review: Chapter 6 (Geometry)",
-            "pdf_page": 123
-          },
-          {
-            "order": 3,
-            "name": "Collecting Data and Graphing Review",
-            "pdf_page": 116
-          }
-        ],
-        "topic": "Final Review – Chapters 5–6"
+        ]
       },
       {
         "week": 36,
+        "topic": "Ch. 1\u20136: Chapters 1\u20136 Review",
         "assignments": [
           {
             "order": 1,
-            "name": "Chapters 1–6 Final Test Review",
-            "pdf_page": 134
+            "name": "Final Test Chapters 1\u20136",
+            "pdf_page": 133
           },
           {
             "order": 2,
-            "name": "Mixed Cumulative Practice",
-            "pdf_page": 62
+            "name": "Final Test Chapters 1\u20136 (continued)",
+            "pdf_page": 134
           },
           {
             "order": 3,
-            "name": "End-of-Year Celebration and Reflection",
-            "pdf_page": 136
+            "name": "Final Test Chapters 1\u20136 (continued)",
+            "pdf_page": 135
           }
-        ],
-        "topic": "End-of-Year Review"
+        ]
       }
     ]
   },
@@ -766,6 +766,7 @@
     "weeks": [
       {
         "week": 1,
+        "topic": "Ch. 1: Addition and Subtraction Facts through 10",
         "assignments": [
           {
             "order": 1,
@@ -774,102 +775,128 @@
           },
           {
             "order": 2,
-            "name": "Adding to 7",
-            "pdf_page": 22
-          },
-          {
-            "order": 3,
             "name": "Fact Families 0 through 6",
             "pdf_page": 17
           },
           {
+            "order": 3,
+            "name": "Adding to 10",
+            "pdf_page": 28
+          },
+          {
             "order": 4,
-            "name": "Subtracting from 10",
-            "pdf_page": 29
+            "name": "Fact Families 7 through 10",
+            "pdf_page": 30
           }
-        ],
-        "topic": "Ch. 1 – Addition & Subtraction Facts"
+        ]
       },
       {
         "week": 2,
+        "topic": "Ch. 1: Addition and Subtraction Facts through 10",
         "assignments": [
           {
             "order": 1,
-            "name": "Adding with Money",
-            "pdf_page": 36
+            "name": "Addition Practice through 10",
+            "pdf_page": 32
           },
           {
             "order": 2,
+            "name": "Subtraction Practice through 10",
+            "pdf_page": 34
+          },
+          {
+            "order": 3,
             "name": "More- and Less-Than",
             "pdf_page": 39
           },
           {
-            "order": 3,
+            "order": 4,
+            "name": "Doubles and Near-Doubles",
+            "pdf_page": 41
+          }
+        ]
+      },
+      {
+        "week": 3,
+        "topic": "Ch. 2: Place Value",
+        "assignments": [
+          {
+            "order": 1,
             "name": "Counting and Writing 10 through 14",
             "pdf_page": 48
           },
           {
-            "order": 4,
+            "order": 2,
+            "name": "Counting and Writing 30 through 49",
+            "pdf_page": 52
+          },
+          {
+            "order": 3,
             "name": "Counting to 120",
             "pdf_page": 55
+          },
+          {
+            "order": 4,
+            "name": "Comparing Numbers",
+            "pdf_page": 57
           }
-        ],
-        "topic": "Ch. 1 & 2 – Money, Comparisons & Place Value"
+        ]
       },
       {
-        "week": 3,
+        "week": 4,
+        "topic": "Ch. 3: Addition and Subtraction Facts through 20",
         "assignments": [
           {
             "order": 1,
-            "name": "Counting Forward and Backward to 120",
-            "pdf_page": 56
-          },
-          {
-            "order": 2,
             "name": "Adding to 11",
             "pdf_page": 69
           },
           {
-            "order": 3,
-            "name": "Subtracting from 11",
-            "pdf_page": 70
+            "order": 2,
+            "name": "Subtracting from 13",
+            "pdf_page": 74
           },
           {
-            "order": 4,
-            "name": "Adding to 12",
-            "pdf_page": 71
-          }
-        ],
-        "topic": "Ch. 2 & 3 – Counting & Facts (through 12)"
-      },
-      {
-        "week": 4,
-        "assignments": [
-          {
-            "order": 1,
+            "order": 3,
             "name": "Fact Families 11 through 15",
             "pdf_page": 77
-          },
-          {
-            "order": 2,
-            "name": "Addition and Subtraction Facts through 16",
-            "pdf_page": 81
-          },
-          {
-            "order": 3,
-            "name": "More- and Less-Than Facts 11 through 20",
-            "pdf_page": 87
           },
           {
             "order": 4,
             "name": "Fact Families 16 through 20",
             "pdf_page": 80
           }
-        ],
-        "topic": "Ch. 3 – Fact Families (through 20)"
+        ]
       },
       {
         "week": 5,
+        "topic": "Ch. 3: Addition and Subtraction Facts through 20",
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Using Addition for Subtraction",
+            "pdf_page": 83
+          },
+          {
+            "order": 2,
+            "name": "Addition and Subtraction Facts through 18",
+            "pdf_page": 84
+          },
+          {
+            "order": 3,
+            "name": "Using Addition for Subtraction",
+            "pdf_page": 86
+          },
+          {
+            "order": 4,
+            "name": "More- and Less-Than Facts 11 through 20",
+            "pdf_page": 87
+          }
+        ]
+      },
+      {
+        "week": 6,
+        "topic": "Ch. 4: Addition and Subtraction Facts through 100",
         "assignments": [
           {
             "order": 1,
@@ -883,19 +910,19 @@
           },
           {
             "order": 3,
-            "name": "Addition and Subtraction Practice through 100",
-            "pdf_page": 97
+            "name": "Subtracting Multiples of 10",
+            "pdf_page": 95
           },
           {
             "order": 4,
-            "name": "Subtracting Multiples of 10",
-            "pdf_page": 95
+            "name": "Adding Three Numbers",
+            "pdf_page": 99
           }
-        ],
-        "topic": "Ch. 4 – 2-Digit Addition & Subtraction"
+        ]
       },
       {
-        "week": 6,
+        "week": 7,
+        "topic": "Ch. 5: Measurement",
         "assignments": [
           {
             "order": 1,
@@ -904,73 +931,46 @@
           },
           {
             "order": 2,
-            "name": "Ordering Objects",
-            "pdf_page": 108
+            "name": "Telling Time to the Half Hour",
+            "pdf_page": 106
           },
           {
             "order": 3,
-            "name": "Measuring Length and Height",
-            "pdf_page": 112
+            "name": "Comparing Lengths of Objects",
+            "pdf_page": 110
           },
           {
             "order": 4,
-            "name": "Telling Time to the Half Hour",
-            "pdf_page": 106
+            "name": "Collecting Data",
+            "pdf_page": 116
           }
-        ],
-        "topic": "Ch. 5 – Measurement & Time"
+        ]
       },
       {
-        "week": 7,
+        "week": 8,
+        "topic": "Ch. 6: Geometry",
         "assignments": [
           {
             "order": 1,
-            "name": "More or Fewer",
-            "pdf_page": 114
-          },
-          {
-            "order": 2,
-            "name": "Collecting Data",
-            "pdf_page": 116
-          },
-          {
-            "order": 3,
             "name": "Identifying Shapes",
             "pdf_page": 123
           },
           {
-            "order": 4,
-            "name": "Greater Than, Less Than, and Equal To",
-            "pdf_page": 115
-          }
-        ],
-        "topic": "Ch. 5 & 6 – Data & Geometry"
-      },
-      {
-        "week": 8,
-        "assignments": [
-          {
-            "order": 1,
+            "order": 2,
             "name": "Finding Shapes",
             "pdf_page": 125
           },
           {
-            "order": 2,
-            "name": "Partitioning Shapes",
-            "pdf_page": 129
-          },
-          {
             "order": 3,
-            "name": "Chapters 1–6 Final Test Review",
-            "pdf_page": 134
+            "name": "Composing 2-D Shapes",
+            "pdf_page": 127
           },
           {
             "order": 4,
-            "name": "Composing 2-D Shapes",
-            "pdf_page": 127
+            "name": "One-Half and One-Fourth",
+            "pdf_page": 130
           }
-        ],
-        "topic": "Ch. 6 – Geometry / Final Review"
+        ]
       }
     ]
   }
