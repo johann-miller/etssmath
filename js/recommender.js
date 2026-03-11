@@ -123,7 +123,8 @@ function getRecommendation(today, location, district, gradeData) {
     week: weekNum,
     isSummer,
     assignmentOrder,
-    assignment
+    assignment,
+    topic: weekData.topic || null
   };
 }
 
@@ -241,10 +242,21 @@ async function initScheduler() {
             const weekFolder = `Week ${String(rec.week).padStart(2, "0")}`;
             const filename = `${rec.assignment.order} - ${sanitizeFilename(rec.assignment.name)}.pdf`;
 
+            const textWrap = document.createElement("div");
+            textWrap.className = "scheduler-assignment-text";
+
             const link = document.createElement("a");
             link.href = `${gradeDir}/${yearFolder}/${weekFolder}/${filename}`;
             link.textContent = rec.assignment.name;
             link.target = "_blank";
+            textWrap.appendChild(link);
+
+            if (rec.topic) {
+              const topicEl = document.createElement("div");
+              topicEl.className = "scheduler-week-topic";
+              topicEl.textContent = rec.topic;
+              textWrap.appendChild(topicEl);
+            }
 
             const jumpBtn = document.createElement('button');
             jumpBtn.textContent = `All assignments week ${rec.week} - Grade ${grade}`;
@@ -252,7 +264,7 @@ async function initScheduler() {
             jumpBtn.addEventListener('click', () => jumpToCatalogueWeek(grade, rec.isSummer, rec.week));
 
             item.appendChild(num);
-            item.appendChild(link);
+            item.appendChild(textWrap);
             item.appendChild(jumpBtn);
             gradeSection.appendChild(item);
           }

@@ -21,7 +21,8 @@
             "name": "Adding to 4 and 5",
             "pdf_page": 13
           }
-        ]
+        ],
+        "topic": "Ch. 1 – Addition & Subtraction Facts (through 6)"
       },
       {
         "week": 2,
@@ -41,7 +42,8 @@
             "name": "Subtracting from 6",
             "pdf_page": 16
           }
-        ]
+        ],
+        "topic": "Ch. 1 – Addition & Subtraction Facts (through 6)"
       },
       {
         "week": 3,
@@ -61,7 +63,8 @@
             "name": "Problem Solving (Facts through 6)",
             "pdf_page": 19
           }
-        ]
+        ],
+        "topic": "Ch. 1 – Fact Families & Problem Solving (through 6)"
       },
       {
         "week": 4,
@@ -81,7 +84,8 @@
             "name": "Adding to 8",
             "pdf_page": 24
           }
-        ]
+        ],
+        "topic": "Ch. 1 – Addition & Subtraction Facts (7–8)"
       },
       {
         "week": 5,
@@ -101,7 +105,8 @@
             "name": "Subtracting from 9",
             "pdf_page": 27
           }
-        ]
+        ],
+        "topic": "Ch. 1 – Addition & Subtraction Facts (8–9)"
       },
       {
         "week": 6,
@@ -121,7 +126,8 @@
             "name": "Fact Families 7 through 10",
             "pdf_page": 30
           }
-        ]
+        ],
+        "topic": "Ch. 1 – Addition & Subtraction Facts (through 10)"
       },
       {
         "week": 7,
@@ -141,7 +147,8 @@
             "name": "Adding with Money",
             "pdf_page": 36
           }
-        ]
+        ],
+        "topic": "Ch. 1 – Addition & Subtraction Practice (through 10)"
       },
       {
         "week": 8,
@@ -161,7 +168,8 @@
             "name": "Using Addition for Subtraction",
             "pdf_page": 40
           }
-        ]
+        ],
+        "topic": "Ch. 1 – Money & Number Comparisons"
       },
       {
         "week": 9,
@@ -181,7 +189,8 @@
             "name": "Chapter 1 Mixed Practice",
             "pdf_page": 19
           }
-        ]
+        ],
+        "topic": "Ch. 1 – Review"
       },
       {
         "week": 10,
@@ -201,7 +210,8 @@
             "name": "Counting and Writing 20 through 24",
             "pdf_page": 50
           }
-        ]
+        ],
+        "topic": "Ch. 2 – Place Value & Counting (to 29)"
       },
       {
         "week": 11,
@@ -221,7 +231,8 @@
             "name": "Counting and Writing 50 through 69",
             "pdf_page": 53
           }
-        ]
+        ],
+        "topic": "Ch. 2 – Place Value & Counting (to 69)"
       },
       {
         "week": 12,
@@ -241,7 +252,8 @@
             "name": "Counting Forward and Backward to 120",
             "pdf_page": 56
           }
-        ]
+        ],
+        "topic": "Ch. 2 – Place Value & Counting (to 120)"
       },
       {
         "week": 13,
@@ -261,7 +273,8 @@
             "name": "Chapters 1–2 Mid-Test Review",
             "pdf_page": 62
           }
-        ]
+        ],
+        "topic": "Ch. 2 – Comparing Numbers / Mid-Test Review"
       },
       {
         "week": 14,
@@ -281,7 +294,8 @@
             "name": "Adding to 12",
             "pdf_page": 71
           }
-        ]
+        ],
+        "topic": "Ch. 3 – Addition & Subtraction Facts (11–12)"
       },
       {
         "week": 15,
@@ -301,7 +315,8 @@
             "name": "Subtracting from 13",
             "pdf_page": 74
           }
-        ]
+        ],
+        "topic": "Ch. 3 – Addition & Subtraction Facts (12–13)"
       },
       {
         "week": 16,
@@ -321,7 +336,8 @@
             "name": "Fact Families 11 through 15",
             "pdf_page": 77
           }
-        ]
+        ],
+        "topic": "Ch. 3 – Addition & Subtraction Facts (14–15)"
       },
       {
         "week": 17,
@@ -341,7 +357,8 @@
             "name": "Fact Families 16 through 20",
             "pdf_page": 80
           }
-        ]
+        ],
+        "topic": "Ch. 3 – Fact Families (through 16)"
       },
       {
         "week": 18,
@@ -361,7 +378,8 @@
             "name": "Using Addition for Subtraction",
             "pdf_page": 83
           }
-        ]
+        ],
+        "topic": "Ch. 3 – Addition & Subtraction Facts (through 18)"
       },
       {
         "week": 19,
@@ -381,7 +399,8 @@
             "name": "Using Addition for Subtraction (through 18)",
             "pdf_page": 86
           }
-        ]
+        ],
+        "topic": "Ch. 3 – Fact Families & Practice (through 18)"
       },
       {
         "week": 20,
@@ -401,7 +420,8 @@
             "name": "Chapter 3 Mixed Practice",
             "pdf_page": 69
           }
-        ]
+        ],
+        "topic": "Ch. 3 – Review"
       },
       {
         "week": 21,
@@ -421,7 +441,8 @@
             "name": "Adding Multiples of 10 to 2-Digit Numbers",
             "pdf_page": 93
           }
-        ]
+        ],
+        "topic": "Ch. 4 – 2-Digit Addition"
       },
       {
         "week": 22,
@@ -441,7 +462,8 @@
             "name": "Subtracting Multiples of 10 (continued)",
             "pdf_page": 96
           }
-        ]
+        ],
+        "topic": "Ch. 4 – 2-Digit Addition & Subtraction"
       },
       {
         "week": 23,
@@ -461,7 +483,8 @@
             "name": "Adding Three Numbers",
             "pdf_page": 99
           }
-        ]
+        ],
+        "topic": "Ch. 4 – 2-Digit Addition & Subtraction"
       },
       {
         "week": 24,
@@ -481,7 +504,8 @@
             "name": "Chapter 4 Mixed Practice",
             "pdf_page": 94
           }
-        ]
+        ],
+        "topic": "Ch. 4 – Review"
       },
       {
         "week": 25,
@@ -501,7 +525,8 @@
             "name": "Telling Time to the Half Hour",
             "pdf_page": 106
           }
-        ]
+        ],
+        "topic": "Ch. 5 – Telling Time"
       },
       {
         "week": 26,
@@ -521,7 +546,8 @@
             "name": "Ordering Objects (continued)",
             "pdf_page": 109
           }
-        ]
+        ],
+        "topic": "Ch. 5 – Time & Ordering Objects"
       },
       {
         "week": 27,
@@ -541,7 +567,8 @@
             "name": "Measuring Length and Height",
             "pdf_page": 112
           }
-        ]
+        ],
+        "topic": "Ch. 5 – Measuring Length & Height"
       },
       {
         "week": 28,
@@ -561,7 +588,8 @@
             "name": "Greater Than, Less Than, and Equal To",
             "pdf_page": 115
           }
-        ]
+        ],
+        "topic": "Ch. 5 – Measurement & Comparisons"
       },
       {
         "week": 29,
@@ -581,7 +609,8 @@
             "name": "Chapter 5 Review",
             "pdf_page": 104
           }
-        ]
+        ],
+        "topic": "Ch. 5 – Collecting Data / Review"
       },
       {
         "week": 30,
@@ -601,7 +630,8 @@
             "name": "Finding Shapes",
             "pdf_page": 125
           }
-        ]
+        ],
+        "topic": "Ch. 6 – Identifying & Drawing Shapes"
       },
       {
         "week": 31,
@@ -621,7 +651,8 @@
             "name": "Composing 3-D Shapes",
             "pdf_page": 128
           }
-        ]
+        ],
+        "topic": "Ch. 6 – Composing Shapes"
       },
       {
         "week": 32,
@@ -641,7 +672,8 @@
             "name": "Chapter 6 Review",
             "pdf_page": 123
           }
-        ]
+        ],
+        "topic": "Ch. 6 – Partitioning Shapes & Fractions"
       },
       {
         "week": 33,
@@ -661,7 +693,8 @@
             "name": "Mixed Fact Families Practice",
             "pdf_page": 17
           }
-        ]
+        ],
+        "topic": "Final Review – Chapters 1–2"
       },
       {
         "week": 34,
@@ -681,7 +714,8 @@
             "name": "Adding Three Numbers Review",
             "pdf_page": 99
           }
-        ]
+        ],
+        "topic": "Final Review – Chapters 3–4"
       },
       {
         "week": 35,
@@ -701,7 +735,8 @@
             "name": "Collecting Data and Graphing Review",
             "pdf_page": 116
           }
-        ]
+        ],
+        "topic": "Final Review – Chapters 5–6"
       },
       {
         "week": 36,
@@ -721,7 +756,8 @@
             "name": "End-of-Year Celebration and Reflection",
             "pdf_page": 136
           }
-        ]
+        ],
+        "topic": "End-of-Year Review"
       }
     ]
   },
@@ -751,7 +787,8 @@
             "name": "Subtracting from 10",
             "pdf_page": 29
           }
-        ]
+        ],
+        "topic": "Ch. 1 – Addition & Subtraction Facts"
       },
       {
         "week": 2,
@@ -776,7 +813,8 @@
             "name": "Counting to 120",
             "pdf_page": 55
           }
-        ]
+        ],
+        "topic": "Ch. 1 & 2 – Money, Comparisons & Place Value"
       },
       {
         "week": 3,
@@ -801,7 +839,8 @@
             "name": "Adding to 12",
             "pdf_page": 71
           }
-        ]
+        ],
+        "topic": "Ch. 2 & 3 – Counting & Facts (through 12)"
       },
       {
         "week": 4,
@@ -826,7 +865,8 @@
             "name": "Fact Families 16 through 20",
             "pdf_page": 80
           }
-        ]
+        ],
+        "topic": "Ch. 3 – Fact Families (through 20)"
       },
       {
         "week": 5,
@@ -851,7 +891,8 @@
             "name": "Subtracting Multiples of 10",
             "pdf_page": 95
           }
-        ]
+        ],
+        "topic": "Ch. 4 – 2-Digit Addition & Subtraction"
       },
       {
         "week": 6,
@@ -876,7 +917,8 @@
             "name": "Telling Time to the Half Hour",
             "pdf_page": 106
           }
-        ]
+        ],
+        "topic": "Ch. 5 – Measurement & Time"
       },
       {
         "week": 7,
@@ -901,7 +943,8 @@
             "name": "Greater Than, Less Than, and Equal To",
             "pdf_page": 115
           }
-        ]
+        ],
+        "topic": "Ch. 5 & 6 – Data & Geometry"
       },
       {
         "week": 8,
@@ -926,7 +969,8 @@
             "name": "Composing 2-D Shapes",
             "pdf_page": 127
           }
-        ]
+        ],
+        "topic": "Ch. 6 – Geometry / Final Review"
       }
     ]
   }

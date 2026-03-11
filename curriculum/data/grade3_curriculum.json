@@ -21,7 +21,8 @@
             "name": "Adding 2-Digit Numbers (no renaming)",
             "pdf_page": 9
           }
-        ]
+        ],
+        "topic": "Ch. 1 – Addition & Subtraction (2-Digit, No Renaming)"
       },
       {
         "week": 2,
@@ -41,7 +42,8 @@
             "name": "Subtracting 2-Digit Numbers (with renaming)",
             "pdf_page": 12
           }
-        ]
+        ],
+        "topic": "Ch. 1 – Addition & Subtraction (2-Digit with Renaming)"
       },
       {
         "week": 3,
@@ -61,7 +63,8 @@
             "name": "Problem Solving",
             "pdf_page": 15
           }
-        ]
+        ],
+        "topic": "Ch. 1 – Multi-Number Addition & Problem Solving"
       },
       {
         "week": 4,
@@ -73,7 +76,7 @@
           },
           {
             "order": 2,
-            "name": "Chapter 1 Review",
+            "name": "Check What You Know",
             "pdf_page": 5
           },
           {
@@ -81,14 +84,15 @@
             "name": "Adding 2-Digit Numbers",
             "pdf_page": 21
           }
-        ]
+        ],
+        "topic": "Ch. 1 Review / Ch. 2 – 2 & 3-Digit Operations"
       },
       {
         "week": 5,
         "assignments": [
           {
             "order": 1,
-            "name": "Adding 2-Digit Numbers (continued)",
+            "name": "Problem Solving",
             "pdf_page": 22
           },
           {
@@ -101,7 +105,8 @@
             "name": "Subtracting 2 Digits from 3 Digits (continued)",
             "pdf_page": 24
           }
-        ]
+        ],
+        "topic": "Ch. 2 – Subtracting from 3-Digit Numbers"
       },
       {
         "week": 6,
@@ -121,7 +126,8 @@
             "name": "Adding 3-Digit Numbers",
             "pdf_page": 27
           }
-        ]
+        ],
+        "topic": "Ch. 2 – Adding & Subtracting 3-Digit Numbers"
       },
       {
         "week": 7,
@@ -141,7 +147,8 @@
             "name": "Subtracting 3-Digit Numbers (continued)",
             "pdf_page": 30
           }
-        ]
+        ],
+        "topic": "Ch. 2 – Adding & Subtracting 3-Digit Numbers"
       },
       {
         "week": 8,
@@ -161,7 +168,8 @@
             "name": "Addition and Subtraction Practice",
             "pdf_page": 33
           }
-        ]
+        ],
+        "topic": "Ch. 2 – Inverse Operations & Practice"
       },
       {
         "week": 9,
@@ -173,7 +181,7 @@
           },
           {
             "order": 2,
-            "name": "Chapter 2 Review",
+            "name": "Check What You Know",
             "pdf_page": 19
           },
           {
@@ -181,14 +189,15 @@
             "name": "Adding 3 or More Numbers (1- and 2-digit)",
             "pdf_page": 39
           }
-        ]
+        ],
+        "topic": "Ch. 2 Review / Ch. 3 – Multi-Digit Addition"
       },
       {
         "week": 10,
         "assignments": [
           {
             "order": 1,
-            "name": "Adding 3 or More Numbers (1- and 2-digit) (continued)",
+            "name": "Problem Solving",
             "pdf_page": 40
           },
           {
@@ -201,7 +210,8 @@
             "name": "Adding 3 or More Numbers (3-digit) (continued)",
             "pdf_page": 42
           }
-        ]
+        ],
+        "topic": "Ch. 3 – Adding 3 or More Numbers"
       },
       {
         "week": 11,
@@ -213,7 +223,7 @@
           },
           {
             "order": 2,
-            "name": "Adding 4-Digit Numbers (continued)",
+            "name": "Problem Solving",
             "pdf_page": 44
           },
           {
@@ -221,14 +231,15 @@
             "name": "Subtracting to 4 Digits",
             "pdf_page": 45
           }
-        ]
+        ],
+        "topic": "Ch. 3 – Adding 4-Digit Numbers & Subtraction"
       },
       {
         "week": 12,
         "assignments": [
           {
             "order": 1,
-            "name": "Subtracting to 4 Digits (continued)",
+            "name": "Problem Solving",
             "pdf_page": 46
           },
           {
@@ -241,7 +252,8 @@
             "name": "Rounding (continued)",
             "pdf_page": 48
           }
-        ]
+        ],
+        "topic": "Ch. 3 – Rounding"
       },
       {
         "week": 13,
@@ -253,7 +265,7 @@
           },
           {
             "order": 2,
-            "name": "Estimating Addition (continued)",
+            "name": "Problem Solving",
             "pdf_page": 50
           },
           {
@@ -261,27 +273,29 @@
             "name": "Estimating Subtraction",
             "pdf_page": 51
           }
-        ]
+        ],
+        "topic": "Ch. 3 – Estimating Addition & Subtraction"
       },
       {
         "week": 14,
         "assignments": [
           {
             "order": 1,
-            "name": "Estimating Subtraction (continued)",
+            "name": "Problem Solving",
             "pdf_page": 52
           },
           {
             "order": 2,
-            "name": "Chapter 3 Review",
+            "name": "Check What You Know",
             "pdf_page": 37
           },
           {
             "order": 3,
-            "name": "Chapters 1–3 Mid-Test",
+            "name": "Mid-Test Chapters 1-3",
             "pdf_page": 55
           }
-        ]
+        ],
+        "topic": "Ch. 3 Review / Mid-Test (Chapters 1–3)"
       },
       {
         "week": 15,
@@ -301,7 +315,8 @@
             "name": "Problem Solving",
             "pdf_page": 63
           }
-        ]
+        ],
+        "topic": "Ch. 4 – Introduction to Multiplication"
       },
       {
         "week": 16,
@@ -321,7 +336,8 @@
             "name": "Problem Solving",
             "pdf_page": 66
           }
-        ]
+        ],
+        "topic": "Ch. 4 – Multiplication Facts (through 9×9)"
       },
       {
         "week": 17,
@@ -341,7 +357,8 @@
             "name": "Problem Solving",
             "pdf_page": 69
           }
-        ]
+        ],
+        "topic": "Ch. 4 – Multiplying by Multiples of 10"
       },
       {
         "week": 18,
@@ -353,7 +370,7 @@
           },
           {
             "order": 2,
-            "name": "Chapter 4 Review",
+            "name": "Check What You Know",
             "pdf_page": 59
           },
           {
@@ -361,7 +378,8 @@
             "name": "Understanding Division",
             "pdf_page": 75
           }
-        ]
+        ],
+        "topic": "Ch. 4 Review / Ch. 5 – Introduction to Division"
       },
       {
         "week": 19,
@@ -378,10 +396,11 @@
           },
           {
             "order": 3,
-            "name": "Dividing through 27 ÷ 3 (continued)",
+            "name": "Problem Solving",
             "pdf_page": 78
           }
-        ]
+        ],
+        "topic": "Ch. 5 – Division Facts (through ÷3)"
       },
       {
         "week": 20,
@@ -393,7 +412,7 @@
           },
           {
             "order": 2,
-            "name": "Dividing through 54 ÷ 6 (continued)",
+            "name": "Problem Solving",
             "pdf_page": 80
           },
           {
@@ -401,14 +420,15 @@
             "name": "Dividing through 81 ÷ 9",
             "pdf_page": 81
           }
-        ]
+        ],
+        "topic": "Ch. 5 – Division Facts (through ÷9)"
       },
       {
         "week": 21,
         "assignments": [
           {
             "order": 1,
-            "name": "Dividing through 81 ÷ 9 (continued)",
+            "name": "Problem Solving",
             "pdf_page": 82
           },
           {
@@ -421,7 +441,8 @@
             "name": "Division and Multiplication Practice",
             "pdf_page": 84
           }
-        ]
+        ],
+        "topic": "Ch. 5 – Division Practice"
       },
       {
         "week": 22,
@@ -433,7 +454,7 @@
           },
           {
             "order": 2,
-            "name": "Chapter 5 Review",
+            "name": "Check What You Know",
             "pdf_page": 73
           },
           {
@@ -441,7 +462,8 @@
             "name": "Parts of a Whole",
             "pdf_page": 90
           }
-        ]
+        ],
+        "topic": "Ch. 5 Review / Ch. 6 – Fractions"
       },
       {
         "week": 23,
@@ -461,7 +483,8 @@
             "name": "Comparing Fractions (continued)",
             "pdf_page": 93
           }
-        ]
+        ],
+        "topic": "Ch. 6 – Fractions (Parts of a Whole & Set)"
       },
       {
         "week": 24,
@@ -481,14 +504,15 @@
             "name": "Whole Numbers as Fractions",
             "pdf_page": 96
           }
-        ]
+        ],
+        "topic": "Ch. 6 – Fractions on a Number Line"
       },
       {
         "week": 25,
         "assignments": [
           {
             "order": 1,
-            "name": "Chapter 6 Review",
+            "name": "Check What You Know",
             "pdf_page": 88
           },
           {
@@ -501,7 +525,8 @@
             "name": "Measuring Volume and Mass (continued)",
             "pdf_page": 102
           }
-        ]
+        ],
+        "topic": "Ch. 6 Review / Ch. 7 – Measurement"
       },
       {
         "week": 26,
@@ -521,7 +546,8 @@
             "name": "Gathering Data to Draw a Line Plot",
             "pdf_page": 105
           }
-        ]
+        ],
+        "topic": "Ch. 7 – Data & Graphs"
       },
       {
         "week": 27,
@@ -541,7 +567,8 @@
             "name": "Finding Area with Unit Squares (continued)",
             "pdf_page": 108
           }
-        ]
+        ],
+        "topic": "Ch. 7 – Area"
       },
       {
         "week": 28,
@@ -561,7 +588,8 @@
             "name": "Finding Area of Irregular Shapes",
             "pdf_page": 111
           }
-        ]
+        ],
+        "topic": "Ch. 7 – Measuring Area"
       },
       {
         "week": 29,
@@ -578,17 +606,18 @@
           },
           {
             "order": 3,
-            "name": "Measuring Perimeter (continued)",
+            "name": "Problem Solving",
             "pdf_page": 114
           }
-        ]
+        ],
+        "topic": "Ch. 7 – Perimeter"
       },
       {
         "week": 30,
         "assignments": [
           {
             "order": 1,
-            "name": "Chapter 7 Review",
+            "name": "Check What You Know",
             "pdf_page": 99
           },
           {
@@ -601,7 +630,8 @@
             "name": "Telling Time (continued)",
             "pdf_page": 119
           }
-        ]
+        ],
+        "topic": "Ch. 7 Review / Ch. 8 – Telling Time"
       },
       {
         "week": 31,
@@ -613,7 +643,7 @@
           },
           {
             "order": 2,
-            "name": "Chapter 8 Review",
+            "name": "Check What You Know",
             "pdf_page": 117
           },
           {
@@ -621,7 +651,8 @@
             "name": "Plane Figures",
             "pdf_page": 123
           }
-        ]
+        ],
+        "topic": "Ch. 8 – Time / Ch. 9 – Geometry"
       },
       {
         "week": 32,
@@ -641,14 +672,15 @@
             "name": "Dividing Shapes",
             "pdf_page": 126
           }
-        ]
+        ],
+        "topic": "Ch. 9 – Geometry"
       },
       {
         "week": 33,
         "assignments": [
           {
             "order": 1,
-            "name": "Chapter 9 Review",
+            "name": "Check What You Know",
             "pdf_page": 122
           },
           {
@@ -661,7 +693,8 @@
             "name": "Number Sentences",
             "pdf_page": 131
           }
-        ]
+        ],
+        "topic": "Ch. 9 Review / Ch. 10 – Patterns & Number Sentences"
       },
       {
         "week": 34,
@@ -673,55 +706,58 @@
           },
           {
             "order": 2,
-            "name": "Number Sentences (continued)",
+            "name": "Problem Solving",
             "pdf_page": 133
           },
           {
             "order": 3,
-            "name": "Number Sentences (continued)",
+            "name": "Problem Solving",
             "pdf_page": 134
           }
-        ]
+        ],
+        "topic": "Ch. 10 – Number Sentences & Problem Solving"
       },
       {
         "week": 35,
         "assignments": [
           {
             "order": 1,
-            "name": "Chapter 10 Review",
+            "name": "Check What You Know",
             "pdf_page": 128
           },
           {
             "order": 2,
-            "name": "Final Test Review: Chapters 1–3 (Addition and Subtraction)",
+            "name": "Check What You Learned",
             "pdf_page": 17
           },
           {
             "order": 3,
-            "name": "Final Test Review: Chapters 4–5 (Multiplication and Division)",
+            "name": "Check What You Learned",
             "pdf_page": 71
           }
-        ]
+        ],
+        "topic": "End-of-Year Review (Chapters 1–3 & 4–5)"
       },
       {
         "week": 36,
         "assignments": [
           {
             "order": 1,
-            "name": "Final Test Review: Chapter 6 (Fractions)",
+            "name": "Check What You Learned",
             "pdf_page": 97
           },
           {
             "order": 2,
-            "name": "Final Test Review: Chapters 7–8 (Measurement and Time)",
+            "name": "Check What You Learned",
             "pdf_page": 115
           },
           {
             "order": 3,
-            "name": "Final Test Review: Chapters 9–10 (Geometry and Algebra)",
+            "name": "Check What You Learned",
             "pdf_page": 127
           }
-        ]
+        ],
+        "topic": "End-of-Year Review (Chapters 6–9)"
       }
     ]
   },
@@ -733,40 +769,52 @@
         "assignments": [
           {
             "order": 1,
-            "name": "Adding and Subtracting through 20",
+            "name": "Adding through 20",
             "pdf_page": 7
           },
           {
             "order": 2,
-            "name": "Adding and Subtracting 2-Digit Numbers (with renaming)",
-            "pdf_page": 11
+            "name": "Subtracting through 20",
+            "pdf_page": 8
           },
           {
             "order": 3,
-            "name": "Addition and Subtraction Practice",
-            "pdf_page": 14
+            "name": "Adding 2-Digit Numbers (with renaming)",
+            "pdf_page": 11
+          },
+          {
+            "order": 4,
+            "name": "Subtracting 2-Digit Numbers (with renaming)",
+            "pdf_page": 12
           }
-        ]
+        ],
+        "topic": "Ch. 1 – Addition & Subtraction (2-Digit)"
       },
       {
         "week": 2,
         "assignments": [
           {
             "order": 1,
-            "name": "Adding and Subtracting 3-Digit Numbers",
-            "pdf_page": 27
+            "name": "Addition and Subtraction Practice",
+            "pdf_page": 14
           },
           {
             "order": 2,
-            "name": "Thinking Subtraction for Addition and Thinking Addition for Subtraction",
-            "pdf_page": 31
+            "name": "Adding 3-Digit Numbers",
+            "pdf_page": 27
           },
           {
             "order": 3,
-            "name": "Addition and Subtraction Practice (2- and 3-digit)",
-            "pdf_page": 33
+            "name": "Subtracting 3-Digit Numbers",
+            "pdf_page": 29
+          },
+          {
+            "order": 4,
+            "name": "Thinking Addition for Subtraction",
+            "pdf_page": 32
           }
-        ]
+        ],
+        "topic": "Ch. 2 – Addition & Subtraction (3-Digit)"
       },
       {
         "week": 3,
@@ -783,10 +831,16 @@
           },
           {
             "order": 3,
-            "name": "Rounding and Estimating",
+            "name": "Rounding",
             "pdf_page": 47
+          },
+          {
+            "order": 4,
+            "name": "Estimating Addition",
+            "pdf_page": 49
           }
-        ]
+        ],
+        "topic": "Ch. 3 – 4-Digit Operations, Rounding & Estimation"
       },
       {
         "week": 4,
@@ -798,15 +852,21 @@
           },
           {
             "order": 2,
+            "name": "Multiplying through 5 x 9",
+            "pdf_page": 64
+          },
+          {
+            "order": 3,
             "name": "Multiplying through 9 x 9",
             "pdf_page": 65
           },
           {
-            "order": 3,
+            "order": 4,
             "name": "Two-Step Problem Solving",
             "pdf_page": 70
           }
-        ]
+        ],
+        "topic": "Ch. 4 – Multiplication"
       },
       {
         "week": 5,
@@ -818,35 +878,47 @@
           },
           {
             "order": 2,
+            "name": "Dividing through 27 ÷ 3",
+            "pdf_page": 77
+          },
+          {
+            "order": 3,
             "name": "Division Practice",
             "pdf_page": 83
           },
           {
-            "order": 3,
+            "order": 4,
             "name": "Division and Multiplication Practice",
             "pdf_page": 84
           }
-        ]
+        ],
+        "topic": "Ch. 5 – Division"
       },
       {
         "week": 6,
         "assignments": [
           {
             "order": 1,
-            "name": "Parts of a Whole and Parts of a Set",
+            "name": "Parts of a Whole",
             "pdf_page": 90
           },
           {
             "order": 2,
+            "name": "Parts of a Set",
+            "pdf_page": 91
+          },
+          {
+            "order": 3,
             "name": "Comparing Fractions",
             "pdf_page": 92
           },
           {
-            "order": 3,
+            "order": 4,
             "name": "Fractions on a Number Line",
             "pdf_page": 94
           }
-        ]
+        ],
+        "topic": "Ch. 6 – Fractions"
       },
       {
         "week": 7,
@@ -858,35 +930,47 @@
           },
           {
             "order": 2,
-            "name": "Finding Area and Measuring Perimeter",
-            "pdf_page": 107
+            "name": "Drawing Picture Graphs",
+            "pdf_page": 103
           },
           {
             "order": 3,
-            "name": "Drawing Picture Graphs and Bar Graphs",
-            "pdf_page": 103
+            "name": "Finding Area with Unit Squares",
+            "pdf_page": 107
+          },
+          {
+            "order": 4,
+            "name": "Measuring Perimeter",
+            "pdf_page": 113
           }
-        ]
+        ],
+        "topic": "Ch. 7 – Measurement & Data"
       },
       {
         "week": 8,
         "assignments": [
           {
             "order": 1,
-            "name": "Telling Time and Time on a Number Line",
+            "name": "Telling Time",
             "pdf_page": 118
           },
           {
             "order": 2,
-            "name": "Plane and Solid Figures",
-            "pdf_page": 123
+            "name": "Time on a Number Line",
+            "pdf_page": 120
           },
           {
             "order": 3,
-            "name": "Number Patterns and Number Sentences",
+            "name": "Plane Figures",
+            "pdf_page": 123
+          },
+          {
+            "order": 4,
+            "name": "Number Patterns",
             "pdf_page": 130
           }
-        ]
+        ],
+        "topic": "Ch. 8 & 10 – Time, Geometry & Number Patterns"
       }
     ]
   }

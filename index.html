@@ -91,7 +91,7 @@
 
         const label = document.createElement('div');
         label.className = 'week-label';
-        label.textContent = `Week ${w.week} - Grade ${grade}`;
+        label.innerHTML = `Week ${w.week} - Grade ${grade}${w.topic ? `<span class="week-topic">${w.topic}</span>` : ''}`;
         card.appendChild(label);
 
         const list = document.createElement('div');
