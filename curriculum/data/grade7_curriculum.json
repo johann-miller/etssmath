@@ -5,763 +5,973 @@
     "weeks": [
       {
         "week": 1,
+        "topic": "Ch. 1: Adding and Subtracting Rational Numbers",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 1 Pretest",
+            "pdf_page": 7
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 1 Pretest Part 2",
+            "pdf_page": 8
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Understanding Absolute Value",
+            "pdf_page": 9
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 2,
+        "topic": "Ch. 1: Adding and Subtracting Rational Numbers",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Absolute Values and Integers",
+            "pdf_page": 10
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Subtraction as an Inverse Operation",
+            "pdf_page": 11
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Adding Fractions and Mixed Numbers",
+            "pdf_page": 12
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 3,
+        "topic": "Ch. 1: Adding and Subtracting Rational Numbers",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Adding Integers",
+            "pdf_page": 13
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Adding Integers (continued)",
+            "pdf_page": 14
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Subtracting Integers",
+            "pdf_page": 15
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 4,
+        "topic": "Ch. 1: Adding and Subtracting Rational Numbers",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Subtracting Integers (continued)",
+            "pdf_page": 16
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Subtracting Fractions and Mixed Numbers",
+            "pdf_page": 17
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Adding Using Mathematical Properties",
+            "pdf_page": 18
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 5,
+        "topic": "Ch. 1: Adding and Subtracting Rational Numbers",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Problem Solving",
+            "pdf_page": 19
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Problem Solving (continued)",
+            "pdf_page": 20
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 1 Posttest",
+            "pdf_page": 21
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 6,
+        "topic": "Ch. 1: Adding and Subtracting Rational Numbers / Ch. 2: Multiplying and Dividing Rational Numbers",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 1 Posttest Part 2",
+            "pdf_page": 22
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 2 Pretest",
+            "pdf_page": 23
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 2 Pretest Part 2",
+            "pdf_page": 24
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 7,
+        "topic": "Ch. 2: Multiplying and Dividing Rational Numbers",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Multiplying and the Distributive Property",
+            "pdf_page": 25
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Multiplying Fractions and Mixed Numbers",
+            "pdf_page": 26
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Multiplying Integers",
+            "pdf_page": 27
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 8,
+        "topic": "Ch. 2: Multiplying and Dividing Rational Numbers",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Multiplying Integers (continued)",
+            "pdf_page": 28
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Dividing Fractions and Mixed Numbers",
+            "pdf_page": 29
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Understanding Integer Division",
+            "pdf_page": 30
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 9,
+        "topic": "Ch. 2: Multiplying and Dividing Rational Numbers",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Dividing Integers",
+            "pdf_page": 31
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Dividing Integers (continued)",
+            "pdf_page": 32
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Multiplying and Dividing Using Mathematical Properties",
+            "pdf_page": 33
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 10,
+        "topic": "Ch. 2: Multiplying and Dividing Rational Numbers",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Converting Rational Numbers Using Division",
+            "pdf_page": 34
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Converting Rational Numbers Using Division (continued)",
+            "pdf_page": 35
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Problem Solving",
+            "pdf_page": 36
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 11,
+        "topic": "Ch. 2: Multiplying and Dividing Rational Numbers",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Problem Solving (continued)",
+            "pdf_page": 37
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 2 Posttest",
+            "pdf_page": 38
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 2 Posttest Part 2",
+            "pdf_page": 39
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 12,
+        "topic": "Ch. 3: Expressions, Equations, and Inequalities",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 3 Pretest",
+            "pdf_page": 40
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 3 Pretest Part 2",
+            "pdf_page": 41
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Mathematical Properties & Equivalent Expressions",
+            "pdf_page": 42
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 13,
+        "topic": "Ch. 3: Expressions, Equations, and Inequalities",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Mathematical Properties & Equivalent Expressions (continued)",
+            "pdf_page": 43
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Solving Problems with Equivalent Expressions",
+            "pdf_page": 44
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Creating Expressions to Solve Problems",
+            "pdf_page": 45
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 14,
+        "topic": "Ch. 3: Expressions, Equations, and Inequalities",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Creating Expressions to Solve Problems (continued)",
+            "pdf_page": 46
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Using Variables to Solve Problems",
+            "pdf_page": 47
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Using Variables to Solve Problems (continued)",
+            "pdf_page": 48
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 15,
+        "topic": "Ch. 3: Expressions, Equations, and Inequalities",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Using Variables to Solve Problems (continued)",
+            "pdf_page": 49
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Using Variables to Express Inequalities",
+            "pdf_page": 50
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Using Variables to Express Inequalities (continued)",
+            "pdf_page": 51
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 16,
+        "topic": "Ch. 3: Expressions, Equations, and Inequalities",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Using Variables to Express Inequalities (continued)",
+            "pdf_page": 52
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 3 Posttest",
+            "pdf_page": 53
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 3 Posttest Part 2",
+            "pdf_page": 54
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 17,
+        "topic": "Ch. 4: Ratios and Proportional Relationships",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 4 Pretest",
+            "pdf_page": 55
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 4 Pretest Part 2",
+            "pdf_page": 56
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Unit Rates with Fractions",
+            "pdf_page": 57
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 18,
+        "topic": "Ch. 4: Ratios and Proportional Relationships",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Unit Rates with Fractions (continued)",
+            "pdf_page": 58
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Testing Proportional Relationships",
+            "pdf_page": 59
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Testing Proportional Relationships (continued)",
+            "pdf_page": 60
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 19,
+        "topic": "Ch. 4: Ratios and Proportional Relationships",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Testing Proportional Relationships (continued)",
+            "pdf_page": 61
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Constants of Proportionality",
+            "pdf_page": 62
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Constants of Proportionality (continued)",
+            "pdf_page": 63
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 20,
+        "topic": "Ch. 4: Ratios and Proportional Relationships",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Using Equations to Represent Proportions",
+            "pdf_page": 64
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Using Equations to Represent Proportions (continued)",
+            "pdf_page": 65
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Proportional Relationships on the Coordinate Plane",
+            "pdf_page": 66
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 21,
+        "topic": "Ch. 4: Ratios and Proportional Relationships",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Proportional Relationships on the Coordinate Plane (continued)",
+            "pdf_page": 67
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Problem Solving",
+            "pdf_page": 68
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Problem Solving (continued)",
+            "pdf_page": 69
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 22,
+        "topic": "Ch. 4: Ratios and Proportional Relationships",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 4 Posttest",
+            "pdf_page": 70
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 4 Posttest Part 2",
+            "pdf_page": 71
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapters 1\u20134 Mid-Test",
+            "pdf_page": 72
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 23,
+        "topic": "Ch. 4: Ratios and Proportional Relationships / Ch. 5: Geometry",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapters 1\u20134 Mid-Test Part 2",
+            "pdf_page": 73
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapters 1\u20134 Mid-Test Part 3",
+            "pdf_page": 74
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapters 1\u20134 Mid-Test Part 4",
+            "pdf_page": 75
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 24,
+        "topic": "Ch. 5: Geometry",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 5 Pretest",
+            "pdf_page": 76
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 5 Pretest Part 2",
+            "pdf_page": 77
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Scale Drawings",
+            "pdf_page": 78
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 25,
+        "topic": "Ch. 5: Geometry",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Scale Drawings (continued)",
+            "pdf_page": 79
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Scale Drawings (continued)",
+            "pdf_page": 80
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Problem Solving",
+            "pdf_page": 81
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 26,
+        "topic": "Ch. 5: Geometry",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Problem Solving (continued)",
+            "pdf_page": 82
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Drawing Geometric Shapes: Triangles",
+            "pdf_page": 83
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Drawing Geometric Shapes: Triangles (continued)",
+            "pdf_page": 84
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 27,
+        "topic": "Ch. 5: Geometry",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Drawing Geometric Shapes: Triangles (continued)",
+            "pdf_page": 85
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Cross Sections of 3-Dimensional Figures",
+            "pdf_page": 86
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Cross Sections of 3-Dimensional Figures (continued)",
+            "pdf_page": 87
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 28,
+        "topic": "Ch. 5: Geometry",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Circles: Circumference",
+            "pdf_page": 88
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Circles: Circumference (continued)",
+            "pdf_page": 89
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Circles: Circumference (continued)",
+            "pdf_page": 90
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 29,
+        "topic": "Ch. 5: Geometry",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Circles: Area",
+            "pdf_page": 91
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Circles: Area (continued)",
+            "pdf_page": 92
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Circles: Area (continued)",
+            "pdf_page": 93
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 30,
+        "topic": "Ch. 5: Geometry",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Angle Relationships",
+            "pdf_page": 94
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Angle Relationships (continued)",
+            "pdf_page": 95
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Angle Relationships (continued)",
+            "pdf_page": 96
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 31,
+        "topic": "Ch. 5: Geometry",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Problem Solving",
+            "pdf_page": 97
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Area: Rectangles",
+            "pdf_page": 98
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Area: Triangles",
+            "pdf_page": 99
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 32,
+        "topic": "Ch. 5: Geometry",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Volume: Rectangular Prisms",
+            "pdf_page": 100
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Volume: Pyramids",
+            "pdf_page": 101
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Problem Solving",
+            "pdf_page": 102
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 33,
+        "topic": "Ch. 5: Geometry / Ch. 6: Statistics",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 5 Posttest",
+            "pdf_page": 105
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 5 Posttest Part 2",
+            "pdf_page": 106
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 6 Pretest",
+            "pdf_page": 107
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 34,
+        "topic": "Ch. 6: Statistics",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 6 Pretest Part 2",
+            "pdf_page": 108
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Sampling",
+            "pdf_page": 109
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Sampling (continued)",
+            "pdf_page": 110
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 35,
+        "topic": "Ch. 6: Statistics",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Drawing Inferences from Data",
+            "pdf_page": 111
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Drawing Inferences from Data (continued)",
+            "pdf_page": 112
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Drawing Inferences from Data (continued)",
+            "pdf_page": 113
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 36,
+        "topic": "Ch. 6: Statistics",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Reviewing Measures of Center",
+            "pdf_page": 114
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Comparing Similar Data Sets",
+            "pdf_page": 115
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Comparing Similar Data Sets (continued)",
+            "pdf_page": 116
           }
-        ],
-        "topic": "TBD"
+        ]
       }
     ]
   },
   "summer_program": {
-    "weeks": []
+    "total_weeks": 8,
+    "weeks": [
+      {
+        "week": 1,
+        "topic": "Ch. 1: Adding and Subtracting Rational Numbers",
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Understanding Absolute Value",
+            "pdf_page": 9
+          },
+          {
+            "order": 2,
+            "name": "Adding Integers",
+            "pdf_page": 13
+          },
+          {
+            "order": 3,
+            "name": "Subtracting Fractions and Mixed Numbers",
+            "pdf_page": 17
+          },
+          {
+            "order": 4,
+            "name": "Chapter 1 Posttest",
+            "pdf_page": 21
+          }
+        ]
+      },
+      {
+        "week": 2,
+        "topic": "Ch. 2: Multiplying and Dividing Rational Numbers",
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Multiplying Fractions and Mixed Numbers",
+            "pdf_page": 26
+          },
+          {
+            "order": 2,
+            "name": "Dividing Fractions and Mixed Numbers",
+            "pdf_page": 29
+          },
+          {
+            "order": 3,
+            "name": "Dividing Integers",
+            "pdf_page": 31
+          },
+          {
+            "order": 4,
+            "name": "Chapter 2 Posttest",
+            "pdf_page": 38
+          }
+        ]
+      },
+      {
+        "week": 3,
+        "topic": "Ch. 3: Expressions, Equations, and Inequalities",
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Mathematical Properties & Equivalent Expressions",
+            "pdf_page": 42
+          },
+          {
+            "order": 2,
+            "name": "Creating Expressions to Solve Problems",
+            "pdf_page": 45
+          },
+          {
+            "order": 3,
+            "name": "Using Variables to Express Inequalities",
+            "pdf_page": 50
+          },
+          {
+            "order": 4,
+            "name": "Chapter 3 Posttest",
+            "pdf_page": 53
+          }
+        ]
+      },
+      {
+        "week": 4,
+        "topic": "Ch. 4: Ratios and Proportional Relationships",
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Unit Rates with Fractions",
+            "pdf_page": 57
+          },
+          {
+            "order": 2,
+            "name": "Constants of Proportionality",
+            "pdf_page": 62
+          },
+          {
+            "order": 3,
+            "name": "Proportional Relationships on the Coordinate Plane",
+            "pdf_page": 66
+          },
+          {
+            "order": 4,
+            "name": "Chapter 4 Posttest",
+            "pdf_page": 70
+          }
+        ]
+      },
+      {
+        "week": 5,
+        "topic": "Ch. 5: Geometry",
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Scale Drawings",
+            "pdf_page": 78
+          },
+          {
+            "order": 2,
+            "name": "Circles: Circumference",
+            "pdf_page": 88
+          },
+          {
+            "order": 3,
+            "name": "Angle Relationships",
+            "pdf_page": 94
+          },
+          {
+            "order": 4,
+            "name": "Chapter 5 Posttest",
+            "pdf_page": 105
+          }
+        ]
+      },
+      {
+        "week": 6,
+        "topic": "Ch. 6: Statistics",
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Comparing Similar Data Sets (continued)",
+            "pdf_page": 116
+          },
+          {
+            "order": 2,
+            "name": "Problem Solving with Data",
+            "pdf_page": 117
+          },
+          {
+            "order": 3,
+            "name": "Problem Solving with Data (continued)",
+            "pdf_page": 118
+          },
+          {
+            "order": 4,
+            "name": "Chapter 6 Posttest",
+            "pdf_page": 119
+          }
+        ]
+      },
+      {
+        "week": 7,
+        "topic": "Ch. 7: Probability",
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Chapter 7 Pretest",
+            "pdf_page": 121
+          },
+          {
+            "order": 2,
+            "name": "Understanding Probability",
+            "pdf_page": 123
+          },
+          {
+            "order": 3,
+            "name": "Calculating Probability",
+            "pdf_page": 126
+          },
+          {
+            "order": 4,
+            "name": "Other Probability Models",
+            "pdf_page": 131
+          }
+        ]
+      },
+      {
+        "week": 8,
+        "topic": "Ch. 7: Probability",
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Understanding Compound Events",
+            "pdf_page": 134
+          },
+          {
+            "order": 2,
+            "name": "Problem Solving",
+            "pdf_page": 139
+          },
+          {
+            "order": 3,
+            "name": "Chapter 7 Posttest",
+            "pdf_page": 142
+          },
+          {
+            "order": 4,
+            "name": "Chapters 1\u20137 Final Test",
+            "pdf_page": 144
+          }
+        ]
+      }
+    ]
   }
 }
