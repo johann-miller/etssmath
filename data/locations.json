@@ -12,7 +12,7 @@
       "name": "Sullivant",
       "district": "ccs",
       "grades": [1, 2, 3, 4, 5],
-      "operation_days": ["tuesday", "wednesday", "thursday"]
+      "operation_days": ["monday", "tuesday", "thursday"]
     }
   ]
 }
