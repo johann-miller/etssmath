@@ -1,17 +1,17 @@
 {
   "locations": [
     {
-      "id": "east",
+      "id": "site_east",
       "name": "East",
       "district": "ccs",
       "grades": [1, 2, 3, 4, 5, 6, 7, 8],
       "operation_days": ["monday", "tuesday", "thursday"]
     },
     {
-      "id": "site_northpark",
-      "name": "North Park Middle",
-      "district": "lausd",
-      "grades": [4, 5, 6, 7],
+      "id": "site_sullivant",
+      "name": "Sullivant",
+      "district": "ccs",
+      "grades": [1, 2, 3, 4, 5],
       "operation_days": ["tuesday", "wednesday", "thursday"]
     }
   ]
