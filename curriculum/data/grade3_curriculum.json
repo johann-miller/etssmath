@@ -782,6 +782,11 @@
             "order": 3,
             "name": "Addition and Subtraction Practice",
             "pdf_page": 16
+          },
+          {
+            "order": 4,
+            "name": "Subtracting 2-Digit Numbers (with renaming)",
+            "pdf_page": 14
           }
         ]
       },
@@ -803,6 +808,11 @@
             "order": 3,
             "name": "Thinking Subtraction for Addition",
             "pdf_page": 33
+          },
+          {
+            "order": 4,
+            "name": "Subtracting 3-Digit Numbers",
+            "pdf_page": 31
           }
         ]
       },
@@ -824,6 +834,11 @@
             "order": 3,
             "name": "Rounding",
             "pdf_page": 49
+          },
+          {
+            "order": 4,
+            "name": "Estimating Subtraction",
+            "pdf_page": 53
           }
         ]
       },
@@ -845,6 +860,11 @@
             "order": 3,
             "name": "Two-Step Problem Solving",
             "pdf_page": 72
+          },
+          {
+            "order": 4,
+            "name": "Chapter 4 Posttest Part 2",
+            "pdf_page": 74
           }
         ]
       },
@@ -866,6 +886,11 @@
             "order": 3,
             "name": "Division and Multiplication Practice",
             "pdf_page": 86
+          },
+          {
+            "order": 4,
+            "name": "Chapter 5 Posttest Part 2",
+            "pdf_page": 89
           }
         ]
       },
@@ -887,6 +912,11 @@
             "order": 3,
             "name": "Fractions on a Number Line",
             "pdf_page": 96
+          },
+          {
+            "order": 4,
+            "name": "Equivalent Fractions on a Number Line",
+            "pdf_page": 97
           }
         ]
       },
@@ -908,6 +938,11 @@
             "order": 3,
             "name": "Measuring Perimeter",
             "pdf_page": 115
+          },
+          {
+            "order": 4,
+            "name": "Finding Area of Irregular Shapes",
+            "pdf_page": 113
           }
         ]
       },
@@ -929,6 +964,11 @@
             "order": 3,
             "name": "Number Patterns",
             "pdf_page": 132
+          },
+          {
+            "order": 4,
+            "name": "Number Sentences",
+            "pdf_page": 133
           }
         ]
       }

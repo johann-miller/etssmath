@@ -5,763 +5,973 @@
     "weeks": [
       {
         "week": 1,
+        "topic": "Ch. 1: Adding and Subtracting 1 and 2 Digits",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 1 Pretest",
+            "pdf_page": 7
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 1 Pretest Part 2",
+            "pdf_page": 8
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Adding 1- and 2-Digit Numbers",
+            "pdf_page": 9
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 2,
+        "topic": "Ch. 1: Adding and Subtracting 1 and 2 Digits",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Subtracting 1- and 2-Digit Numbers",
+            "pdf_page": 10
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Adding Three or More Numbers",
+            "pdf_page": 11
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Adding through 2 Digits (with renaming)",
+            "pdf_page": 12
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 3,
+        "topic": "Ch. 1: Adding and Subtracting 1 and 2 Digits",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Adding Three or More Numbers (2 digits)",
+            "pdf_page": 13
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Subtracting 2 Digits from 3 Digits (renaming)",
+            "pdf_page": 14
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Subtracting 2 Digits from 3 Digits (renaming) (continued)",
+            "pdf_page": 15
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 4,
+        "topic": "Ch. 1: Adding and Subtracting 1 and 2 Digits",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Thinking Subtraction for Addition",
+            "pdf_page": 16
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Thinking Addition for Subtraction",
+            "pdf_page": 17
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Problem Solving",
+            "pdf_page": 18
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 5,
+        "topic": "Ch. 2: Numeration through 1,000,000",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 2 Pretest",
+            "pdf_page": 21
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 2 Pretest Part 2",
+            "pdf_page": 22
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Understanding Place Value (to hundreds)",
+            "pdf_page": 23
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 6,
+        "topic": "Ch. 2: Numeration through 1,000,000",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Understanding Place Value",
+            "pdf_page": 24
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Rounding",
+            "pdf_page": 25
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Rounding (continued)",
+            "pdf_page": 26
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 7,
+        "topic": "Ch. 2: Numeration through 1,000,000 / Ch. 3: Adding and Subtracting 3 through 5 Digits",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Greater Than, Less Than, or Equal To",
+            "pdf_page": 27
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Greater Than, Less Than, or Equal To (continued)",
+            "pdf_page": 28
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 3 Pretest",
+            "pdf_page": 31
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 8,
+        "topic": "Ch. 3: Adding and Subtracting 3 through 5 Digits",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 3 Pretest Part 2",
+            "pdf_page": 32
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Adding 3-Digit Numbers",
+            "pdf_page": 33
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Subtracting through 4 Digits",
+            "pdf_page": 34
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 9,
+        "topic": "Ch. 3: Adding and Subtracting 3 through 5 Digits",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Adding 4-Digit Numbers",
+            "pdf_page": 35
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Problem Solving",
+            "pdf_page": 36
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Subtracting 4- and 5-Digit Numbers",
+            "pdf_page": 37
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 10,
+        "topic": "Ch. 3: Adding and Subtracting 3 through 5 Digits",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Adding 3 or More Numbers",
+            "pdf_page": 38
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Adding 4- and 5-Digit Numbers",
+            "pdf_page": 39
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Problem Solving",
+            "pdf_page": 40
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 11,
+        "topic": "Ch. 3: Adding and Subtracting 3 through 5 Digits / Ch. 4: Multiplication",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Addition and Subtraction Practice",
+            "pdf_page": 41
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Addition and Subtraction Practice (continued)",
+            "pdf_page": 42
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Problem Solving",
+            "pdf_page": 43
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 12,
+        "topic": "Ch. 4: Multiplication",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 4 Pretest",
+            "pdf_page": 46
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 4 Pretest Part 2",
+            "pdf_page": 47
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Prime and Composite Numbers",
+            "pdf_page": 48
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 13,
+        "topic": "Ch. 4: Multiplication",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Prime and Composite Numbers (continued)",
+            "pdf_page": 49
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Interpreting Equations",
+            "pdf_page": 50
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Multiplying 2 Digits by 1 Digit",
+            "pdf_page": 51
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 14,
+        "topic": "Ch. 4: Multiplication",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Multiplying 2 Digits by 1 Digit (renaming)",
+            "pdf_page": 52
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Problem Solving",
+            "pdf_page": 53
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Multiplying 3 Digits by 1 Digit (renaming)",
+            "pdf_page": 54
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 15,
+        "topic": "Ch. 4: Multiplication",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Multiplying 2 Digits by 2 Digits",
+            "pdf_page": 55
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Multiplying 2 Digits by 2 Digits (renaming)",
+            "pdf_page": 56
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Multiplying 3 Digits by 2 Digits (renaming)",
+            "pdf_page": 57
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 16,
+        "topic": "Ch. 4: Multiplication / Ch. 5: Division",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Multiplying 4 Digits by 1 Digit (renaming)",
+            "pdf_page": 58
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Problem Solving",
+            "pdf_page": 59
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 5 Pretest",
+            "pdf_page": 62
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 17,
+        "topic": "Ch. 5: Division",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 5 Pretest Part 2",
+            "pdf_page": 63
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Dividing Multiples of 10 and 100",
+            "pdf_page": 64
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Dividing through 45 ÷ 5",
+            "pdf_page": 65
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 18,
+        "topic": "Ch. 5: Division",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Dividing through 63 ÷ 7",
+            "pdf_page": 66
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Dividing through 81 ÷ 9",
+            "pdf_page": 67
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Division Practice",
+            "pdf_page": 68
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 19,
+        "topic": "Ch. 5: Division",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Problem Solving",
+            "pdf_page": 69
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Dividing 2 Digits",
+            "pdf_page": 70
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Dividing 2 Digits (continued)",
+            "pdf_page": 71
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 20,
+        "topic": "Ch. 5: Division",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Dividing 3 Digits",
+            "pdf_page": 72
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Dividing 3 Digits (continued)",
+            "pdf_page": 73
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Dividing 4 Digits",
+            "pdf_page": 74
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 21,
+        "topic": "Ch. 5: Division",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Dividing 4 Digits (continued)",
+            "pdf_page": 75
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Problem Solving",
+            "pdf_page": 76
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapters 1–5 Mid-Test",
+            "pdf_page": 79
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 22,
+        "topic": "Ch. 1–5 Mid-Test / Ch. 6: Fractions",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapters 1–5 Mid-Test Part 2",
+            "pdf_page": 80
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapters 1–5 Mid-Test Part 3",
+            "pdf_page": 81
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapters 1–5 Mid-Test Part 4",
+            "pdf_page": 82
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 23,
+        "topic": "Ch. 6: Fractions",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapters 1–5 Mid-Test Part 5",
+            "pdf_page": 83
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapters 1–5 Mid-Test Part 6",
+            "pdf_page": 84
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 6 Pretest",
+            "pdf_page": 85
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 24,
+        "topic": "Ch. 6: Fractions",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 6 Pretest Part 2",
+            "pdf_page": 86
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Finding Equivalent Fractions",
+            "pdf_page": 87
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Comparing Fractions Using Models",
+            "pdf_page": 88
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 25,
+        "topic": "Ch. 6: Fractions",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Comparing Fractions Using LCM",
+            "pdf_page": 89
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Adding Fractions with Like Denominators",
+            "pdf_page": 90
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Subtracting Fractions with Like Denominators",
+            "pdf_page": 91
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 26,
+        "topic": "Ch. 6: Fractions",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Decomposing Fractions",
+            "pdf_page": 92
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Problem Solving",
+            "pdf_page": 93
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Understanding Decimals to Tenths",
+            "pdf_page": 94
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 27,
+        "topic": "Ch. 6: Fractions",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Understanding Decimals to Hundredths",
+            "pdf_page": 95
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Adding Fractions with Unlike Denominators",
+            "pdf_page": 96
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Adding Mixed Numerals with Like Denominators",
+            "pdf_page": 97
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 28,
+        "topic": "Ch. 6: Fractions",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Subtracting Mixed Numerals with Like Denominators",
+            "pdf_page": 98
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Problem Solving",
+            "pdf_page": 99
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Fractions as Multiples",
+            "pdf_page": 100
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 29,
+        "topic": "Ch. 6: Fractions / Ch. 7: Measurement",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Multiplying Fractions and Whole Numbers",
+            "pdf_page": 101
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Multiplying Fractions and Whole Numbers (continued)",
+            "pdf_page": 102
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Problem Solving",
+            "pdf_page": 103
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 30,
+        "topic": "Ch. 7: Measurement",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 7 Pretest",
+            "pdf_page": 106
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 7 Pretest Part 2",
+            "pdf_page": 107
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 7 Pretest Part 3",
+            "pdf_page": 108
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 31,
+        "topic": "Ch. 7: Measurement",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Chapter 7 Pretest Part 4",
+            "pdf_page": 109
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Units of Length (inches, feet, yards, and miles)",
+            "pdf_page": 110
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Problem Solving",
+            "pdf_page": 111
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 32,
+        "topic": "Ch. 7: Measurement",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Liquid Volume (cups, pints, quarts, and gallons)",
+            "pdf_page": 112
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Weight (ounces, pounds, and tons)",
+            "pdf_page": 113
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Problem Solving",
+            "pdf_page": 114
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 33,
+        "topic": "Ch. 7: Measurement",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Measuring in Millimeters",
+            "pdf_page": 115
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Meters and Kilometers",
+            "pdf_page": 116
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Units of Length (millimeters, centimeters, meters, and kilometers)",
+            "pdf_page": 117
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 34,
+        "topic": "Ch. 7: Measurement",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Measuring Perimeter",
+            "pdf_page": 118
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Measuring Area",
+            "pdf_page": 119
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Problem Solving",
+            "pdf_page": 120
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 35,
+        "topic": "Ch. 7: Measurement",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Liquid Volume (milliliters)",
+            "pdf_page": 121
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Weight (milligrams, grams, and kilograms)",
+            "pdf_page": 122
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Line Plots in Measurement",
+            "pdf_page": 123
           }
-        ],
-        "topic": "TBD"
+        ]
       },
       {
         "week": 36,
+        "topic": "Ch. 7: Measurement / Ch. 8: Geometry",
         "assignments": [
           {
             "order": 1,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Measuring Angles",
+            "pdf_page": 124
           },
           {
             "order": 2,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Measuring and Drawing Angles",
+            "pdf_page": 125
           },
           {
             "order": 3,
-            "name": "TBD",
-            "pdf_page": 0
+            "name": "Finding Missing Angles",
+            "pdf_page": 126
           }
-        ],
-        "topic": "TBD"
+        ]
       }
     ]
   },
   "summer_program": {
-    "weeks": []
+    "total_weeks": 8,
+    "weeks": [
+      {
+        "week": 1,
+        "topic": "Ch. 1: Adding and Subtracting 1 and 2 Digits / Ch. 2: Numeration through 1,000,000",
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Chapter 1 Posttest",
+            "pdf_page": 19
+          },
+          {
+            "order": 2,
+            "name": "Chapter 1 Posttest Part 2",
+            "pdf_page": 20
+          },
+          {
+            "order": 3,
+            "name": "Chapter 2 Posttest",
+            "pdf_page": 29
+          },
+          {
+            "order": 4,
+            "name": "Problem Solving",
+            "pdf_page": 18
+          }
+        ]
+      },
+      {
+        "week": 2,
+        "topic": "Ch. 2: Numeration through 1,000,000 / Ch. 3: Adding and Subtracting 3 through 5 Digits",
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Chapter 2 Posttest Part 2",
+            "pdf_page": 30
+          },
+          {
+            "order": 2,
+            "name": "Chapter 3 Posttest",
+            "pdf_page": 44
+          },
+          {
+            "order": 3,
+            "name": "Chapter 3 Posttest Part 2",
+            "pdf_page": 45
+          },
+          {
+            "order": 4,
+            "name": "Adding 4- and 5-Digit Numbers",
+            "pdf_page": 39
+          }
+        ]
+      },
+      {
+        "week": 3,
+        "topic": "Ch. 4: Multiplication / Ch. 5: Division",
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Chapter 4 Posttest",
+            "pdf_page": 60
+          },
+          {
+            "order": 2,
+            "name": "Chapter 4 Posttest Part 2",
+            "pdf_page": 61
+          },
+          {
+            "order": 3,
+            "name": "Chapter 5 Posttest",
+            "pdf_page": 77
+          },
+          {
+            "order": 4,
+            "name": "Problem Solving",
+            "pdf_page": 59
+          }
+        ]
+      },
+      {
+        "week": 4,
+        "topic": "Ch. 5: Division / Ch. 1–5 Mid-Test",
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Chapter 5 Posttest Part 2",
+            "pdf_page": 78
+          },
+          {
+            "order": 2,
+            "name": "Chapters 1–5 Mid-Test",
+            "pdf_page": 79
+          },
+          {
+            "order": 3,
+            "name": "Chapters 1–5 Mid-Test Part 2",
+            "pdf_page": 80
+          },
+          {
+            "order": 4,
+            "name": "Chapters 1–5 Mid-Test Part 3",
+            "pdf_page": 81
+          }
+        ]
+      },
+      {
+        "week": 5,
+        "topic": "Ch. 6: Fractions",
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Chapter 6 Posttest",
+            "pdf_page": 104
+          },
+          {
+            "order": 2,
+            "name": "Chapter 6 Posttest Part 2",
+            "pdf_page": 105
+          },
+          {
+            "order": 3,
+            "name": "Finding Equivalent Fractions",
+            "pdf_page": 87
+          },
+          {
+            "order": 4,
+            "name": "Problem Solving",
+            "pdf_page": 103
+          }
+        ]
+      },
+      {
+        "week": 6,
+        "topic": "Ch. 7: Measurement",
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Chapter 7 Posttest",
+            "pdf_page": 127
+          },
+          {
+            "order": 2,
+            "name": "Chapter 7 Posttest Part 2",
+            "pdf_page": 128
+          },
+          {
+            "order": 3,
+            "name": "Chapter 7 Posttest Part 3",
+            "pdf_page": 129
+          },
+          {
+            "order": 4,
+            "name": "Finding Missing Angles",
+            "pdf_page": 126
+          }
+        ]
+      },
+      {
+        "week": 7,
+        "topic": "Ch. 7: Measurement / Ch. 8: Geometry / Ch. 9: Preparing for Algebra",
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Chapter 7 Posttest Part 4",
+            "pdf_page": 130
+          },
+          {
+            "order": 2,
+            "name": "Chapter 8 Posttest",
+            "pdf_page": 137
+          },
+          {
+            "order": 3,
+            "name": "Chapter 9 Posttest",
+            "pdf_page": 141
+          },
+          {
+            "order": 4,
+            "name": "Points, Lines, Rays, and Angles",
+            "pdf_page": 132
+          }
+        ]
+      },
+      {
+        "week": 8,
+        "topic": "Ch. 1–9 Final Test",
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Chapters 1–9 Final Test",
+            "pdf_page": 142
+          },
+          {
+            "order": 2,
+            "name": "Chapters 1–9 Final Test Part 2",
+            "pdf_page": 143
+          },
+          {
+            "order": 3,
+            "name": "Chapters 1–9 Final Test Part 3",
+            "pdf_page": 144
+          },
+          {
+            "order": 4,
+            "name": "Chapters 1–9 Final Test Part 4",
+            "pdf_page": 145
+          }
+        ]
+      }
+    ]
   }
 }

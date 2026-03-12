@@ -150,6 +150,31 @@ async function initScheduler() {
   ]);
 
   const siteSelect = document.getElementById("location-select");
+  const weekInfoEl = document.getElementById("current-week-info");
+  const container = document.getElementById("assignments-container");
+  const siteFormGroup = siteSelect.closest(".form-group");
+
+  // ── Debug date override ───────────────────────────────────────────────────────
+
+  let debugToday = null;
+  function getToday() {
+    return debugToday ? new Date(debugToday + "T12:00:00") : new Date();
+  }
+
+  const params = new URLSearchParams(window.location.search);
+  if (params.get("debug") === "true") {
+    const debugGroup = document.createElement("div");
+    debugGroup.className = "form-group";
+    debugGroup.innerHTML = `<label for="debug-date">Debug Date</label><input type="date" id="debug-date" />`;
+    siteFormGroup.parentElement.appendChild(debugGroup);
+    document.getElementById("debug-date").addEventListener("change", e => {
+      debugToday = e.target.value || null;
+      renderAll();
+    });
+  }
+
+  // ── Populate site selector ────────────────────────────────────────────────────
+
   const blankOpt = document.createElement("option");
   blankOpt.value = "";
   blankOpt.textContent = "-- Select a site --";
@@ -162,8 +187,13 @@ async function initScheduler() {
     siteSelect.appendChild(opt);
   });
 
-  const weekInfoEl = document.getElementById("current-week-info");
-  const container = document.getElementById("assignments-container");
+  // Pre-select from URL param if present
+  const siteParam = params.get("site");
+  if (siteParam && locData.locations.some(l => l.id === siteParam)) {
+    siteSelect.value = siteParam;
+  }
+
+  // ── Render helpers ────────────────────────────────────────────────────────────
 
   function showPrompt() {
     weekInfoEl.className = "week-info";
@@ -171,14 +201,8 @@ async function initScheduler() {
     container.innerHTML = "";
   }
 
-  async function render() {
-    const location = locData.locations.find(l => l.id === siteSelect.value);
-    if (!location) { showPrompt(); return; }
-
-    history.replaceState(null, "", `?site=${location.id}`);
-
-    const district = calData.districts[location.district];
-    const today = new Date();
+  async function renderSchedule(location, district) {
+    const today = getToday();
     const todayStr = today.toISOString().split("T")[0];
 
     const weekNum = getProgramWeekNumber(today, district, location);
@@ -202,7 +226,6 @@ async function initScheduler() {
 
     for (const grade of location.grades) {
       const file = GRADE_CURRICULUM_FILES[grade];
-      console.log(grade);
 
       const gradeSection = document.createElement("div");
       gradeSection.style.marginBottom = "0.75rem";
@@ -281,15 +304,46 @@ async function initScheduler() {
     }
   }
 
-  // Pre-select from URL param if present
-  const params = new URLSearchParams(window.location.search);
-  const siteParam = params.get("site");
-  if (siteParam && locData.locations.some(l => l.id === siteParam)) {
-    siteSelect.value = siteParam;
+  async function renderAll() {
+    const today = getToday();
+    const todayStr = today.toISOString().split("T")[0];
+
+    // Check if the current (possibly overridden) date is in a summer program
+    let summerDistrict = null;
+    for (const district of Object.values(calData.districts)) {
+      if (district.summer_program &&
+          todayStr >= district.summer_program.start &&
+          todayStr <= district.summer_program.end) {
+        summerDistrict = district;
+        break;
+      }
+    }
+
+    if (summerDistrict) {
+      // Hide site selector — all sites share the same summer schedule
+      siteFormGroup.style.display = "none";
+      const allGrades = [...new Set(locData.locations.flatMap(l => l.grades))].sort((a, b) => a - b);
+      await renderSchedule({ operation_days: SUMMER_OPERATION_DAYS, grades: allGrades }, summerDistrict);
+    } else {
+      siteFormGroup.style.display = "";
+      const location = locData.locations.find(l => l.id === siteSelect.value);
+      if (!location) { showPrompt(); return; }
+      const district = calData.districts[location.district];
+      await renderSchedule(location, district);
+    }
   }
 
-  siteSelect.addEventListener("change", render);
-  render();
+  siteSelect.addEventListener("change", () => {
+    const location = locData.locations.find(l => l.id === siteSelect.value);
+    if (location) {
+      const url = new URL(window.location);
+      url.searchParams.set("site", location.id);
+      history.replaceState(null, "", url.toString());
+    }
+    renderAll();
+  });
+
+  renderAll();
 }
 
 document.addEventListener("DOMContentLoaded", initScheduler);
