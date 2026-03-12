@@ -224,12 +224,12 @@
           },
           {
             "order": 2,
-            "name": "CHAPTER 1 POSTTEST",
+            "name": "Chapter 1 Posttest",
             "pdf_page": 42
           },
           {
             "order": 3,
-            "name": "CHAPTER 2 PRETEST",
+            "name": "Chapter 2 Pretest",
             "pdf_page": 46
           }
         ]
@@ -313,28 +313,28 @@
           },
           {
             "order": 3,
-            "name": "CHAPTER 2 POSTTEST",
+            "name": "Chapter 2 Posttest",
             "pdf_page": 59
           }
         ]
       },
       {
         "week": 16,
-        "topic": "Ch. 1\u20132: Chapters 1\u20132 Review",
+        "topic": "Ch. 1–2: Chapters 1–2 Review",
         "assignments": [
           {
             "order": 1,
-            "name": "Mid-Test Chapters 1\u20132",
+            "name": "Mid-Test Chapters 1–2",
             "pdf_page": 61
           },
           {
             "order": 2,
-            "name": "Mid-Test Chapters 1\u20132 (continued)",
+            "name": "Mid-Test Chapters 1–2 (continued)",
             "pdf_page": 63
           },
           {
             "order": 3,
-            "name": "Mid-Test Chapters 1\u20132 (continued)",
+            "name": "Mid-Test Chapters 1–2 (continued)",
             "pdf_page": 65
           }
         ]
@@ -476,12 +476,12 @@
           },
           {
             "order": 2,
-            "name": "CHAPTER 3 POSTTEST",
+            "name": "Chapter 3 Posttest",
             "pdf_page": 88
           },
           {
             "order": 3,
-            "name": "CHAPTER 4 PRETEST",
+            "name": "Chapter 4 Pretest",
             "pdf_page": 90
           }
         ]
@@ -560,12 +560,12 @@
           },
           {
             "order": 2,
-            "name": "CHAPTER 4 POSTTEST",
+            "name": "Chapter 4 Posttest",
             "pdf_page": 101
           },
           {
             "order": 3,
-            "name": "CHAPTER 5 PRETEST",
+            "name": "Chapter 5 Pretest",
             "pdf_page": 102
           }
         ]
@@ -733,28 +733,28 @@
           },
           {
             "order": 3,
-            "name": "CHAPTER 6 POSTTEST",
+            "name": "Chapter 6 Posttest",
             "pdf_page": 131
           }
         ]
       },
       {
         "week": 36,
-        "topic": "Ch. 1\u20136: Chapters 1\u20136 Review",
+        "topic": "Ch. 1–6: Chapters 1–6 Review",
         "assignments": [
           {
             "order": 1,
-            "name": "Final Test Chapters 1\u20136",
+            "name": "Final Test Chapters 1–6",
             "pdf_page": 133
           },
           {
             "order": 2,
-            "name": "Final Test Chapters 1\u20136 (continued)",
+            "name": "Final Test Chapters 1–6 (continued)",
             "pdf_page": 134
           },
           {
             "order": 3,
-            "name": "Final Test Chapters 1\u20136 (continued)",
+            "name": "Final Test Chapters 1–6 (continued)",
             "pdf_page": 135
           }
         ]

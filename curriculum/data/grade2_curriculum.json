@@ -5,699 +5,700 @@
     "weeks": [
       {
         "week": 1,
+        "topic": "Ch. 1: Understanding and Using Numbers",
         "assignments": [
           {
             "order": 1,
-            "name": "Chapter 1 Pretest - Part 1",
+            "name": "Chapter 1 Pretest",
             "pdf_page": 7
           },
           {
             "order": 2,
-            "name": "Chapter 1 Pretest - Part 2",
-            "pdf_page": 8
+            "name": "Grouping Objects",
+            "pdf_page": 9
           },
           {
             "order": 3,
-            "name": "Grouping Objects",
-            "pdf_page": 9
+            "name": "Grouping Objects (continued)",
+            "pdf_page": 10
           }
-        ],
-        "topic": "Ch. 1 – Number Sense (Grouping & Skip Counting)"
+        ]
       },
       {
         "week": 2,
+        "topic": "Ch. 1: Understanding and Using Numbers",
         "assignments": [
           {
             "order": 1,
-            "name": "Grouping Objects - Part 2",
-            "pdf_page": 10
-          },
-          {
-            "order": 2,
             "name": "Skip Counting",
             "pdf_page": 11
           },
           {
-            "order": 3,
+            "order": 2,
             "name": "Skip Counting with Money",
             "pdf_page": 12
+          },
+          {
+            "order": 3,
+            "name": "Skip Counting with Money (continued)",
+            "pdf_page": 13
           }
-        ],
-        "topic": "Ch. 1 – Number Sense (Skip Counting & Money)"
+        ]
       },
       {
         "week": 3,
+        "topic": "Ch. 1: Understanding and Using Numbers",
         "assignments": [
           {
             "order": 1,
-            "name": "Skip Counting with Money - Part 2",
-            "pdf_page": 13
-          },
-          {
-            "order": 2,
-            "name": "Odd or Even",
+            "name": "Odd or Even?",
             "pdf_page": 14
           },
           {
-            "order": 3,
-            "name": "Odd or Even - Part 2",
+            "order": 2,
+            "name": "Odd or Even? (continued)",
             "pdf_page": 15
+          },
+          {
+            "order": 3,
+            "name": "Chapter 1 Posttest",
+            "pdf_page": 16
           }
-        ],
-        "topic": "Ch. 1 – Number Sense (Odd & Even Numbers)"
+        ]
       },
       {
         "week": 4,
+        "topic": "Ch. 2: Addition and Subtraction Facts through 20",
         "assignments": [
           {
             "order": 1,
-            "name": "Chapter 2 Pretest - Part 1",
+            "name": "Chapter 2 Pretest",
             "pdf_page": 18
           },
           {
             "order": 2,
-            "name": "Chapter 2 Pretest - Part 2",
-            "pdf_page": 19
+            "name": "Adding through 5",
+            "pdf_page": 20
           },
           {
             "order": 3,
-            "name": "Adding through 5",
-            "pdf_page": 20
+            "name": "Subtracting from 0 through 5",
+            "pdf_page": 21
           }
-        ],
-        "topic": "Ch. 2 – Addition & Subtraction Facts (through 5)"
+        ]
       },
       {
         "week": 5,
+        "topic": "Ch. 2: Addition and Subtraction Facts through 20",
         "assignments": [
           {
             "order": 1,
-            "name": "Subtracting from 0 through 5",
-            "pdf_page": 21
-          },
-          {
-            "order": 2,
             "name": "Adding to 6, 7, and 8",
             "pdf_page": 22
           },
           {
-            "order": 3,
+            "order": 2,
             "name": "Subtracting from 6, 7, and 8",
             "pdf_page": 23
+          },
+          {
+            "order": 3,
+            "name": "Adding to 9 and 10",
+            "pdf_page": 24
           }
-        ],
-        "topic": "Ch. 2 – Addition & Subtraction Facts (through 8)"
+        ]
       },
       {
         "week": 6,
+        "topic": "Ch. 2: Addition and Subtraction Facts through 20",
         "assignments": [
           {
             "order": 1,
-            "name": "Adding to 9 and 10",
-            "pdf_page": 24
-          },
-          {
-            "order": 2,
             "name": "Subtracting from 9 and 10",
             "pdf_page": 25
           },
           {
-            "order": 3,
+            "order": 2,
             "name": "Adding to 11, 12, and 13",
             "pdf_page": 26
+          },
+          {
+            "order": 3,
+            "name": "Subtracting from 11, 12, and 13",
+            "pdf_page": 27
           }
-        ],
-        "topic": "Ch. 2 – Addition & Subtraction Facts (through 13)"
+        ]
       },
       {
         "week": 7,
+        "topic": "Ch. 2: Addition and Subtraction Facts through 20",
         "assignments": [
           {
             "order": 1,
-            "name": "Subtracting from 11, 12, and 13",
-            "pdf_page": 27
-          },
-          {
-            "order": 2,
             "name": "Adding to 14, 15, and 16",
             "pdf_page": 28
           },
           {
-            "order": 3,
+            "order": 2,
             "name": "Subtracting from 14, 15, and 16",
             "pdf_page": 29
+          },
+          {
+            "order": 3,
+            "name": "Adding to 17, 18, 19, and 20",
+            "pdf_page": 30
           }
-        ],
-        "topic": "Ch. 2 – Addition & Subtraction Facts (through 16)"
+        ]
       },
       {
         "week": 8,
+        "topic": "Ch. 2: Addition and Subtraction Facts through 20",
         "assignments": [
           {
             "order": 1,
-            "name": "Adding to 17, 18, 19, and 20",
-            "pdf_page": 30
-          },
-          {
-            "order": 2,
             "name": "Subtracting from 17, 18, 19, and 20",
             "pdf_page": 31
           },
           {
-            "order": 3,
+            "order": 2,
             "name": "Problem Solving",
             "pdf_page": 32
+          },
+          {
+            "order": 3,
+            "name": "Problem Solving (continued)",
+            "pdf_page": 33
           }
-        ],
-        "topic": "Ch. 2 – Addition & Subtraction Facts (through 20)"
+        ]
       },
       {
         "week": 9,
+        "topic": "Ch. 2: Addition and Subtraction Facts through 20 / Ch. 3: Adding and Subtracting 2-Digit Numbers (No Renaming)",
         "assignments": [
           {
             "order": 1,
-            "name": "Problem Solving - Part 2",
-            "pdf_page": 33
+            "name": "Chapter 2 Posttest",
+            "pdf_page": 34
           },
           {
             "order": 2,
-            "name": "Chapter 3 Pretest - Part 1",
+            "name": "Chapter 3 Pretest",
             "pdf_page": 36
           },
           {
             "order": 3,
-            "name": "Chapter 3 Pretest - Part 2",
-            "pdf_page": 37
+            "name": "Adding 2-Digit Numbers",
+            "pdf_page": 38
           }
-        ],
-        "topic": "Ch. 2 Review / Ch. 3 – 2-Digit Operations"
+        ]
       },
       {
         "week": 10,
+        "topic": "Ch. 3: Adding and Subtracting 2-Digit Numbers (No Renaming)",
         "assignments": [
           {
             "order": 1,
-            "name": "Adding 2-Digit Numbers",
-            "pdf_page": 38
-          },
-          {
-            "order": 2,
-            "name": "Adding 2-Digit Numbers - Part 2",
+            "name": "Adding 2-Digit Numbers (continued)",
             "pdf_page": 39
           },
           {
-            "order": 3,
-            "name": "Adding 2-Digit Numbers More Practice",
+            "order": 2,
+            "name": "Addition Practice",
             "pdf_page": 40
+          },
+          {
+            "order": 3,
+            "name": "Problem Solving",
+            "pdf_page": 41
           }
-        ],
-        "topic": "Ch. 3 – 2-Digit Addition"
+        ]
       },
       {
         "week": 11,
+        "topic": "Ch. 3: Adding and Subtracting 2-Digit Numbers (No Renaming)",
         "assignments": [
           {
             "order": 1,
-            "name": "Adding 2-Digit Numbers More Practice - Part 2",
-            "pdf_page": 41
-          },
-          {
-            "order": 2,
             "name": "Subtracting 2-Digit Numbers",
             "pdf_page": 42
           },
           {
-            "order": 3,
-            "name": "Subtracting 2-Digit Numbers - Part 2",
+            "order": 2,
+            "name": "Subtracting 2-Digit Numbers (continued)",
             "pdf_page": 43
+          },
+          {
+            "order": 3,
+            "name": "Subtraction Practice",
+            "pdf_page": 44
           }
-        ],
-        "topic": "Ch. 3 – 2-Digit Addition & Subtraction"
+        ]
       },
       {
         "week": 12,
+        "topic": "Ch. 3: Adding and Subtracting 2-Digit Numbers (No Renaming)",
         "assignments": [
           {
             "order": 1,
-            "name": "Subtracting 2-Digit Numbers More Practice",
-            "pdf_page": 44
-          },
-          {
-            "order": 2,
-            "name": "Subtracting 2-Digit Numbers More Practice - Part 2",
+            "name": "Problem Solving",
             "pdf_page": 45
           },
           {
-            "order": 3,
-            "name": "Adding and Subtracting 2-Digit Numbers",
+            "order": 2,
+            "name": "Adding Three Numbers",
             "pdf_page": 46
+          },
+          {
+            "order": 3,
+            "name": "Problem Solving",
+            "pdf_page": 47
           }
-        ],
-        "topic": "Ch. 3 – 2-Digit Subtraction"
+        ]
       },
       {
         "week": 13,
+        "topic": "Ch. 3: Adding and Subtracting 2-Digit Numbers (No Renaming)",
         "assignments": [
           {
             "order": 1,
-            "name": "Adding and Subtracting 2-Digit Numbers - Part 2",
-            "pdf_page": 47
-          },
-          {
-            "order": 2,
             "name": "Problem Solving",
             "pdf_page": 48
           },
           {
-            "order": 3,
-            "name": "Problem Solving - Part 2",
+            "order": 2,
+            "name": "Problem Solving (continued)",
             "pdf_page": 49
+          },
+          {
+            "order": 3,
+            "name": "Chapter 3 Posttest",
+            "pdf_page": 50
           }
-        ],
-        "topic": "Ch. 3 – 2-Digit Operations & Problem Solving"
+        ]
       },
       {
         "week": 14,
+        "topic": "Ch. 4: Adding and Subtracting 2-Digit Numbers (With Renaming)",
         "assignments": [
           {
             "order": 1,
-            "name": "Chapter 4 Pretest - Part 1",
+            "name": "Chapter 4 Pretest",
             "pdf_page": 52
           },
           {
             "order": 2,
-            "name": "Chapter 4 Pretest - Part 2",
-            "pdf_page": 53
+            "name": "Adding 2-Digit Numbers",
+            "pdf_page": 54
           },
           {
             "order": 3,
-            "name": "Adding 2-Digit Numbers With Renaming",
-            "pdf_page": 54
+            "name": "Adding 2-Digit Numbers (continued)",
+            "pdf_page": 55
           }
-        ],
-        "topic": "Ch. 4 – 2-Digit Addition with Renaming"
+        ]
       },
       {
         "week": 15,
+        "topic": "Ch. 4: Adding and Subtracting 2-Digit Numbers (With Renaming)",
         "assignments": [
           {
             "order": 1,
-            "name": "Adding 2-Digit Numbers With Renaming - Part 2",
-            "pdf_page": 55
-          },
-          {
-            "order": 2,
-            "name": "Subtracting 2-Digit Numbers With Renaming",
+            "name": "Addition Practice",
             "pdf_page": 56
           },
           {
-            "order": 3,
-            "name": "Subtracting 2-Digit Numbers With Renaming - Part 2",
+            "order": 2,
+            "name": "Problem Solving",
             "pdf_page": 57
+          },
+          {
+            "order": 3,
+            "name": "Subtracting 2-Digit Numbers",
+            "pdf_page": 58
           }
-        ],
-        "topic": "Ch. 4 – 2-Digit Addition & Subtraction with Renaming"
+        ]
       },
       {
         "week": 16,
+        "topic": "Ch. 4: Adding and Subtracting 2-Digit Numbers (With Renaming)",
         "assignments": [
           {
             "order": 1,
-            "name": "Adding and Subtracting 2-Digit Numbers With Renaming",
-            "pdf_page": 58
+            "name": "Subtracting 2-Digit Numbers (continued)",
+            "pdf_page": 59
           },
           {
             "order": 2,
-            "name": "Adding and Subtracting 2-Digit Numbers With Renaming - Part 2",
-            "pdf_page": 59
+            "name": "Subtraction Practice",
+            "pdf_page": 60
           },
           {
             "order": 3,
             "name": "Problem Solving",
-            "pdf_page": 60
+            "pdf_page": 61
           }
-        ],
-        "topic": "Ch. 4 – 2-Digit Operations with Renaming"
+        ]
       },
       {
         "week": 17,
+        "topic": "Ch. 4: Adding and Subtracting 2-Digit Numbers (With Renaming) / Ch. 5: Working with 3-Digit Numbers",
         "assignments": [
           {
             "order": 1,
-            "name": "Problem Solving - Part 2",
-            "pdf_page": 61
+            "name": "Chapters 1-4 Mid-Test",
+            "pdf_page": 64
           },
           {
             "order": 2,
-            "name": "Chapter 5 Pretest - Part 1",
+            "name": "Chapter 5 Pretest",
             "pdf_page": 68
           },
           {
             "order": 3,
-            "name": "Chapter 5 Pretest - Part 2",
-            "pdf_page": 69
+            "name": "Counting and Writing 150 through 199",
+            "pdf_page": 70
           }
-        ],
-        "topic": "Ch. 4 Review / Ch. 5 – Numbers to 999"
+        ]
       },
       {
         "week": 18,
+        "topic": "Ch. 5: Working with 3-Digit Numbers",
         "assignments": [
           {
             "order": 1,
-            "name": "Counting and Writing 150 through 199",
-            "pdf_page": 70
-          },
-          {
-            "order": 2,
             "name": "Counting and Writing 200 through 399",
             "pdf_page": 71
           },
           {
-            "order": 3,
+            "order": 2,
             "name": "Counting and Writing 400 through 699",
             "pdf_page": 72
+          },
+          {
+            "order": 3,
+            "name": "Counting and Writing 700 through 999",
+            "pdf_page": 73
           }
-        ],
-        "topic": "Ch. 5 – Counting & Writing Large Numbers"
+        ]
       },
       {
         "week": 19,
+        "topic": "Ch. 5: Working with 3-Digit Numbers",
         "assignments": [
           {
             "order": 1,
-            "name": "Counting and Writing 700 through 999",
-            "pdf_page": 73
-          },
-          {
-            "order": 2,
             "name": "Skip Counting",
             "pdf_page": 74
           },
           {
-            "order": 3,
-            "name": "Skip Counting - Part 2",
+            "order": 2,
+            "name": "Comparing Numbers",
             "pdf_page": 75
+          },
+          {
+            "order": 3,
+            "name": "Comparing Numbers (continued)",
+            "pdf_page": 76
           }
-        ],
-        "topic": "Ch. 5 – Counting & Comparing Large Numbers"
+        ]
       },
       {
         "week": 20,
+        "topic": "Ch. 5: Working with 3-Digit Numbers",
         "assignments": [
           {
             "order": 1,
-            "name": "Comparing Numbers",
-            "pdf_page": 76
-          },
-          {
-            "order": 2,
-            "name": "Comparing Numbers - Part 2",
+            "name": "Comparing Numbers (continued)",
             "pdf_page": 77
           },
           {
-            "order": 3,
+            "order": 2,
             "name": "Subtracting 2 Digits from 3 Digits",
             "pdf_page": 78
+          },
+          {
+            "order": 3,
+            "name": "Subtracting 2 Digits from 3 Digits (continued)",
+            "pdf_page": 79
           }
-        ],
-        "topic": "Ch. 5 – Comparing & 3-Digit Subtraction"
+        ]
       },
       {
         "week": 21,
+        "topic": "Ch. 5: Working with 3-Digit Numbers",
         "assignments": [
           {
             "order": 1,
-            "name": "Subtracting 2 Digits from 3 Digits - Part 2",
-            "pdf_page": 79
-          },
-          {
-            "order": 2,
-            "name": "Subtracting 2 Digits from 3 Digits - Part 3",
+            "name": "Subtracting 2 Digits from 3 Digits (continued)",
             "pdf_page": 80
           },
           {
-            "order": 3,
-            "name": "Subtracting 2 Digits from 3 Digits - Part 4",
+            "order": 2,
+            "name": "Subtracting 2 Digits from 3 Digits (continued)",
             "pdf_page": 81
+          },
+          {
+            "order": 3,
+            "name": "Adding 3-Digit Numbers",
+            "pdf_page": 82
           }
-        ],
-        "topic": "Ch. 5 – Subtracting 2 Digits from 3 Digits"
+        ]
       },
       {
         "week": 22,
+        "topic": "Ch. 5: Working with 3-Digit Numbers",
         "assignments": [
           {
             "order": 1,
-            "name": "Adding 3-Digit Numbers",
-            "pdf_page": 82
-          },
-          {
-            "order": 2,
             "name": "Subtracting 3-Digit Numbers",
             "pdf_page": 83
           },
           {
-            "order": 3,
+            "order": 2,
             "name": "Checking Addition with Subtraction",
             "pdf_page": 84
+          },
+          {
+            "order": 3,
+            "name": "Checking Subtraction with Addition",
+            "pdf_page": 85
           }
-        ],
-        "topic": "Ch. 5 – Adding & Subtracting 3-Digit Numbers"
+        ]
       },
       {
         "week": 23,
+        "topic": "Ch. 5: Working with 3-Digit Numbers",
         "assignments": [
           {
             "order": 1,
-            "name": "Checking Subtraction with Addition",
-            "pdf_page": 85
-          },
-          {
-            "order": 2,
             "name": "Addition and Subtraction Practice",
             "pdf_page": 86
           },
           {
-            "order": 3,
-            "name": "Addition and Subtraction Practice - Part 2",
+            "order": 2,
+            "name": "Addition and Subtraction Practice (continued)",
             "pdf_page": 87
+          },
+          {
+            "order": 3,
+            "name": "Addition and Subtraction Practice (continued)",
+            "pdf_page": 88
           }
-        ],
-        "topic": "Ch. 5 – 3-Digit Operations Practice"
+        ]
       },
       {
         "week": 24,
+        "topic": "Ch. 5: Working with 3-Digit Numbers / Ch. 6: Measurement",
         "assignments": [
           {
             "order": 1,
-            "name": "Addition and Subtraction Practice - Part 3",
-            "pdf_page": 88
+            "name": "Chapter 5 Posttest",
+            "pdf_page": 89
           },
           {
             "order": 2,
-            "name": "Telling Time to the Hour",
-            "pdf_page": 94
+            "name": "Chapter 6 Pretest",
+            "pdf_page": 91
           },
           {
             "order": 3,
-            "name": "Telling Time to the Half Hour",
-            "pdf_page": 95
+            "name": "Telling Time to the Hour",
+            "pdf_page": 94
           }
-        ],
-        "topic": "Ch. 5 Review / Ch. 6 – Telling Time"
+        ]
       },
       {
         "week": 25,
+        "topic": "Ch. 6: Measurement",
         "assignments": [
           {
             "order": 1,
+            "name": "Telling Time to the Half Hour",
+            "pdf_page": 95
+          },
+          {
+            "order": 2,
             "name": "Telling Time to the Quarter Hour",
             "pdf_page": 96
           },
           {
-            "order": 2,
-            "name": "Telling Time to the Quarter Hour - Part 2",
-            "pdf_page": 97
-          },
-          {
             "order": 3,
-            "name": "Estimating Inches",
-            "pdf_page": 98
+            "name": "Problem Solving",
+            "pdf_page": 97
           }
-        ],
-        "topic": "Ch. 6 – Time & Measurement (Inches)"
+        ]
       },
       {
         "week": 26,
+        "topic": "Ch. 6: Measurement",
         "assignments": [
           {
             "order": 1,
+            "name": "Estimating Inches",
+            "pdf_page": 98
+          },
+          {
+            "order": 2,
             "name": "Estimating Centimeters",
             "pdf_page": 99
           },
           {
-            "order": 2,
+            "order": 3,
             "name": "Measuring Length in Inches",
             "pdf_page": 100
-          },
-          {
-            "order": 3,
-            "name": "Making a Line Plot",
-            "pdf_page": 101
           }
-        ],
-        "topic": "Ch. 6 – Measurement (Inches & Centimeters)"
+        ]
       },
       {
         "week": 27,
+        "topic": "Ch. 6: Measurement",
         "assignments": [
           {
             "order": 1,
-            "name": "Measuring Length in Inches - Perimeter",
-            "pdf_page": 102
+            "name": "Making a Line Plot",
+            "pdf_page": 101
           },
           {
             "order": 2,
-            "name": "Making a Line Plot",
-            "pdf_page": 103
+            "name": "Measuring Length in Inches",
+            "pdf_page": 102
           },
           {
             "order": 3,
-            "name": "Measuring Length in Centimeters",
-            "pdf_page": 104
+            "name": "Making a Line Plot",
+            "pdf_page": 103
           }
-        ],
-        "topic": "Ch. 6 – Measurement, Perimeter & Line Plots"
+        ]
       },
       {
         "week": 28,
+        "topic": "Ch. 6: Measurement",
         "assignments": [
           {
             "order": 1,
+            "name": "Measuring Length in Centimeters",
+            "pdf_page": 104
+          },
+          {
+            "order": 2,
             "name": "Making a Line Plot",
             "pdf_page": 105
           },
           {
-            "order": 2,
-            "name": "Measuring Length in Centimeters - Perimeter",
-            "pdf_page": 106
-          },
-          {
             "order": 3,
-            "name": "Making a Line Plot",
-            "pdf_page": 107
+            "name": "Measuring Length in Centimeters",
+            "pdf_page": 106
           }
-        ],
-        "topic": "Ch. 6 – Measurement (Centimeters) & Line Plots"
+        ]
       },
       {
         "week": 29,
+        "topic": "Ch. 6: Measurement",
         "assignments": [
           {
             "order": 1,
-            "name": "How Much Longer",
+            "name": "Making a Line Plot",
+            "pdf_page": 107
+          },
+          {
+            "order": 2,
+            "name": "How Much Longer?",
             "pdf_page": 108
           },
           {
-            "order": 2,
-            "name": "How Much Longer - Part 2",
-            "pdf_page": 109
-          },
-          {
             "order": 3,
-            "name": "Comparing Measurements",
-            "pdf_page": 110
+            "name": "How Much Longer?",
+            "pdf_page": 109
           }
-        ],
-        "topic": "Ch. 6 – Comparing Measurements"
+        ]
       },
       {
         "week": 30,
+        "topic": "Ch. 6: Measurement",
         "assignments": [
           {
             "order": 1,
-            "name": "Comparing Measurements - Part 2",
+            "name": "Comparing Measurements",
+            "pdf_page": 110
+          },
+          {
+            "order": 2,
+            "name": "Comparing Measurements (continued)",
             "pdf_page": 111
           },
           {
-            "order": 2,
+            "order": 3,
             "name": "Problem Solving",
             "pdf_page": 112
-          },
-          {
-            "order": 3,
-            "name": "Reading Picture and Bar Graphs",
-            "pdf_page": 113
           }
-        ],
-        "topic": "Ch. 6 – Problem Solving & Data (Graphs)"
+        ]
       },
       {
         "week": 31,
+        "topic": "Ch. 6: Measurement",
         "assignments": [
           {
             "order": 1,
-            "name": "Reading Picture and Bar Graphs - Part 2",
-            "pdf_page": 114
+            "name": "Reading Picture and Bar Graphs",
+            "pdf_page": 113
           },
           {
             "order": 2,
-            "name": "Reading Picture and Bar Graphs - Part 3",
-            "pdf_page": 115
+            "name": "Reading Picture and Bar Graphs (continued)",
+            "pdf_page": 114
           },
           {
             "order": 3,
-            "name": "Creating a Bar Graph",
-            "pdf_page": 116
+            "name": "Reading Picture and Bar Graphs (continued)",
+            "pdf_page": 115
           }
-        ],
-        "topic": "Ch. 6 – Reading Picture & Bar Graphs"
+        ]
       },
       {
         "week": 32,
+        "topic": "Ch. 6: Measurement",
         "assignments": [
           {
             "order": 1,
+            "name": "Creating a Bar Graph",
+            "pdf_page": 116
+          },
+          {
+            "order": 2,
             "name": "Creating a Picture Graph",
             "pdf_page": 117
           },
           {
-            "order": 2,
+            "order": 3,
             "name": "Adding and Subtracting on a Number Line",
             "pdf_page": 118
-          },
-          {
-            "order": 3,
-            "name": "Problem Solving",
-            "pdf_page": 119
           }
-        ],
-        "topic": "Ch. 6 – Creating Graphs & Number Lines"
+        ]
       },
       {
         "week": 33,
+        "topic": "Ch. 6: Measurement / Ch. 7: Geometry",
         "assignments": [
           {
             "order": 1,
-            "name": "Chapter 7 Pretest - Part 1",
-            "pdf_page": 123
+            "name": "Problem Solving",
+            "pdf_page": 119
           },
           {
             "order": 2,
-            "name": "Chapter 7 Pretest - Part 2",
-            "pdf_page": 124
+            "name": "Chapter 6 Posttest",
+            "pdf_page": 120
           },
           {
             "order": 3,
             "name": "Plane Shapes",
             "pdf_page": 125
           }
-        ],
-        "topic": "Ch. 7 – Geometry (Plane & Solid Shapes)"
+        ]
       },
       {
         "week": 34,
+        "topic": "Ch. 7: Geometry",
         "assignments": [
           {
             "order": 1,
@@ -714,83 +715,84 @@
             "name": "Drawing Solid Shapes",
             "pdf_page": 128
           }
-        ],
-        "topic": "Ch. 7 – Geometry (Drawing Shapes)"
+        ]
       },
       {
         "week": 35,
+        "topic": "Ch. 8: Parts of a Whole",
         "assignments": [
           {
             "order": 1,
-            "name": "Chapter 8 Pretest",
-            "pdf_page": 131
-          },
-          {
-            "order": 2,
             "name": "Parts of Shapes",
             "pdf_page": 133
           },
           {
-            "order": 3,
+            "order": 2,
             "name": "One-Half",
             "pdf_page": 134
+          },
+          {
+            "order": 3,
+            "name": "One-Third",
+            "pdf_page": 135
           }
-        ],
-        "topic": "Ch. 8 – Fractions (Halves & Thirds)"
+        ]
       },
       {
         "week": 36,
+        "topic": "Ch. 8: Parts of a Whole",
         "assignments": [
           {
             "order": 1,
-            "name": "One-Third",
-            "pdf_page": 135
-          },
-          {
-            "order": 2,
             "name": "One-Fourth",
             "pdf_page": 136
           },
           {
-            "order": 3,
+            "order": 2,
             "name": "Partitioning Rectangles",
             "pdf_page": 137
+          },
+          {
+            "order": 3,
+            "name": "Chapters 1-8 Final Test",
+            "pdf_page": 140
           }
-        ],
-        "topic": "Ch. 8 – Fractions (Thirds, Fourths & Rectangles)"
+        ]
       }
     ]
   },
   "summer_program": {
+    "total_weeks": 8,
     "weeks": [
       {
         "week": 1,
+        "topic": "Ch. 1: Understanding and Using Numbers",
         "assignments": [
           {
             "order": 1,
-            "name": "Odd or Even",
-            "pdf_page": 14
+            "name": "Grouping Objects",
+            "pdf_page": 9
           },
           {
             "order": 2,
-            "name": "Odd or Even - Part 2",
-            "pdf_page": 15
-          },
-          {
-            "order": 3,
             "name": "Skip Counting",
             "pdf_page": 11
           },
           {
+            "order": 3,
+            "name": "Skip Counting with Money (continued)",
+            "pdf_page": 13
+          },
+          {
             "order": 4,
-            "name": "Skip Counting with Money",
-            "pdf_page": 12
+            "name": "Odd or Even? (continued)",
+            "pdf_page": 15
           }
-        ],
-        "topic": "Ch. 1 – Number Sense (Odd/Even & Skip Counting)"
+        ]
       },
       {
         "week": 2,
+        "topic": "Ch. 2: Addition and Subtraction Facts through 20",
         "assignments": [
           {
             "order": 1,
@@ -799,50 +801,24 @@
           },
           {
             "order": 2,
-            "name": "Adding to 6, 7, and 8",
-            "pdf_page": 22
-          },
-          {
-            "order": 3,
-            "name": "Adding to 9 and 10",
-            "pdf_page": 24
-          },
-          {
-            "order": 4,
-            "name": "Adding to 11, 12, and 13",
-            "pdf_page": 26
-          }
-        ],
-        "topic": "Ch. 2 – Addition Facts (through 13)"
-      },
-      {
-        "week": 3,
-        "assignments": [
-          {
-            "order": 1,
-            "name": "Subtracting from 0 through 5",
-            "pdf_page": 21
-          },
-          {
-            "order": 2,
             "name": "Subtracting from 6, 7, and 8",
             "pdf_page": 23
           },
           {
             "order": 3,
-            "name": "Subtracting from 9 and 10",
-            "pdf_page": 25
+            "name": "Adding to 11, 12, and 13",
+            "pdf_page": 26
           },
           {
             "order": 4,
-            "name": "Subtracting from 11, 12, and 13",
-            "pdf_page": 27
+            "name": "Adding to 17, 18, 19, and 20",
+            "pdf_page": 30
           }
-        ],
-        "topic": "Ch. 2 – Subtraction Facts (through 13)"
+        ]
       },
       {
-        "week": 4,
+        "week": 3,
+        "topic": "Ch. 3: Adding and Subtracting 2-Digit Numbers (No Renaming)",
         "assignments": [
           {
             "order": 1,
@@ -851,76 +827,76 @@
           },
           {
             "order": 2,
-            "name": "Adding 2-Digit Numbers - Part 2",
-            "pdf_page": 39
+            "name": "Problem Solving",
+            "pdf_page": 41
           },
           {
             "order": 3,
-            "name": "Subtracting 2-Digit Numbers",
-            "pdf_page": 42
+            "name": "Subtraction Practice",
+            "pdf_page": 44
           },
           {
             "order": 4,
-            "name": "Subtracting 2-Digit Numbers - Part 2",
-            "pdf_page": 43
+            "name": "Problem Solving",
+            "pdf_page": 47
           }
-        ],
-        "topic": "Ch. 3 – 2-Digit Addition & Subtraction"
+        ]
       },
       {
-        "week": 5,
+        "week": 4,
+        "topic": "Ch. 4: Adding and Subtracting 2-Digit Numbers (With Renaming)",
         "assignments": [
           {
             "order": 1,
-            "name": "Adding 2-Digit Numbers With Renaming",
+            "name": "Adding 2-Digit Numbers",
             "pdf_page": 54
           },
           {
             "order": 2,
-            "name": "Adding 2-Digit Numbers With Renaming - Part 2",
-            "pdf_page": 55
+            "name": "Problem Solving",
+            "pdf_page": 57
           },
           {
             "order": 3,
-            "name": "Subtracting 2-Digit Numbers With Renaming",
-            "pdf_page": 56
+            "name": "Subtracting 2-Digit Numbers",
+            "pdf_page": 58
           },
           {
             "order": 4,
-            "name": "Subtracting 2-Digit Numbers With Renaming - Part 2",
-            "pdf_page": 57
+            "name": "Problem Solving",
+            "pdf_page": 61
           }
-        ],
-        "topic": "Ch. 4 – 2-Digit Operations with Renaming"
+        ]
       },
       {
-        "week": 6,
+        "week": 5,
+        "topic": "Ch. 5: Working with 3-Digit Numbers",
         "assignments": [
           {
             "order": 1,
-            "name": "Comparing Numbers",
-            "pdf_page": 76
+            "name": "Counting and Writing 150 through 199",
+            "pdf_page": 70
           },
           {
             "order": 2,
-            "name": "Comparing Numbers - Part 2",
-            "pdf_page": 77
+            "name": "Skip Counting",
+            "pdf_page": 74
           },
           {
             "order": 3,
-            "name": "Adding 3-Digit Numbers",
-            "pdf_page": 82
+            "name": "Subtracting 2 Digits from 3 Digits",
+            "pdf_page": 78
           },
           {
             "order": 4,
-            "name": "Subtracting 3-Digit Numbers",
-            "pdf_page": 83
+            "name": "Addition and Subtraction Practice",
+            "pdf_page": 86
           }
-        ],
-        "topic": "Ch. 5 – Comparing & 3-Digit Operations"
+        ]
       },
       {
-        "week": 7,
+        "week": 6,
+        "topic": "Ch. 6: Measurement",
         "assignments": [
           {
             "order": 1,
@@ -929,24 +905,24 @@
           },
           {
             "order": 2,
-            "name": "Telling Time to the Half Hour",
-            "pdf_page": 95
+            "name": "Estimating Inches",
+            "pdf_page": 98
           },
           {
             "order": 3,
-            "name": "Measuring Length in Inches",
-            "pdf_page": 100
+            "name": "Measuring Length in Centimeters",
+            "pdf_page": 104
           },
           {
             "order": 4,
-            "name": "Measuring Length in Centimeters",
-            "pdf_page": 104
+            "name": "Reading Picture and Bar Graphs",
+            "pdf_page": 113
           }
-        ],
-        "topic": "Ch. 6 – Time & Measurement"
+        ]
       },
       {
-        "week": 8,
+        "week": 7,
+        "topic": "Ch. 7: Geometry",
         "assignments": [
           {
             "order": 1,
@@ -960,16 +936,41 @@
           },
           {
             "order": 3,
+            "name": "Drawing Plane Shapes",
+            "pdf_page": 127
+          },
+          {
+            "order": 4,
+            "name": "Drawing Solid Shapes",
+            "pdf_page": 128
+          }
+        ]
+      },
+      {
+        "week": 8,
+        "topic": "Ch. 8: Parts of a Whole",
+        "assignments": [
+          {
+            "order": 1,
+            "name": "Parts of Shapes",
+            "pdf_page": 133
+          },
+          {
+            "order": 2,
             "name": "One-Half",
             "pdf_page": 134
+          },
+          {
+            "order": 3,
+            "name": "One-Third",
+            "pdf_page": 135
           },
           {
             "order": 4,
             "name": "One-Fourth",
             "pdf_page": 136
           }
-        ],
-        "topic": "Ch. 7 & 8 – Geometry & Fractions"
+        ]
       }
     ]
   }
