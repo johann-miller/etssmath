@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap');
+
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
@@ -14,7 +16,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', system-ui, sans-serif;
+  font-family: 'Roboto', 'Segoe UI', system-ui, sans-serif;
   background: var(--bg);
   color: var(--text);
   min-height: 100vh;
@@ -260,33 +262,73 @@ main {
 .grade-panel { display: none; }
 .grade-panel.active { display: block; }
 
+/* ── Program Tabs – Folder Style ── */
 .program-tabs {
   display: flex;
-  gap: 0.5rem;
-  margin-bottom: 1.25rem;
+  align-items: flex-end;
+  gap: 4px;
+  margin-bottom: -1.5px;
 }
 
 .program-tab {
   flex: 1;
   padding: 0.7rem 1.25rem;
-  border: 1px solid transparent;
-  border-radius: var(--radius);
+  border: 1.5px solid;
+  border-bottom: none;
+  border-radius: 8px 8px 0 0;
   font-size: 0.95rem;
   font-weight: 600;
   cursor: pointer;
-  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  position: relative;
+  z-index: 1; /* below panel */
+  transition: padding-top 0.15s, box-shadow 0.15s;
 }
 
-.program-tab.academic        { border: 1px solid var(--border); background: var(--card); color: var(--muted);}
-.program-tab.academic:hover  { border-color: var(--academic); color: var(--academic); }
-.program-tab.academic.active { background: var(--academic); border-color: var(--academic); color: white; }
+.program-tab.academic, .program-tab.summer {
+  background: #f1f5f9;
+  box-shadow: 4cap inset;
+  border-color: var(--border);
+  color: var(--muted);
+}
 
-.program-tab.summer          { border: 1px solid var(--border); background: var(--card); color: var(--muted);}
-.program-tab.summer:hover    { border-color: var(--summer); color: var(--summer); }
-.program-tab.summer.active   { background: var(--summer); border-color: var(--summer); color: white; }
+.program-tab.academic:not(.active):hover {
+  color: var(--academic);
+  background: #b8cef5;
+}
 
-.program-panel { display: none; }
-.program-panel.active { display: block; }
+.program-tab.academic.active {
+  background: #ffffff;
+  border-color: var(--border);
+  color: var(--academic);
+  z-index: 3; /* above panel */
+}
+
+.program-tab.summer:not(.active):hover {
+  color: var(--summer);
+  background: #f8e1b7;
+}
+
+.program-tab.summer.active {
+  background: #ffffff;
+  border-color: var(--border);
+  color: var(--summer);
+  z-index: 3; /* above panel */
+}
+
+/* ── Panel – folder body ── */
+.program-panel { display: none;}
+
+.program-panel.active {
+  display: block;
+  border: 1.5px solid var(--border);
+  border-radius: 0 0 6px 6px;
+  padding: 0.75rem;
+  position: relative;
+  z-index: 2;
+  background: #ffffff;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.1);
+  margin-bottom: 1.25rem;
+}
 
 .week-card {
   background: var(--card);
