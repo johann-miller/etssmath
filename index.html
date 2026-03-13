@@ -8,11 +8,14 @@
 </head>
 <body>
   <header>
-    <h1>Mathematics worksheets</h1>
+    <h1>Mathematics worksheets (Beta)</h1>
     <p>For the academic year and summer program</p>
   </header>
 
   <main>
+
+    <!-- ── Mobile catalogue shortcut ── -->
+    <a href="#catalogue" class="catalogue-shortcut">View full curriculum ↓</a>
 
     <!-- ── Recommended Assignment Scheduler ── -->
     <div class="scheduler-card">
@@ -41,7 +44,7 @@
     </div>
 
     <!-- ── Full Curriculum Catalogue ── -->
-    <div class="catalogue-heading">Full Curriculum</div>
+    <div class="catalogue-heading" id="catalogue">Full Curriculum</div>
     <div id="app">
       <div class="loading">Loading curriculum data…</div>
     </div>
@@ -66,11 +69,6 @@
       const res = await fetch(file);
       if (!res.ok) throw new Error(`Failed to load ${file}`);
       return res.json();
-    }
-
-    function toggle(el, btnEl) {
-      const open = el.classList.toggle('open');
-      if (btnEl) btnEl.classList.toggle('open', open);
     }
 
     function padWeek(n) { return String(n).padStart(2, '0'); }
@@ -122,69 +120,59 @@
       return wrapper;
     }
 
-    function buildYearSection(label, type, weeks, gradeDir, yearFolder, grade) {
-      const section = document.createElement('div');
-      section.className = 'year-section';
+    function buildGradePanel(grade, gradeDir, data) {
+      const panel = document.createElement('div');
+      panel.className = 'grade-panel';
+      panel.id = `catalogue-grade-${grade}`;
 
-      const btn = document.createElement('button');
-      btn.className = `year-btn ${type}`;
-      btn.id = `catalogue-grade-${grade}-${type}-btn`;
-      btn.innerHTML = `<span>${label} <span style="font-weight:400;opacity:.85">(${weeks.length} weeks)</span></span><span class="chevron">&#9660;</span>`;
-
-      const content = document.createElement('div');
-      content.className = 'year-content';
-      content.id = `catalogue-grade-${grade}-${type}`;
-      content.appendChild(buildAssignments(weeks, gradeDir, yearFolder, type === 'summer', grade));
-
-      btn.addEventListener('click', () => toggle(content, btn));
-      section.appendChild(btn);
-      section.appendChild(content);
-      return section;
-    }
-
-    function buildGradeSection(label, grade, gradeDir, data) {
-      const section = document.createElement('div');
-      section.className = 'grade-section';
-
-      const btn = document.createElement('button');
-      btn.className = 'grade-btn';
-      btn.id = `catalogue-grade-${grade}-btn`;
-      btn.innerHTML = `<span>${label}</span><span class="chevron">&#9660;</span>`;
-
-      const content = document.createElement('div');
-      content.className = 'grade-content';
-      content.id = `catalogue-grade-${grade}`;
+      const backLink = () => {
+        const a = document.createElement('a');
+        a.href = '#catalogue';
+        a.className = 'back-to-top';
+        a.textContent = '↑ Back to top';
+        return a;
+      };
 
       if (data.academic_year) {
-        content.appendChild(buildYearSection('Academic Year', 'academic', data.academic_year.weeks, gradeDir, 'Academic Year', grade));
+        const pp = document.createElement('div');
+        pp.className = 'program-panel academic';
+        pp.appendChild(buildAssignments(data.academic_year.weeks, gradeDir, 'Academic Year', false, grade));
+        pp.appendChild(backLink());
+        panel.appendChild(pp);
       }
       if (data.summer_program) {
-        content.appendChild(buildYearSection('Summer Program', 'summer', data.summer_program.weeks, gradeDir, 'Summer Program', grade));
+        const pp = document.createElement('div');
+        pp.className = 'program-panel summer';
+        pp.appendChild(buildAssignments(data.summer_program.weeks, gradeDir, 'Summer Program', true, grade));
+        pp.appendChild(backLink());
+        panel.appendChild(pp);
       }
 
-      btn.addEventListener('click', () => toggle(content, btn));
-      section.appendChild(btn);
-      section.appendChild(content);
-      return section;
+      return panel;
+    }
+
+    function selectGrade(grade) {
+      document.querySelectorAll('.grade-tab').forEach(t =>
+        t.classList.toggle('active', Number(t.dataset.grade) === grade)
+      );
+      document.querySelectorAll('.grade-panel').forEach(p =>
+        p.classList.toggle('active', p.id === `catalogue-grade-${grade}`)
+      );
+    }
+
+    function selectProgram(type) {
+      document.querySelectorAll('.program-tab').forEach(t =>
+        t.classList.toggle('active', t.dataset.program === type)
+      );
+      document.querySelectorAll('.program-panel').forEach(p =>
+        p.classList.toggle('active', p.classList.contains(type))
+      );
     }
 
     function jumpToCatalogueWeek(grade, isSummer, weekNum) {
       const type = isSummer ? 'summer' : 'academic';
-
-      const gradeBtn = document.getElementById(`catalogue-grade-${grade}-btn`);
-      const gradeContent = document.getElementById(`catalogue-grade-${grade}`);
-      if (gradeContent && !gradeContent.classList.contains('open')) {
-        gradeContent.classList.add('open');
-        if (gradeBtn) gradeBtn.classList.add('open');
-      }
-
-      const yearBtn = document.getElementById(`catalogue-grade-${grade}-${type}-btn`);
-      const yearContent = document.getElementById(`catalogue-grade-${grade}-${type}`);
-      if (yearContent && !yearContent.classList.contains('open')) {
-        yearContent.classList.add('open');
-        if (yearBtn) yearBtn.classList.add('open');
-      }
-
+      selectGrade(grade);
+      selectProgram(type);
       const weekEl = document.getElementById(`catalogue-grade-${grade}-${type}-week-${weekNum}`);
       if (weekEl) weekEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
@@ -193,21 +181,68 @@
       const app = document.getElementById('app');
       app.innerHTML = '';
 
-      const results = await Promise.allSettled(
-        GRADES.map(g => loadCurriculum(g.file).then(data => ({ ...g, data })))
-      );
+      const [results, calData] = await Promise.all([
+        Promise.allSettled(GRADES.map(g => loadCurriculum(g.file).then(data => ({ ...g, data })))),
+        fetch('data/school_calendar.json').then(r => r.json()).catch(() => null)
+      ]);
 
       if (results.every(r => r.status === 'rejected')) {
         app.innerHTML = `<div class="error">Could not load any curriculum files. Ensure the JSON files exist at the correct paths relative to index.html.</div>`;
         return;
       }
 
+      const todayStr = new Date().toISOString().split('T')[0];
+      let defaultProgram = 'academic';
+      if (calData) {
+        for (const district of Object.values(calData.districts)) {
+          if (district.summer_program &&
+              todayStr >= district.summer_program.start &&
+              todayStr <= district.summer_program.end) {
+            defaultProgram = 'summer';
+            break;
+          }
+        }
+      }
+
+      const gradeTabBar = document.createElement('div');
+      gradeTabBar.className = 'grade-tabs';
+      app.appendChild(gradeTabBar);
+
+      const programTabBar = document.createElement('div');
+      programTabBar.className = 'program-tabs';
+      [['academic', 'Academic Year'], ['summer', 'Summer Program']].forEach(([type, label]) => {
+        const tab = document.createElement('button');
+        tab.className = `program-tab ${type}`;
+        tab.textContent = label;
+        tab.dataset.program = type;
+        tab.addEventListener('click', () => selectProgram(type));
+        programTabBar.appendChild(tab);
+      });
+      app.appendChild(programTabBar);
+
+      let firstPanel = true;
       results.forEach(result => {
-        if (result.status === 'fulfilled') {
-          const { label, grade, gradeDir, data } = result.value;
-          app.appendChild(buildGradeSection(label, grade, gradeDir, data));
+        if (result.status !== 'fulfilled') return;
+        const { label, grade, gradeDir, data } = result.value;
+
+        const tab = document.createElement('button');
+        tab.className = 'grade-tab';
+        tab.textContent = label;
+        tab.dataset.grade = grade;
+        tab.addEventListener('click', () => selectGrade(grade));
+        gradeTabBar.appendChild(tab);
+
+        const panel = buildGradePanel(grade, gradeDir, data);
+        app.appendChild(panel);
+
+        if (firstPanel) {
+          tab.classList.add('active');
+          panel.classList.add('active');
+          firstPanel = false;
         }
       });
+
+      selectProgram(defaultProgram);
     }
 
     init();

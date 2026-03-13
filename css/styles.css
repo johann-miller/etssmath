@@ -10,7 +10,7 @@
   --border: #e2e8f0;
   --text: #1e293b;
   --muted: #64748b;
-  --radius: 10px;
+  --radius: 4px;
 }
 
 body {
@@ -227,56 +227,66 @@ main {
   margin-bottom: 1rem;
 }
 
-.grade-section { margin-bottom: 1rem; }
-
-.grade-btn {
+.grade-tabs {
   width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: var(--primary);
-  color: white;
-  border: none;
-  border-radius: var(--radius);
-  padding: 1rem 1.5rem;
-  font-size: 1.15rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background 0.2s;
-  box-shadow: 0 2px 6px rgba(37,99,235,0.25);
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  overflow-x: auto;
+  padding-bottom: 0.75rem;
+  margin-bottom: 1rem;
+  scrollbar-width: none;
 }
 
-.grade-btn:hover { background: var(--primary-dark); }
-.grade-btn .chevron { transition: transform 0.25s; font-size: 1rem; }
-.grade-btn.open .chevron { transform: rotate(180deg); }
+.grade-tabs::-webkit-scrollbar { display: none; }
 
-.grade-content { display: none; padding: 0.75rem 0 0.25rem; }
-.grade-content.open { display: block; }
+.grade-tab {
+  flex-shrink: 0;
+  padding: 0.55rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--card);
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
 
-.year-section { margin-bottom: 0.75rem; }
+.grade-tab:hover { border-color: var(--primary); color: var(--primary); }
+.grade-tab.active { background: var(--primary); border-color: var(--primary); color: white; }
 
-.year-btn {
-  width: 100%;
+.grade-panel { display: none; }
+.grade-panel.active { display: block; }
+
+.program-tabs {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border: none;
-  border-radius: var(--radius);
-  padding: 0.8rem 1.25rem;
-  font-size: 1rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: opacity 0.2s;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
 }
 
-.year-btn.academic { background: var(--academic); color: white; }
-.year-btn.summer   { background: var(--summer);   color: white; }
-.year-btn:hover { opacity: 0.88; }
-.year-btn .chevron { transition: transform 0.25s; font-size: 0.9rem; }
-.year-btn.open .chevron { transform: rotate(180deg); }
+.program-tab {
+  flex: 1;
+  padding: 0.7rem 1.25rem;
+  border: 2px solid transparent;
+  border-radius: var(--radius);
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
 
-.year-content { display: none; padding: 0.5rem 0 0; }
-.year-content.open { display: block; }
+.program-tab.academic        { background: #e0f2fe; color: var(--academic); border-color: #e0f2fe; }
+.program-tab.academic:hover  { border-color: var(--academic); }
+.program-tab.academic.active { background: var(--academic); color: white; border-color: var(--academic); }
+
+.program-tab.summer          { background: #fef3c7; color: var(--summer); border-color: #fef3c7; }
+.program-tab.summer:hover    { border-color: var(--summer); }
+.program-tab.summer.active   { background: var(--summer); color: white; border-color: var(--summer); }
+
+.program-panel { display: none; }
+.program-panel.active { display: block; }
 
 .week-card {
   background: var(--card);
@@ -374,7 +384,47 @@ main {
   .form-row { flex-direction: column; }
 }
 
+.catalogue-shortcut {
+  display: none;
+}
+
+.back-to-top {
+  display: block;
+  text-align: center;
+  margin-top: 0.75rem;
+  padding: 0.45rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.back-to-top:hover { color: var(--primary); border-color: var(--primary); }
+
 @media (max-width: 45em) {
+  .catalogue-shortcut {
+    display: block;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    padding: 0.45rem 1rem;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--primary);
+    font-size: 0.88rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .catalogue-shortcut:hover {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+  }
+
   .scheduler-assignment-item {
     flex-direction: column;
     align-items: flex-start;
