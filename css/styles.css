@@ -277,13 +277,13 @@ main {
   transition: background 0.15s, color 0.15s, border-color 0.15s;
 }
 
-.program-tab.academic        { background: var(--bg); color: var(--academic); border-color: transparent; }
-.program-tab.academic:hover  { border-color: var(--academic); }
-.program-tab.academic.active { background: var(--academic); color: white; border-color: var(--academic); }
+.program-tab.academic        { border: 1px solid var(--border); background: var(--card); color: var(--muted);}
+.program-tab.academic:hover  { border-color: var(--academic); color: var(--academic); }
+.program-tab.academic.active { background: var(--academic); border-color: var(--academic); color: white; }
 
-.program-tab.summer          { background: #fef3c7; color: var(--summer); border-color: transparent; }
-.program-tab.summer:hover    { border-color: var(--summer); }
-.program-tab.summer.active   { background: var(--summer); color: white; border-color: var(--summer); }
+.program-tab.summer          { border: 1px solid var(--border); background: var(--card); color: var(--muted);}
+.program-tab.summer:hover    { border-color: var(--summer); color: var(--summer); }
+.program-tab.summer.active   { background: var(--summer); border-color: var(--summer); color: white; }
 
 .program-panel { display: none; }
 .program-panel.active { display: block; }
