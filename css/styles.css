@@ -281,7 +281,7 @@ main {
 .program-tab.academic:hover  { border-color: var(--academic); }
 .program-tab.academic.active { background: var(--academic); color: white; border-color: var(--academic); }
 
-.program-tab.summer          { background: #fef3c7; color: var(--summer); border-color: #fef3c7; }
+.program-tab.summer          { background: #fef3c7; color: var(--summer); border-color: var(--border); }
 .program-tab.summer:hover    { border-color: var(--summer); }
 .program-tab.summer.active   { background: var(--summer); color: white; border-color: var(--summer); }
 
