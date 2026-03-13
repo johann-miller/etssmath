@@ -197,7 +197,7 @@ async function initScheduler() {
 
   function showPrompt() {
     weekInfoEl.className = "week-info";
-    weekInfoEl.innerHTML = "<p>Select your site for recommended daily assignment</p>";
+    weekInfoEl.textContent = "";
     container.innerHTML = "";
   }
 
@@ -209,7 +209,7 @@ async function initScheduler() {
 
     if (weekNum === null) {
       weekInfoEl.className = "week-info no-session";
-      weekInfoEl.innerHTML = "<h3>No Session Today</h3><p>Outside of program dates.</p>";
+      weekInfoEl.textContent = "No Session";
       container.innerHTML = "";
       return;
     }
@@ -220,7 +220,7 @@ async function initScheduler() {
     const programLabel = isSummer ? "Summer Program" : "Academic Year";
 
     weekInfoEl.className = "week-info";
-    weekInfoEl.innerHTML = `<h3>Week ${weekNum}</h3><p>${programLabel}</p>`;
+    weekInfoEl.textContent = `Week ${weekNum} · ${programLabel}`;
 
     container.innerHTML = "";
 

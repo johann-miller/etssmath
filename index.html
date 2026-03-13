@@ -19,7 +19,10 @@
 
     <!-- ── Recommended Assignment Scheduler ── -->
     <div class="scheduler-card">
-      <h2>Recommended Assignment</h2>
+      <div class="scheduler-header">
+        <h2>Recommended assignment</h2>
+        <div id="current-week-info" class="week-info"></div>
+      </div>
 
       <div class="form-row">
         <div class="form-group">
@@ -30,12 +33,7 @@
         </div>
       </div>
 
-      <div id="current-week-info" class="week-info">
-        <!-- Populated by scheduler.js -->
-      </div>
-
       <div class="scheduler-assignments">
-        <h4>Today's assignments</h4>
         <div id="assignments-container">
           <!-- Populated by scheduler.js -->
         </div>

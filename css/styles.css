@@ -63,11 +63,18 @@ main {
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
 
+.scheduler-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 0.75rem;
+  margin-bottom: 1rem;
+}
+
 .scheduler-card h2 {
   font-size: 1.2rem;
   font-weight: 700;
   color: var(--text);
-  margin-bottom: 1rem;
 }
 
 .form-row {
@@ -121,28 +128,20 @@ main {
 .program-badge.summer   { background: #fef3c7; color: var(--summer); }
 
 .week-info {
-  background: #f1f5f9;
-  border-radius: var(--radius);
-  padding: 0.9rem 1.2rem;
-  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--muted);
 }
-
-.week-info h3 {
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--text);
-  margin-bottom: 0.2rem;
-}
-
-.week-info p { font-size: 0.85rem; color: var(--muted); }
 
 .week-info.no-session {
   background: #fef3c7;
   border: 1px solid #fcd34d;
+  border-radius: 999px;
+  padding: 0.15rem 0.65rem;
+  color: #92400e;
+  font-size: 0.78rem;
+  font-weight: 600;
 }
-
-.week-info.no-session p  { color: #92400e; }
-.week-info.no-session h3 { color: #92400e; }
 
 .scheduler-assignments h4 {
   font-size: 0.88rem;
