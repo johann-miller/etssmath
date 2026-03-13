@@ -281,19 +281,21 @@ async function initScheduler() {
               textWrap.appendChild(topicEl);
             }
 
-            const jumpBtn = document.createElement('button');
-            jumpBtn.textContent = `All assignments week ${rec.week} - Grade ${grade}`;
-            jumpBtn.className = 'jump-btn';
-            jumpBtn.addEventListener('click', () => jumpToCatalogueWeek(grade, rec.isSummer, rec.week));
-
             const assignmentMain = document.createElement("div");
             assignmentMain.className = "scheduler-assignment-main";
             assignmentMain.appendChild(num);
             assignmentMain.appendChild(textWrap);
 
             item.appendChild(assignmentMain);
-            item.appendChild(jumpBtn);
             gradeSection.appendChild(item);
+
+            // Update the program panel's jump link for this grade
+            const type = rec.isSummer ? 'summer' : 'academic';
+            const jumpEl = document.getElementById(`jump-current-week-${grade}-${type}`);
+            if (jumpEl) {
+              jumpEl.dataset.week = rec.week;
+              jumpEl.style.display = '';
+            }
           }
         } catch {
           const msg = document.createElement("div");

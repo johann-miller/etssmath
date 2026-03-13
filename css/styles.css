@@ -394,23 +394,18 @@ main {
 
 .assignment-link:hover { text-decoration: underline; }
 
-.jump-btn {
-  margin-left: auto;
-  padding: 0.2rem 0.6rem;
-  font-size: 0.75rem;
+.jump-current-week {
+  display: block;
+  text-align: center;
+  margin-bottom: 0.6rem;
+  font-size: 0.82rem;
   font-weight: 600;
   color: var(--primary);
-  background: none;
-  border: 1px solid var(--primary);
-  border-radius: var(--radius);
+  text-decoration: none;
   cursor: pointer;
-  white-space: nowrap;
 }
 
-.jump-btn:hover {
-  background: var(--primary);
-  color: white;
-}
+.jump-current-week:hover { text-decoration: underline; }
 
 .scheduler-assignment-main {
   display: flex;
@@ -468,10 +463,5 @@ main {
   .scheduler-assignment-item {
     flex-direction: column;
     align-items: flex-start;
-  }
-
-  .jump-btn {
-    margin-left: 0;
-    width: 100%;
   }
 }

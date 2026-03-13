@@ -133,9 +133,24 @@
         return a;
       };
 
+      const makeJumpLink = (grade, type) => {
+        const a = document.createElement('a');
+        a.id = `jump-current-week-${grade}-${type}`;
+        a.className = 'jump-current-week';
+        a.textContent = 'Jump to current week \u2192';
+        a.style.display = 'none';
+        a.addEventListener('click', e => {
+          e.preventDefault();
+          const weekNum = parseInt(a.dataset.week, 10);
+          if (weekNum) jumpToCatalogueWeek(grade, type === 'summer', weekNum);
+        });
+        return a;
+      };
+
       if (data.academic_year) {
         const pp = document.createElement('div');
         pp.className = 'program-panel academic';
+        pp.appendChild(makeJumpLink(grade, 'academic'));
         pp.appendChild(buildAssignments(data.academic_year.weeks, gradeDir, 'Academic Year', false, grade));
         pp.appendChild(backLink());
         panel.appendChild(pp);
@@ -143,6 +158,7 @@
       if (data.summer_program) {
         const pp = document.createElement('div');
         pp.className = 'program-panel summer';
+        pp.appendChild(makeJumpLink(grade, 'summer'));
         pp.appendChild(buildAssignments(data.summer_program.weeks, gradeDir, 'Summer Program', true, grade));
         pp.appendChild(backLink());
         panel.appendChild(pp);
