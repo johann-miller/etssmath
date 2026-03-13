@@ -342,8 +342,6 @@ main {
   padding: 0.55rem 1.25rem;
   font-weight: 600;
   font-size: 0.88rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
   background: #f1f5f9;
   color: var(--muted);
   border-bottom: 1px solid var(--border);
