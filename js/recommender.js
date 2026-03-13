@@ -286,8 +286,12 @@ async function initScheduler() {
             jumpBtn.className = 'jump-btn';
             jumpBtn.addEventListener('click', () => jumpToCatalogueWeek(grade, rec.isSummer, rec.week));
 
-            item.appendChild(num);
-            item.appendChild(textWrap);
+            const assignmentMain = document.createElement("div");
+            assignmentMain.className = "scheduler-assignment-main";
+            assignmentMain.appendChild(num);
+            assignmentMain.appendChild(textWrap);
+
+            item.appendChild(assignmentMain);
             item.appendChild(jumpBtn);
             gradeSection.appendChild(item);
           }
