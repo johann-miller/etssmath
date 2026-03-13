@@ -277,11 +277,11 @@ main {
   transition: background 0.15s, color 0.15s, border-color 0.15s;
 }
 
-.program-tab.academic        { background: #dde4ee; color: var(--academic); border-color: var(--border); }
+.program-tab.academic        { background: #dde4ee; color: var(--academic); border-color: transparent; }
 .program-tab.academic:hover  { border-color: var(--academic); }
 .program-tab.academic.active { background: var(--academic); color: white; border-color: var(--academic); }
 
-.program-tab.summer          { background: #fef3c7; color: var(--summer); border-color: var(--border); }
+.program-tab.summer          { background: #fef3c7; color: var(--summer); border-color: transparent; }
 .program-tab.summer:hover    { border-color: var(--summer); }
 .program-tab.summer.active   { background: var(--summer); color: white; border-color: var(--summer); }
 
