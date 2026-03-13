@@ -3,7 +3,7 @@
 :root {
   --primary: #2563eb;
   --primary-dark: #1d4ed8;
-  --academic: #13a755;
+  --academic: #1d4ed8;
   --summer: #f38910;
   --bg: #f8fafc;
   --card: #ffffff;
@@ -277,7 +277,7 @@ main {
   transition: background 0.15s, color 0.15s, border-color 0.15s;
 }
 
-.program-tab.academic        { background: #aaeec7; color: var(--academic); border-color: #e0f2fe; }
+.program-tab.academic        { background: #dde4ee; color: var(--academic); border-color: #e0f2fe; }
 .program-tab.academic:hover  { border-color: var(--academic); }
 .program-tab.academic.active { background: var(--academic); color: white; border-color: var(--academic); }
 
