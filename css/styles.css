@@ -277,7 +277,7 @@ main {
   transition: background 0.15s, color 0.15s, border-color 0.15s;
 }
 
-.program-tab.academic        { background: var(--muted); color: var(--academic); border-color: transparent; }
+.program-tab.academic        { background: var(--bg); color: var(--academic); border-color: transparent; }
 .program-tab.academic:hover  { border-color: var(--academic); }
 .program-tab.academic.active { background: var(--academic); color: white; border-color: var(--academic); }
 
