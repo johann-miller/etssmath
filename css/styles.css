@@ -143,62 +143,6 @@ main {
   font-weight: 600;
 }
 
-.scheduler-assignments h4 {
-  font-size: 0.88rem;
-  font-weight: 600;
-  color: var(--muted);
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  margin-bottom: 0.6rem;
-}
-
-.scheduler-assignment-item {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  padding: 0.6rem 0.85rem;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  margin-bottom: 0.5rem;
-  background: white;
-}
-
-.scheduler-assignment-item .num {
-  background: var(--primary);
-  color: white;
-  border-radius: 50%;
-  width: 1.5rem;
-  height: 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.72rem;
-  font-weight: 700;
-  flex-shrink: 0;
-}
-
-.scheduler-assignment-item .num.summer { background: var(--summer); }
-
-.scheduler-assignment-text {
-  display: flex;
-  flex-direction: column;
-  gap: 0.1rem;
-  min-width: 0;
-}
-
-.scheduler-assignment-item a {
-  font-size: 0.92rem;
-  color: var(--primary);
-  text-decoration: none;
-}
-
-.scheduler-assignment-item a:hover { text-decoration: underline; }
-
-.scheduler-week-topic {
-  font-size: 0.78rem;
-  color: var(--muted);
-}
-
 .activity-card {
   margin-top: 1rem;
   padding: 0.9rem 1.2rem;
@@ -274,7 +218,7 @@ main {
   padding: 0.7rem 1.25rem;
   border: 1.5px solid;
   border-bottom: none;
-  border-radius: 8px 8px 0 0;
+  border-radius: var(--radius) var(--radius) 0 0;
   font-size: 0.95rem;
   font-weight: 600;
   cursor: pointer;
@@ -320,7 +264,7 @@ main {
 .program-panel.active {
   display: block;
   border: 1.5px solid var(--border);
-  border-radius: 0 0 6px 6px;
+  border-radius: 0 0 var(--radius) var(--radius);
   padding: 0.75rem;
   position: relative;
   z-index: 2;
@@ -393,6 +337,12 @@ main {
 
 .assignment-link:hover { text-decoration: underline; }
 
+.assignment-empty {
+  padding: 0.55rem 1.25rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
 .jump-current-week {
   display: block;
   text-align: center;
@@ -405,14 +355,6 @@ main {
 }
 
 .jump-current-week:hover { text-decoration: underline; }
-
-.scheduler-assignment-main {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  min-width: 0;
-  flex: 1;
-}
 
 @media (max-width: 35em) {
   .form-row { flex-direction: column; }
@@ -443,10 +385,3 @@ main {
 }
 
 .back-to-top:hover { color: var(--primary); border-color: var(--primary); }
-
-@media (max-width: 45em) {
-  .scheduler-assignment-item {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-}

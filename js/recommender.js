@@ -227,37 +227,44 @@ async function initScheduler() {
     for (const grade of location.grades) {
       const file = GRADE_CURRICULUM_FILES[grade];
 
-      const gradeSection = document.createElement("div");
-      gradeSection.style.marginBottom = "0.75rem";
+      // Each grade renders as a single-week version of a catalogue week-card.
+      const card = document.createElement("div");
+      card.className = "week-card";
 
-      const gradeLabel = document.createElement("div");
-      gradeLabel.className = "scheduler-assignments";
-      gradeLabel.innerHTML = `<h4>Grade ${grade}</h4>`;
-      gradeSection.appendChild(gradeLabel);
+      const label = document.createElement("div");
+      label.className = "week-label";
+      label.textContent = `Grade ${grade}`;
+      card.appendChild(label);
+
+      const list = document.createElement("div");
+      list.className = "assignments-list";
+      card.appendChild(list);
+
+      const emptyMsg = text => {
+        const msg = document.createElement("div");
+        msg.className = "assignment-empty";
+        msg.textContent = text;
+        list.appendChild(msg);
+      };
 
       if (!file) {
-        const msg = document.createElement("div");
-        msg.className = "scheduler-assignment-item";
-        msg.style.color = "var(--muted)";
-        msg.textContent = "No curriculum data available.";
-        gradeSection.appendChild(msg);
+        emptyMsg("No curriculum data available.");
       } else {
         try {
           const gradeData = await fetch(file).then(r => r.json());
           const rec = getRecommendation(today, location, district, gradeData);
 
           if (rec.status === "out_of_session" || rec.status === "no_curriculum" || !rec.assignment) {
-            const msg = document.createElement("div");
-            msg.className = "scheduler-assignment-item";
-            msg.style.color = "var(--muted)";
-            msg.textContent = "No assignment for this week.";
-            gradeSection.appendChild(msg);
+            emptyMsg("No assignment for this week.");
           } else {
+            // Week number lives in the card's week-info badge, so the header just adds the topic.
+            if (rec.topic) label.textContent = `Grade ${grade} · ${rec.topic}`;
+
             const item = document.createElement("div");
-            item.className = "scheduler-assignment-item";
+            item.className = "assignment-item";
 
             const num = document.createElement("div");
-            num.className = "num" + (rec.isSummer ? " summer" : "");
+            num.className = "assignment-num" + (rec.isSummer ? " summer" : "");
             num.textContent = rec.assignment.order;
 
             const gradeDir = `curriculum/Grade ${grade}`;
@@ -265,29 +272,15 @@ async function initScheduler() {
             const weekFolder = `Week ${String(rec.week).padStart(2, "0")}`;
             const filename = `${rec.assignment.order} - ${sanitizeFilename(rec.assignment.name)}.pdf`;
 
-            const textWrap = document.createElement("div");
-            textWrap.className = "scheduler-assignment-text";
-
             const link = document.createElement("a");
+            link.className = "assignment-link";
             link.href = `${gradeDir}/${yearFolder}/${weekFolder}/${filename}`;
             link.textContent = rec.assignment.name;
             link.target = "_blank";
-            textWrap.appendChild(link);
 
-            if (rec.topic) {
-              const topicEl = document.createElement("div");
-              topicEl.className = "scheduler-week-topic";
-              topicEl.textContent = rec.topic;
-              textWrap.appendChild(topicEl);
-            }
-
-            const assignmentMain = document.createElement("div");
-            assignmentMain.className = "scheduler-assignment-main";
-            assignmentMain.appendChild(num);
-            assignmentMain.appendChild(textWrap);
-
-            item.appendChild(assignmentMain);
-            gradeSection.appendChild(item);
+            item.appendChild(num);
+            item.appendChild(link);
+            list.appendChild(item);
 
             // Update the program panel's jump link for this grade
             const type = rec.isSummer ? 'summer' : 'academic';
@@ -298,15 +291,11 @@ async function initScheduler() {
             }
           }
         } catch {
-          const msg = document.createElement("div");
-          msg.className = "scheduler-assignment-item";
-          msg.style.color = "var(--muted)";
-          msg.textContent = "Could not load curriculum.";
-          gradeSection.appendChild(msg);
+          emptyMsg("Could not load curriculum.");
         }
       }
 
-      container.appendChild(gradeSection);
+      container.appendChild(card);
     }
   }
 
